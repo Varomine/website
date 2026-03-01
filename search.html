@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Peak</title>
+    <link rel="icon" href="/icon.png" type="image/svg+xml">
+    <link rel="stylesheet" href="style/style.css">
+    
+    <script src="javascript/anime.js"></script> 
+    <script src="javascript/search.js" defer></script> 
+    <script src="javascript/anti.js"></script>
+</head>
+<body>
+
+<header>
+    <a href="index.html" class="logo">The<span>Peak</span></a>
+    
+    <div class="header-right">
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="Anime.html" class="active">Anime</a>
+        </nav>
+        
+        <div class="search-box">
+            <form action="search.html" method="GET">
+                <input type="text" name="q" placeholder="Search..." autocomplete="off" required>
+                <button type="submit">🔍</button>
+            </form>
+        </div>
+    </div>
+</header>
+
+    <section class="catalog-section" style="min-height: 70vh;">
+        <h2 class="section-title">Search For: <span id="searchKeyword" style="color: var(--accent-color);"></span></h2>
+        
+        <div class="anime-grid" id="searchGrid"></div>
+    </section>
+
+</body>
+</html>

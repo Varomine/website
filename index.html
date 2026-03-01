@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Peak</title>
+    <link rel="icon" href="/icon.png" type="image/svg+xml">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="javascript/anime.js" defer></script> 
+</head>
+<body>
+
+<header>
+    <a href="index.html" class="logo">The<span>Peak</span></a>
+    
+    <div class="header-right">
+        <nav class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="Anime.html">Anime</a>
+        </nav>
+        
+        <div class="search-box">
+            <form action="search.html" method="GET">
+                <input type="text" name="q" placeholder="Search..." autocomplete="off" required>
+                <button type="submit">🔍</button>
+            </form>
+        </div>
+    </div>
+</header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-tag">Popular</div>
+            <h2 class="hero-title">Yuru Camp</h2>
+            <a href="Yurucamp.html" class="btn-play">Watch Now</a>
+        </div>
+    </section>
+
+    <section class="catalog-section">
+        <h2 class="section-title">Recommend</h2>
+        <div class="anime-grid" id="animeGrid"></div>
+    </section>
+    <section class="catalog-section">
+        <h2 class="section-title">New Releases</h2>
+        <div class="anime-grid" id="newAnimeGrid"></div>
+    </section>
+ 
+
+</body>
+</html>
