@@ -1,0 +1,351 @@
+:root {
+  --bg-color: #0f172a;
+  --panel-bg: #1e293b;
+  --text-color: #f8fafc;
+  --accent-color: #38bdf8;
+  --hover-color: #0ea5e9;
+  --card-bg: #334155;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* ==================================
+   เมนูบาร์ (Header & Navbar)
+================================== */
+header {
+  background-color: rgba(2, 6, 23, 0.95);
+  padding: 1rem 5%; /* ใช้ % เพื่อดันให้ชิดขอบจอสวยๆ */
+  display: flex;
+  justify-content: space-between; /* ดันโลโก้ไปซ้าย กลุ่มเมนูไปขวา */
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(56, 189, 248, 0.2);
+  width: 100%;
+}
+
+/* โลโก้ */
+header .logo {
+  color: var(--accent-color);
+  font-size: 1.8rem;
+  font-weight: 800;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+header .logo span {
+  color: #f8fafc;
+}
+
+/* กลุ่มด้านขวา (เมนู + ค้นหา) */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem; /* ระยะห่างระหว่างเมนูกับช่องค้นหา */
+}
+
+/* เมนู */
+.nav-links {
+  display: flex;
+  gap: 1.5rem; /* ระยะห่างระหว่างแต่ละเมนู */
+}
+
+.nav-links a {
+  color: #cbd5e1;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  position: relative;
+  padding: 0.5rem 0;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: var(--accent-color);
+}
+
+/* เอฟเฟกต์เส้นใต้เมนู */
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: var(--accent-color);
+  transition: width 0.3s ease;
+  border-radius: 2px;
+}
+
+.nav-links a:hover::after,
+.nav-links a.active::after {
+  width: 100%;
+}
+
+/* ช่องค้นหา */
+.search-box form {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid #475569;
+  border-radius: 30px;
+  padding: 0.3rem 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.search-box form:focus-within {
+  border-color: var(--accent-color);
+  background-color: rgba(15, 23, 42, 0.8);
+  box-shadow: 0 0 10px rgba(56, 189, 248, 0.2);
+}
+
+.search-box input {
+  background: transparent;
+  border: none;
+  color: var(--text-color);
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
+  outline: none;
+  width: 200px;
+  transition: width 0.3s ease;
+}
+
+.search-box form:focus-within input {
+  width: 260px; /* ขยายขนาดนิดหน่อยตอนกำลังพิมพ์ */
+}
+
+.search-box button {
+  background: transparent;
+  border: none;
+  color: #94a3b8;
+  cursor: pointer;
+  padding: 0 0.8rem;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.search-box button:hover {
+  color: var(--accent-color);
+}
+
+/* ==================================
+   แบนเนอร์เรื่องฮิต (Hero Section)
+================================== */
+.hero {
+  position: relative;
+  height: 50vh;
+  min-height: 400px;
+  background: linear-gradient(
+      to right,
+      #0f172a 10%,
+      transparent 50%,
+      #0f172a 90%
+    ),
+    url("https://m.media-amazon.com/images/I/61vi7-wCvYL._AC_UF894,1000_QL80_.jpg")
+      center/cover;
+  display: flex;
+  align-items: center;
+  padding: 0 5%;
+}
+
+.hero-content {
+  max-width: 600px;
+  z-index: 10;
+}
+
+.hero-tag {
+  background-color: var(--accent-color);
+  color: #fff;
+  padding: 0.2rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.hero-title {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.hero-desc {
+  margin-bottom: 1.5rem;
+  color: #cbd5e1;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.btn-play {
+  display: inline-block;
+  background-color: var(--accent-color);
+  color: #fff;
+  padding: 0.8rem 2rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: transform 0.2s, background-color 0.2s;
+  box-shadow: 0 4px 15px rgba(56, 189, 248, 0.4);
+}
+
+.btn-play:hover {
+  background-color: var(--hover-color);
+  transform: scale(1.05);
+}
+
+/* ==================================
+   ส่วนเลือกดูอนิเมะ
+================================== */
+.catalog-section {
+  padding: 3rem 5%;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  border-left: 5px solid var(--accent-color);
+  padding-left: 1rem;
+}
+
+/* การ์ดอนิเมะแต่ละเรื่อง */
+.anime-card {
+  background-color: var(--panel-bg);
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--text-color);
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.anime-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+}
+
+.card-img-wrapper {
+  position: relative;
+  padding-top: 140%; /* สัดส่วนโปสเตอร์หนัง (แนวตั้ง) */
+  background-color: #000;
+}
+
+.card-img-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s;
+}
+
+/* เอฟเฟกต์ Play Icon ตอนเอาเมาส์ชี้ */
+.play-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.anime-card:hover .play-overlay {
+  opacity: 1;
+}
+
+.play-overlay span {
+  background-color: var(--accent-color);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.card-info {
+  padding: 1rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: #94a3b8;
+}
+
+.ep-badge {
+  background-color: #334155;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* ==================================
+   Grid แสดงการ์ดอนิเมะ
+================================== */
+.anime-grid {
+  display: grid;
+  /* บังคับให้มี 6 คอลัมน์ ขนาดเท่าๆ กัน (1fr) */
+  grid-template-columns: repeat(6, 1fr); 
+  gap: 1.5rem;
+}
+
+/* เพื่อให้ดูสวยงามบนมือถือและแท็บเล็ต */
+@media (max-width: 1200px) {
+  .anime-grid { grid-template-columns: repeat(4, 1fr); } /* แท็บเล็ตแสดง 4 */
+}
+@media (max-width: 768px) {
+  .anime-grid { grid-template-columns: repeat(2, 1fr); } /* มือถือแสดง 2 */
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+::-webkit-scrollbar-thumb {
+  background: #475569;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-color);
+}

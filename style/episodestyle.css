@@ -1,0 +1,175 @@
+:root {
+  --bg-color: #0f172a;
+  --panel-bg: #1e293b;
+  --text-color: #f8fafc;
+  --accent-color: #38bdf8;
+  --hover-color: #0ea5e9;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+header {
+  background-color: #020617;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  border-bottom: 2px solid var(--accent-color);
+}
+
+header h1 {
+  color: var(--accent-color);
+}
+.backButton {
+  position: absolute;
+  top: 2.0rem;
+  left: 2rem;
+  background-color: #334155;
+  color: var(--text-color);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.backButton:hover {
+  background-color: var(--hover-color);
+}
+.resetButton {
+  position: absolute;
+  top: 38.5rem;
+  right: 55.0rem;
+  background-color: #334155;
+  color: var(--text-color);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+} 
+.resetButton:hover {
+  background-color: var(--hover-color);
+}
+/* เลย์เอาต์หลัก */
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  gap: 2rem;
+}
+
+@media (min-width: 992px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+/* ส่วนแสดงวิดีโอ */
+.video-section {
+  flex: 3;
+  background-color: var(--panel-bg);
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* สัดส่วน 16:9 */
+  height: 0;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #000;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-title {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.episode-title {
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
+  color: var(--accent-color);
+}
+
+/* ส่วนเลือกตอน */
+.playlist-section {
+  flex: 1;
+  background-color: var(--panel-bg);
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.playlist-section h3 {
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #334155;
+  color: var(--accent-color);
+}
+
+.episode-btn {
+  display: block;
+  width: 100%;
+  background-color: #334155;
+  color: var(--text-color);
+  border: none;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  text-align: left;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.episode-btn:hover {
+  background-color: var(--hover-color);
+}
+
+/* ปุ่มที่กำลังเล่นอยู่ */
+.episode-btn.active {
+  background-color: var(--accent-color);
+  font-weight: bold;
+  border-left: 4px solid #fff;
+}
+
+/* ปรับแต่ง Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--panel-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: #475569;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-color);
+}
