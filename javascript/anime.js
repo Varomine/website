@@ -33,7 +33,6 @@ setInterval(function() {
     }
 }, 1000);
 
-
 const animes_data = [{
         name: "Yuru Camp [ Season 1 ]",
         title: ["Yuru Camp", "Yurucamp", "Laid-Back Camp", "laid back camp season 1"],
@@ -163,7 +162,30 @@ const animes_data = [{
         ep: "EP.8",
         link: "WashItAllAway.html"
     },
-    
+    {
+        name: "Your name.",
+        title: ["Your name.", "Kimi no Na wa", "Kimi no Na wa Movie"],
+        image: "https://f.ptcdn.info/637/041/000/o5b7n2iwa0qA2z61aqu-o.jpg",
+        tags: "Romance, Drama",
+        ep: "EP.1",
+        link: "YourName.html"
+    },
+    {
+        name: "Maquia: When the Promised Flower Blooms",
+        title: ["Maquia: When the Promised Flower Blooms", "Maquia Movie","Sayounara no Asa ni Yakusoku no Hana wo Kazarou"],
+        image: "https://upload.wikimedia.org/wikipedia/en/a/a8/SayoAsa_Theatrical_Release_Poster.jpg",
+        tags: "Fantasy, Drama",
+        ep: "EP.1",
+        link: "Maquia.html"
+    },
+    {
+        name: "Doukyo Suru Neneki",
+        title: ["Doukyo Suru Neneki"],
+        image: "https://i0.wp.com/hentaihd.net/wp-content/uploads/2026/01/Doukyo-Suru-Neneki-Episode-1-Poster-2.jpg?fit=725%2C1024&ssl=1",
+        tags: "Hentai",
+        ep: "EP.2",
+        link: "DoukyoSuruNeneki.html"
+    },
 
 ];
 
@@ -232,15 +254,14 @@ if (window.location.pathname.endsWith('index.html') || window.location.pathname.
         link: "Yurucampmovie.html"
     },
     {
-        title: "Kaede to Suzu THE ANIMATION",
-        image: "https://hentaihaven.red/wp-content/uploads/2022/10/c1191257package.jpg",
-        tags: "Hentai",
-        ep: "EP.3",
-        link: "Kaede_to_Suzu_THE_ANIMATION.html"
+        title: ["Your name."],
+        image: "https://f.ptcdn.info/637/041/000/o5b7n2iwa0qA2z61aqu-o.jpg",
+        tags: "Romance, Drama",
+        ep: "EP.1",
+        link: "YourName.html"
     },
     {
-        name: "The \"Hentai\" Prince and the Stony Cat.",
-        title: ["Hentai Ouji to Warawanai Neko logo", "The Hentai Prince and the Stony Cat", "Laid-Back Camp", "laid back camp season 3"],
+        title: ["The \"Hentai\" Prince and the Stony Cat."],
         image: "https://cdn.myanimelist.net/images/anime/3/75788.jpg",
         tags: "Harem, Comedy, Romance",
         ep: "EP.12",
@@ -307,7 +328,15 @@ function renderAnimeGrid() {
     createCardHTML(newAnimes, newAnimeGrid);
 }
 
-// 3. สั่งให้ฟังก์ชันทำงานเมื่อโหลดไฟล์ JS
 renderAnimeGrid();
 }
 
+document.body.classList.add('loading');
+
+window.addEventListener('load', function() {
+
+    document.body.classList.remove('loading');
+
+    document.body.classList.add('loaded');
+    
+});

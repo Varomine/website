@@ -33,3 +33,12 @@ setInterval(function() {
     }
 }, 1000);
 
+document.body.classList.add('loading');
+
+window.addEventListener('load', function() {
+
+    document.body.classList.remove('loading');
+
+    document.body.classList.add('loaded');
+    
+});
