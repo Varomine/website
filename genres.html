@@ -9,7 +9,7 @@
 </head>
 <body>
 
-        <header>
+    <header>
         <div class="nav-container">
             <div class="logo" onclick="window.location.href='index.html'">Anime<span>Luxe</span></div>
             <div class="nav-right">
@@ -28,21 +28,19 @@
     </header>
   
 
-    <main id="app-content">
-        </main>
-
-    <div id="loading-overlay" class="modal-overlay" style="display: none;">
-        <div class="loading-content">
-            <div class="spinner"></div>
-            <p>Loading Anime Assets...</p>
-            <div class="progress-bar-container">
-                <div class="progress-bar-fill"></div>
-            </div>
-            <p class="progress-text">55% complete</p>
+    <main id="genres-content" class="genres-page">
+        <div class="genres-header">
+            <h1 class="section-title" style="padding-bottom: 0;">Explore Genres</h1>
+            <div id="genres-tags-container" class="tags-container">
+                </div>
         </div>
-    </div>
+        
+        <div id="genres-results">
+            </div>
+            
+    </main>
+    
 
     <script src="script.js"></script>
-
 </body>
 </html>

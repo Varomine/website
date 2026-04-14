@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --bg-main: #0a0a0a;
+    --bg-secondary: #171717;
+    --bg-tertiary: #262626;
+    --text-main: #f5f5f5;
+    --text-muted: #a3a3a3;
+    --accent: #38bdf8; /* สีฟ้าคล้ายๆ ในภาพตัวอย่างตอน Active */
+    --accent-hover: #0284c7;
+    --border: #333333;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Prompt', sans-serif; }
+body { background-color: var(--bg-main); color: var(--text-main); overflow-x: hidden; }
+
+/* Header & Nav */
+/* Header & Nav */
+header { background-color: rgba(10, 10, 10, 0.95); position: fixed; width: 100%; top: 0; z-index: 1000; border-bottom: 1px solid var(--border); backdrop-filter: blur(8px); }
+.nav-container { max-width: 1400px; margin: 0 auto; padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; }
+.logo { font-size: 24px; font-weight: 700; cursor: pointer; letter-spacing: 1px; }
+.logo span { color: var(--text-muted); font-weight: 300; }
+
+/* ทำให้ Nav Links กับ Search อยู่ชิดกัน */
+.nav-right { display: flex; align-items: center; gap: 30px; }
+.nav-links { display: flex; list-style: none; gap: 20px; }
+.nav-links a { color: var(--text-main); text-decoration: none; transition: 0.3s; font-weight: 400;}
+.nav-links a:hover { color: var(--accent); }
+
+/* Dropdown Genres */
+.dropdown { position: relative; }
+.dropdown-menu { display: none; position: absolute; top: 100%; left: 0; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 8px; list-style: none; min-width: 150px; padding: 10px 0; margin-top: 15px;}
+.dropdown:hover .dropdown-menu { display: block; }
+.dropdown-menu li a { display: block; padding: 8px 20px; color: var(--text-muted); }
+.dropdown-menu li a:hover { background: var(--bg-tertiary); color: var(--text-main); }
+
+/* Search */
+.search-box { position: relative; }
+.search-box input { background: var(--bg-secondary); border: 1px solid var(--border); color: var(--text-main); padding: 8px 15px 8px 35px; border-radius: 20px; outline: none; transition: 0.3s; width: 250px;}
+.search-box input:focus { border-color: var(--accent); }
+.search-box i { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: var(--text-muted); }
+
+/* Main & Grid */
+main { margin-top: 70px; min-height: 100vh; }
+.section-title { padding: 30px 50px 10px; font-size: 1.5rem; }
+.anime-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; padding: 20px 50px 50px; }
+.anime-card { background: var(--bg-secondary); border-radius: 8px; overflow: hidden; cursor: pointer; transition: 0.3s; border: 1px solid var(--border); }
+.anime-card:hover { transform: translateY(-5px); border-color: #555; }
+.anime-img { width: 100%; height: 300px; object-fit: cover; }
+.anime-info { padding: 15px; }
+.anime-info h3 { font-size: 1rem; margin-bottom: 5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.anime-info span { font-size: 0.8rem; color: var(--text-muted); }
+
+/* Banner */
+.banner { position: relative; width: 100%; height: 50vh; background-size: cover; background-position: center; display: flex; align-items: flex-end; }
+.banner-overlay { position: absolute; bottom: 0; width: 100%; height: 100%; background: linear-gradient(to top, var(--bg-main) 0%, transparent 100%); }
+.banner-content { position: relative; z-index: 2; padding: 50px; max-width: 800px; }
+
+/* Buttons */
+.btn-primary { background: var(--accent); color: #fff; border: none; padding: 8px 20px; border-radius: 6px; cursor: pointer; }
+.btn-secondary { background: var(--bg-tertiary); color: var(--text-main); border: none; padding: 8px 15px; border-radius: 6px; cursor: pointer; font-size: 0.9em;}
+.btn-secondary:hover { background: #333; }
+
+/* --- Player Layout (ตามภาพตัวอย่าง) --- */
+/* --- Player Header (ปรับใหม่ให้ไม่แปลก) --- */
+.player-header { 
+    padding: 20px 50px; 
+    display: flex; 
+    align-items: center; /* ให้อยู่กึ่งกลางในแนวนอนเดียวกัน */
+    gap: 30px; /* ระยะห่างระหว่างปุ่ม Back กับ ชื่อเรื่อง */
+    border-bottom: 1px solid var(--border); 
+}
+.back-btn { 
+    background: var(--bg-tertiary); 
+    color: var(--text-main); 
+    border: 1px solid var(--border);
+    padding: 8px 20px; 
+    border-radius: 6px; 
+    cursor: pointer; 
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* ระยะห่างไอคอนกับตัวหนังสือ */
+}
+.back-btn:hover { 
+    background: var(--accent); 
+    color: #fff; 
+    border-color: var(--accent);
+}
+.player-title { 
+    color: var(--text-main); /* ใช้สีขาวธรรมดาจะดูหรูขึ้น */
+    font-size: 1.6rem; 
+    font-weight: 600;
+}
+
+.player-layout { display: flex; gap: 20px; max-width: 1400px; margin: 30px auto; padding: 0 50px; align-items: flex-start; }
+
+.video-section { flex: 3; background: var(--bg-secondary); padding: 20px; border-radius: 12px; border: 1px solid var(--border); }
+.video-wrapper { width: 100%; background: #000; border-radius: 8px; overflow: hidden; margin-bottom: 15px; aspect-ratio: 16/9; }
+.video-wrapper video { width: 100%; height: 100%; object-fit: contain; }
+
+.video-info-bar { display: flex; justify-content: space-between; align-items: flex-start; }
+.video-info-text h2 { font-size: 1.4rem; margin-bottom: 5px; }
+.video-status { color: var(--accent); font-weight: 500; }
+
+.episode-section { flex: 1; background: var(--bg-secondary); padding: 20px; border-radius: 12px; border: 1px solid var(--border); max-height: calc(100vh - 150px); overflow-y: auto; }
+.episode-section h3 { color: var(--accent); margin-bottom: 15px; font-size: 1.2rem; }
+
+.ep-btn { width: 100%; background: var(--bg-tertiary); color: var(--text-muted); border: none; padding: 15px; margin-bottom: 10px; border-radius: 8px; text-align: left; cursor: pointer; transition: 0.2s; font-size: 1rem; }
+.ep-btn:hover { background: #333; color: #fff; }
+.ep-btn.active { background: var(--bg-tertiary); border-left: 4px solid var(--accent); color: #fff; }
+
+/* Custom Scrollbar */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--bg-main); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #555; }
+
+@media (max-width: 900px) {
+    .player-layout { flex-direction: column; }
+    .video-section, .episode-section { width: 100%; }
+}
+
+/* Genres Page Styles */
+.genres-page { padding-top: 20px; }
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 20px 50px;
+}
+.genre-tag {
+    background: var(--bg-tertiary);
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 0.95rem;
+}
+.genre-tag:hover {
+    border-color: var(--accent);
+    color: var(--text-main);
+}
+.genre-tag.active {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+}
+
+/* --- Player UI V2 --- */
+.server-selection { display: flex; align-items: center; gap: 15px; margin-bottom: 15px; background: var(--bg-tertiary); padding: 12px 20px; border-radius: 8px; border: 1px solid var(--border); }
+.server-selection span { color: var(--text-muted); font-size: 0.9rem; display: flex; align-items: center; gap: 8px;}
+.server-btn-group { display: flex; gap: 10px; flex-wrap: wrap; }
+.server-btn { background: var(--bg-secondary); color: var(--text-main); border: 1px solid var(--border); padding: 6px 15px; border-radius: 6px; cursor: pointer; transition: 0.3s; font-size: 0.85rem; }
+.server-btn:hover { border-color: var(--accent); }
+.server-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); box-shadow: 0 0 10px rgba(56, 189, 248, 0.3); }
+
+/* ปรับปรุง List ตอนให้สวยขึ้น */
+.ep-header { border-bottom: 1px solid var(--border); padding-bottom: 10px; margin-bottom: 15px; }
+.ep-header h3 { color: var(--text-main); font-size: 1.1rem; display: flex; align-items: center; gap: 8px;}
+.ep-btn { background: var(--bg-main); border: 1px solid var(--border); color: var(--text-muted); padding: 12px 15px; margin-bottom: 8px; border-radius: 6px; text-align: left; cursor: pointer; transition: 0.2s; font-size: 0.95rem; display: flex; align-items: center; }
+.ep-btn i { font-size: 0.7rem; margin-right: 10px; opacity: 0; transition: 0.2s;}
+.ep-btn:hover { background: var(--bg-tertiary); color: #fff; border-color: #555; }
+.ep-btn.active { background: var(--bg-tertiary); border: 1px solid var(--accent); color: #fff; }
+.ep-btn.active i { opacity: 1; color: var(--accent); }
+
+/* --- Loading UI V3 (Real Feel) --- */
+.modal-overlay {
+    position: fixed;
+    top: 70px; /* เว้นระยะ Header */
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-color: rgba(10, 10, 10, 0.95); /* พื้นหลังดำเกือบสนิท */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999; /* อยู่บนสุดของ Main */
+    backdrop-filter: blur(5px);
+}
+
+.loading-content {
+    text-align: center;
+    color: var(--text-main);
+}
+
+/* ตัวหมุน (Spinner) เหมือนรูป */
+.spinner {
+    width: 80px;
+    height: 80px;
+    border: 8px solid var(--bg-tertiary); /* สีวงนอก */
+    border-top: 8px solid var(--accent); /* สีฟ้าที่หมุน */
+    border-radius: 50%;
+    animation: spin-pulse 1s linear infinite;
+    margin: 0 auto 20px;
+}
+
+@keyframes spin-pulse {
+    0% { transform: rotate(0deg) scale(1); opacity: 0.8; }
+    50% { opacity: 1; }
+    100% { transform: rotate(360deg) scale(1); opacity: 0.8; }
+}
+
+.loading-content p {
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+}
+
+/* แถบความคืบหน้า (Progress Bar) */
+.progress-bar-container {
+    width: 300px;
+    height: 12px;
+    background-color: var(--bg-secondary);
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 0 auto 10px;
+    border: 1px solid var(--border);
+}
+
+.progress-bar-fill {
+    width: 0%; /* จะถูกควบคุมด้วย JS */
+    height: 100%;
+    background: linear-gradient(90deg, var(--bg-tertiary) 0%, var(--accent) 100%);
+    border-radius: 6px;
+    transition: width 0.3s ease;
+}
+
+.progress-text {
+    font-size: 0.9rem !important;
+    color: var(--accent) !important;
+}
+
+/* --- Video Loader (เฉพาะจุดบน Iframe) --- */
+.video-wrapper {
+    position: relative; /* เพื่อให้ loader วางทับได้ */
+    background: #000;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.video-loading-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    display: none; /* ซ่อนไว้ก่อน */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    color: var(--accent);
+}
+
+.video-loading-overlay .spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid var(--bg-tertiary);
+    border-top: 5px solid var(--accent);
+    margin-bottom: 15px;
+}
+
+.video-loading-overlay p {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
