@@ -1,6 +1,7 @@
 [
   {
     "id": "1",
+    "quality": "FHD",
     "title": "Frieren: Beyond Journey's End [ SS1 ]",
     "search_keywords": ["Frieren: Beyond Journey's End", "คำอธิษฐานในวันที่จากลา", "Frieren", "ฟริเรน", "ฟริเรน: คำอธิษฐานในวันที่จากลา", "葬送のフリーレン", "Sousou no Frieren"],
     "image": "https://github.com/Varomine/website/blob/main/image/Frienren.jpg?raw=true",
@@ -239,9 +240,11 @@
   {
     "id": "2",
     "title": "Do you like big girls?",
+    "quality": "FHD",
     "search_keywords": ["Do you like big girls","Ookii Onnanoko wa Suki desu ka?","大きい女の子は好きですか？","Ookii Onnanoko wa Suki desu ka?"],
     "image": "https://myanimelist.net/images/anime/1482/155539.jpg",
-    "banner": "https://myanimelist.net/images/anime/1482/155540.jpg",
+    "banner": "https://sevenseasentertainment.com/wp-content/uploads/2021/06/siteheader_do-you-like-big-girls_864x300.jpg",
+    "synopsis": "Sota, who becomes the hall director for a university women's volleyball team due to his sister's scheming.",
     "genres": ["Comedy", "Ecchi", "Romance"],
     "episodes": [
       {
@@ -265,9 +268,11 @@
   {
     "id": "3",
     "title": "Clannad ",
+    "quality": "FHD",
     "search_keywords": ["Clannad","クラナド","Kuranado"],
     "image": "https://myanimelist.net/images/anime/1804/95033.jpg",
-    "banner": "https://myanimelist.net/images/anime/1804/95033.jpg",
+    "banner": "https://image.tmdb.org/t/p/w780/vB7HwJNhlRA9tPViK32bK0hVCmb.jpg",
+    "synopsis": "omoya Okazaki, a cynical delinquent who finds new purpose in life after meeting Nagisa Furukawa, a frail girl repeating her final year of high school.",
     "genres": ["Drama", "Romance", "Slice of Life", "School Life"],
     "episodes": [
       {
@@ -456,5 +461,243 @@
         ]
       }
     ]
+  },
+  {
+    "id": "4",
+    "title": "Hell Mode: The Hardcore Gamer Dominates in an Another World with Garbage Balancing",
+    "quality": "FHD",
+    "search_keywords": ["Hell Mode: The Hardcore Gamer Dominates in an Another World with Garbage Balancing","ヘルモード ～やり込み好きのゲーマーは廃設定的異世界で無双する～","Heru Mōdo: Yarikomizuki no Gēmā wa Hai Settei no Isekai de Musō Suru"],
+    "image": "https://github.com/Varomine/website/blob/main/image/hell-mode-anime-key-visual-v0-ElhmuRVTHq1nyVUTO1uHe5FcJVqEO22byJMdvtty2D0.webp?raw=true",
+    "banner": "https://m.media-amazon.com/images/S/pv-target-images/adf135b7f05139012e1639d10f4a2f43743802c8991b93d2e3a9d559870e7c59.jpg",
+    "synopsis": "a hardcore gamer is reincarnated into a fantasy world with a broken game system, where he uses his gaming knowledge to become overpowered and navigate the challenges of the new world.",
+    "genres": ["Action", "Adventure", "Fantasy", "Isekai"],
+    "episodes": [
+      {
+        "ep_num": 1, 
+        "title": "Episode 1", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/BH0z2l6UlB" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#cq8jl" }
+        ]
+      },
+      {
+        "ep_num": 2, 
+        "title": "Episode 2", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/yaj5wcnQF" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#rw5gv" }
+        ]
+      },
+      {
+        "ep_num": 3, 
+        "title": "Episode 3", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/RCvXZu1ZT" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#pigby" }
+        ]
+      },
+      {
+        "ep_num": 4, 
+        "title": "Episode 4", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/0PZFt9Q3M" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#ebtnc" }
+        ]
+      },
+      {
+        "ep_num": 5, 
+        "title": "Episode 5", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/yKbre4Y26" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#9gxtz" }
+        ]
+      },
+      {
+        "ep_num": 6, 
+        "title": "Episode 6", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/0F5iTKdre" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#fkc3k" }
+        ]
+      },
+      {
+        "ep_num": 7, 
+        "title": "Episode 7", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/w7XKR81AR" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#hndwz" }
+        ]
+      },
+      {
+        "ep_num": 8, 
+        "title": "Episode 8", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/SYaKoSfTQ" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#5falg" }
+        ]
+      },
+      {
+        "ep_num": 9, 
+        "title": "Episode 9", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/lwcMHCEOt" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#5fala" }
+        ]
+      },
+      {
+        "ep_num": 10, 
+        "title": "Episode 10", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/5lRtZueDx" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#xlpzh" }
+        ]
+      },
+      {
+        "ep_num": 11, 
+        "title": "Episode 11", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/TqmTBwGjv" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#sh3ra" }
+        ]
+      },
+      {
+        "ep_num": 12, 
+        "title": "Episode 12", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/oY2uEyJVd" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#v5yxd" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Summer ghost",
+    "quality": "FHD",
+    "search_keywords": ["Summer ghost","サマーゴースト","Samā Gōsuto"],
+    "image": "https://resizing.flixster.com/jz7hX0p-xWoJEXLuSoltuSzh4DI=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzJkYTgwODZhLWE3NDMtNGFmMC05MTViLTVmZmVkMmY5OGQ0Zi5qcGc=",
+    "banner": "https://sevenseasentertainment.com/wp-content/uploads/2023/07/siteheader_summerghostLN_938%C3%97326.jpg",
+    "synopsis": "An urban legend speaks of a summer ghost, a spirit girl who appears when fireworks are set off.",
+    "genres": ["Drama", "Supernatural"],
+    "episodes": [
+      {
+        "ep_num": 1, 
+        "title": "Movie", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://drive.google.com/file/d/17kp7VtYXZilJNbFwM30viriaDDRXE8c2/preview" },
+          { "name": "Server 2 ", "video_url": "https://short.icu/L411tSVdC" },
+          { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#n1mor" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "title": "You Can't Be in a Rom-Com with Your Childhood Friends!",
+    "quality": "FHD",
+    "search_keywords": ["You Can't Be in a Rom-Com with Your Childhood Friends!","幼なじみが絶対に負けないラブコメ","Osananajimi ga Zettai ni Makenai Love Comedy","Osananajimi to wa Love Comedy ni Naranai"],
+    "image": "https://m.media-amazon.com/images/M/MV5BYjc3OWJiNzEtODEwNC00Y2UyLTg5YjktNDk2ODBjNTkzOTUzXkEyXkFqcGc@._V1_.jpg",
+    "banner": "https://i.ytimg.com/vi/Ol7dgu0Za2w/maxresdefault.jpg",
+    "synopsis": "High schooler Eiyuu struggles with new romantic feelings for childhood friends Shio and Akari, unaware they might feel the same way.",
+    "genres": ["Romance", "Comedy", "Slice of Life", "School Life"],
+    "episodes": [
+      {
+        "ep_num": 1,
+        "title": "Episode 1",
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/KneIc75mX" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#piaz1" }
+        ]
+      },
+      {
+        "ep_num": 2,
+        "title": "Episode 2",
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/gpT49Ym7d" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#n1bcq" }
+        ]
+      },
+      {
+        "ep_num": 3,
+        "title": "Episode 3",
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/vAD560TrX" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#ebpui" }
+        ]
+      },
+      {
+        "ep_num": 4,
+        "title": "Episode 4",
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/cWKUeQgvS" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#fkms3" }
+        ]
+      },
+      {
+        "ep_num": 5,
+        "title": "Episode 5",
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/oeiD5GuLD" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#8e1j9" }
+        ]
+      },
+      {
+        "ep_num": 6,
+        "title": "Episode 6",
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/GgAtIiwlB" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#5fdgt" }
+        ]
+      },
+      {
+        "ep_num": 7,
+        "title": "Episode 7",
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/qfKlS243-" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#xl5pj" }
+        ]
+      },
+      {
+        "ep_num": 8,
+        "title": "Episode 8",
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/VKyXBScDu" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#ijcsg" }
+        ]
+      },
+      {
+        "ep_num": 9,
+        "title": "Episode 9",
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/hHEPwErhz" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#3dkjf" }
+        ]
+      },
+      {
+        "ep_num": 10,
+        "title": "Episode 10",
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/Dj_gfWJhi" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#yajrf" }
+        ]
+      },
+      {
+        "ep_num": 11,
+        "title": "Episode 11",
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/FDIT9nW-c" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#qzxei" }
+        ]
+      },
+      {
+        "ep_num": 12,
+        "title": "Episode 12",
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/83WkpInB7" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#gswl1" }
+        ]
+      }
+    ]
+
   }
 ]

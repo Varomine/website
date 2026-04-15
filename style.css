@@ -6,7 +6,7 @@
     --bg-tertiary: #262626;
     --text-main: #f5f5f5;
     --text-muted: #a3a3a3;
-    --accent: #38bdf8; /* สีฟ้าคล้ายๆ ในภาพตัวอย่างตอน Active */
+    --accent: #38bdf8; 
     --accent-hover: #0284c7;
     --border: #333333;
 }
@@ -15,13 +15,11 @@
 body { background-color: var(--bg-main); color: var(--text-main); overflow-x: hidden; }
 
 /* Header & Nav */
-/* Header & Nav */
 header { background-color: rgba(10, 10, 10, 0.95); position: fixed; width: 100%; top: 0; z-index: 1000; border-bottom: 1px solid var(--border); backdrop-filter: blur(8px); }
 .nav-container { max-width: 1400px; margin: 0 auto; padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; }
 .logo { font-size: 24px; font-weight: 700; cursor: pointer; letter-spacing: 1px; }
 .logo span { color: var(--text-muted); font-weight: 300; }
 
-/* ทำให้ Nav Links กับ Search อยู่ชิดกัน */
 .nav-right { display: flex; align-items: center; gap: 30px; }
 .nav-links { display: flex; list-style: none; gap: 20px; }
 .nav-links a { color: var(--text-main); text-decoration: none; transition: 0.3s; font-weight: 400;}
@@ -51,52 +49,40 @@ main { margin-top: 70px; min-height: 100vh; }
 .anime-info h3 { font-size: 1rem; margin-bottom: 5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
 .anime-info span { font-size: 0.8rem; color: var(--text-muted); }
 
-/* Banner */
-.banner { position: relative; width: 100%; height: 50vh; background-size: cover; background-position: center; display: flex; align-items: flex-end; }
-.banner-overlay { position: absolute; bottom: 0; width: 100%; height: 100%; background: linear-gradient(to top, var(--bg-main) 0%, transparent 100%); }
-.banner-content { position: relative; z-index: 2; padding: 50px; max-width: 800px; }
+/* --- Banner Carousel --- */
+.banner-carousel { position: relative; width: 100%; height: 450px; border-radius: 0; overflow: hidden; margin-bottom: 40px; background-color: #000; }
+.banner-slides { display: flex; width: 100%; height: 100%; transition: transform 0.5s ease-in-out; }
+.banner-slide { min-width: 100%; height: 100%; position: relative; background-size: cover; background-position: center; background-repeat: no-repeat; }
+.banner-gradient { position: absolute; bottom: 0; left: 0; width: 100%; height: 65%; background: linear-gradient(to top, var(--bg-main) 0%, rgba(10,10,10,0.7) 40%, transparent 100%); z-index: 1; }
+.banner-clean-content { position: absolute; bottom: 40px; left: 50px; max-width: 600px; z-index: 2; display: flex; flex-direction: column; align-items: flex-start; }
+.banner-title { font-size: 3rem; font-weight: 800; color: #fff; margin-bottom: 15px; line-height: 1.1; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+.banner-synopsis { font-size: 1rem; color: #ccc; margin-bottom: 25px; line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 
 /* Buttons */
-.btn-primary { background: var(--accent); color: #fff; border: none; padding: 8px 20px; border-radius: 6px; cursor: pointer; }
+.btn-watch-now { background-color: var(--accent); color: #fff; border: none; padding: 10px 24px; font-size: 1rem; font-weight: 600; border-radius: 6px; cursor: pointer; transition: 0.2s; display: flex; align-items: center; gap: 8px; }
+.btn-watch-now:hover { background-color: var(--accent-hover); transform: scale(1.05); }
 .btn-secondary { background: var(--bg-tertiary); color: var(--text-main); border: none; padding: 8px 15px; border-radius: 6px; cursor: pointer; font-size: 0.9em;}
 .btn-secondary:hover { background: #333; }
 
-/* --- Player Layout (ตามภาพตัวอย่าง) --- */
-/* --- Player Header (ปรับใหม่ให้ไม่แปลก) --- */
-.player-header { 
-    padding: 20px 50px; 
-    display: flex; 
-    align-items: center; /* ให้อยู่กึ่งกลางในแนวนอนเดียวกัน */
-    gap: 30px; /* ระยะห่างระหว่างปุ่ม Back กับ ชื่อเรื่อง */
-    border-bottom: 1px solid var(--border); 
-}
-.back-btn { 
-    background: var(--bg-tertiary); 
-    color: var(--text-main); 
-    border: 1px solid var(--border);
-    padding: 8px 20px; 
-    border-radius: 6px; 
-    cursor: pointer; 
-    transition: 0.3s;
-    display: flex;
-    align-items: center;
-    gap: 8px; /* ระยะห่างไอคอนกับตัวหนังสือ */
-}
-.back-btn:hover { 
-    background: var(--accent); 
-    color: #fff; 
-    border-color: var(--accent);
-}
-.player-title { 
-    color: var(--text-main); /* ใช้สีขาวธรรมดาจะดูหรูขึ้น */
-    font-size: 1.6rem; 
-    font-weight: 600;
-}
+/* Load More Button */
+.load-more-btn { display: block; margin: 20px auto 40px; padding: 10px 40px; background: transparent; color: var(--accent); border: 2px solid var(--accent); border-radius: 25px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: 0.3s; }
+.load-more-btn:hover { background: var(--accent); color: #fff; box-shadow: 0 4px 15px rgba(56, 189, 248, 0.4); }
+
+/* Slider Buttons */
+.slider-btn { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(0, 0, 0, 0.4); color: white; border: none; width: 45px; height: 45px; cursor: pointer; font-size: 1.2rem; z-index: 10; border-radius: 50%; transition: 0.3s; display: flex; justify-content: center; align-items: center; backdrop-filter: blur(2px); }
+.slider-btn:hover { background: var(--accent); }
+.slider-prev { left: 20px; }
+.slider-next { right: 20px; }
+
+/* --- Player Layout --- */
+.player-header { padding: 20px 50px; display: flex; align-items: center; gap: 30px; border-bottom: 1px solid var(--border); }
+.back-btn { background: var(--bg-tertiary); color: var(--text-main); border: 1px solid var(--border); padding: 8px 20px; border-radius: 6px; cursor: pointer; transition: 0.3s; display: flex; align-items: center; gap: 8px; }
+.back-btn:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
+.player-title { color: var(--text-main); font-size: 1.6rem; font-weight: 600; }
 
 .player-layout { display: flex; gap: 20px; max-width: 1400px; margin: 30px auto; padding: 0 50px; align-items: flex-start; }
-
 .video-section { flex: 3; background: var(--bg-secondary); padding: 20px; border-radius: 12px; border: 1px solid var(--border); }
-.video-wrapper { width: 100%; background: #000; border-radius: 8px; overflow: hidden; margin-bottom: 15px; aspect-ratio: 16/9; }
+.video-wrapper { width: 100%; background: #000; border-radius: 8px; overflow: hidden; margin-bottom: 15px; aspect-ratio: 16/9; position: relative; }
 .video-wrapper video { width: 100%; height: 100%; object-fit: contain; }
 
 .video-info-bar { display: flex; justify-content: space-between; align-items: flex-start; }
@@ -105,10 +91,6 @@ main { margin-top: 70px; min-height: 100vh; }
 
 .episode-section { flex: 1; background: var(--bg-secondary); padding: 20px; border-radius: 12px; border: 1px solid var(--border); max-height: calc(100vh - 150px); overflow-y: auto; }
 .episode-section h3 { color: var(--accent); margin-bottom: 15px; font-size: 1.2rem; }
-
-.ep-btn { width: 100%; background: var(--bg-tertiary); color: var(--text-muted); border: none; padding: 15px; margin-bottom: 10px; border-radius: 8px; text-align: left; cursor: pointer; transition: 0.2s; font-size: 1rem; }
-.ep-btn:hover { background: #333; color: #fff; }
-.ep-btn.active { background: var(--bg-tertiary); border-left: 4px solid var(--accent); color: #fff; }
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar { width: 8px; }
@@ -123,31 +105,10 @@ main { margin-top: 70px; min-height: 100vh; }
 
 /* Genres Page Styles */
 .genres-page { padding-top: 20px; }
-.tags-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    padding: 20px 50px;
-}
-.genre-tag {
-    background: var(--bg-tertiary);
-    color: var(--text-muted);
-    border: 1px solid var(--border);
-    padding: 8px 20px;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: 0.3s;
-    font-size: 0.95rem;
-}
-.genre-tag:hover {
-    border-color: var(--accent);
-    color: var(--text-main);
-}
-.genre-tag.active {
-    background: var(--accent);
-    color: #fff;
-    border-color: var(--accent);
-}
+.tags-container { display: flex; flex-wrap: wrap; gap: 12px; padding: 20px 50px; }
+.genre-tag { background: var(--bg-tertiary); color: var(--text-muted); border: 1px solid var(--border); padding: 8px 20px; border-radius: 20px; cursor: pointer; transition: 0.3s; font-size: 0.95rem; }
+.genre-tag:hover { border-color: var(--accent); color: var(--text-main); }
+.genre-tag.active { background: var(--accent); color: #fff; border-color: var(--accent); }
 
 /* --- Player UI V2 --- */
 .server-selection { display: flex; align-items: center; gap: 15px; margin-bottom: 15px; background: var(--bg-tertiary); padding: 12px 20px; border-radius: 8px; border: 1px solid var(--border); }
@@ -157,115 +118,209 @@ main { margin-top: 70px; min-height: 100vh; }
 .server-btn:hover { border-color: var(--accent); }
 .server-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); box-shadow: 0 0 10px rgba(56, 189, 248, 0.3); }
 
-/* ปรับปรุง List ตอนให้สวยขึ้น */
 .ep-header { border-bottom: 1px solid var(--border); padding-bottom: 10px; margin-bottom: 15px; }
 .ep-header h3 { color: var(--text-main); font-size: 1.1rem; display: flex; align-items: center; gap: 8px;}
-.ep-btn { background: var(--bg-main); border: 1px solid var(--border); color: var(--text-muted); padding: 12px 15px; margin-bottom: 8px; border-radius: 6px; text-align: left; cursor: pointer; transition: 0.2s; font-size: 0.95rem; display: flex; align-items: center; }
-.ep-btn i { font-size: 0.7rem; margin-right: 10px; opacity: 0; transition: 0.2s;}
-.ep-btn:hover { background: var(--bg-tertiary); color: #fff; border-color: #555; }
-.ep-btn.active { background: var(--bg-tertiary); border: 1px solid var(--accent); color: #fff; }
-.ep-btn.active i { opacity: 1; color: var(--accent); }
+/* --- อัปเดต Player UI V2 เฉพาะปุ่มตอน (Episodes) --- */
+.ep-btn { 
+    width: 100%; /* สำคัญ: บังคับให้ปุ่มกว้างเต็มกรอบ */
+    box-sizing: border-box; /* ป้องกันขอบทะลุ */
+    background: #0a0a0a; /* ใช้สีดำเข้มตามรูปภาพ */
+    border: 1px solid transparent; /* ซ่อนกรอบไว้ก่อน */
+    color: var(--text-muted); 
+    padding: 14px 20px; /* ปรับให้ปุ่มอ้วนขึ้นนิดนึงเหมือนในรูป */
+    margin-bottom: 8px; 
+    border-radius: 6px; 
+    text-align: left; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    font-size: 0.95rem; 
+    display: flex; 
+    align-items: center; 
+}
+
+/* ตั้งค่าไอคอน Play ที่มาจาก <i class="fa-solid fa-play"></i> */
+.ep-btn i { 
+    font-size: 0.75rem; 
+    margin-right: 12px; 
+    opacity: 0; /* ซ่อนไว้ตอนปกติ */
+    transition: 0.2s;
+    width: 12px; /* ล็อกความกว้างไว้ ข้อความจะได้ตรงกันหมด */
+}
+
+.ep-btn:hover { 
+    background: var(--bg-tertiary); 
+    color: #fff; 
+}
+
+/* สถานะ Active (ตอนที่กำลังเล่น) */
+.ep-btn.active { 
+    background: #151a1e; /* พื้นหลังสว่างขึ้นมานิดนึง */
+    border: 1px solid var(--accent); /* กรอบสีฟ้า */
+    color: #fff; 
+}
+
+/* โชว์ไอคอน Play สีฟ้า เมื่อเป็นตอนที่กำลังเล่น */
+.ep-btn.active i { 
+    opacity: 1; 
+    color: var(--accent); 
+}
 
 /* --- Loading UI V3 (Real Feel) --- */
-.modal-overlay {
-    position: fixed;
-    top: 70px; /* เว้นระยะ Header */
-    left: 0;
+.modal-overlay { position: fixed; top: 70px; left: 0; width: 100%; height: calc(100vh - 70px); background-color: rgba(10, 10, 10, 0.95); display: flex; justify-content: center; align-items: center; z-index: 999; backdrop-filter: blur(5px); }
+.loading-content { text-align: center; color: var(--text-main); }
+.spinner { width: 80px; height: 80px; border: 8px solid var(--bg-tertiary); border-top: 8px solid var(--accent); border-radius: 50%; animation: spin-pulse 1s linear infinite; margin: 0 auto 20px; }
+@keyframes spin-pulse { 0% { transform: rotate(0deg) scale(1); opacity: 0.8; } 50% { opacity: 1; } 100% { transform: rotate(360deg) scale(1); opacity: 0.8; } }
+.loading-content p { font-size: 1.2rem; color: var(--text-muted); margin-bottom: 20px; }
+.progress-bar-container { width: 300px; height: 12px; background-color: var(--bg-secondary); border-radius: 6px; overflow: hidden; margin: 0 auto 10px; border: 1px solid var(--border); }
+.progress-bar-fill { width: 0%; height: 100%; background: linear-gradient(90deg, var(--bg-tertiary) 0%, var(--accent) 100%); border-radius: 6px; transition: width 0.3s ease; }
+.progress-text { font-size: 0.9rem !important; color: var(--accent) !important; }
+
+/* Video Loader Overlay */
+.video-loading-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.85); display: none; flex-direction: column; justify-content: center; align-items: center; z-index: 10; color: var(--accent); }
+.video-loading-overlay .spinner { width: 50px; height: 50px; border: 5px solid var(--bg-tertiary); border-top: 5px solid var(--accent); margin-bottom: 15px; }
+.video-loading-overlay p { font-size: 0.9rem; letter-spacing: 1px; font-weight: 500; }
+
+/* --- อัปเดต Card Anime รูปภาพ & ลูกเล่น --- */
+.anime-img-wrapper {
+    position: relative;
     width: 100%;
-    height: calc(100vh - 70px);
-    background-color: rgba(10, 10, 10, 0.95); /* พื้นหลังดำเกือบสนิท */
+    height: 300px;
+    overflow: hidden; /* ป้องกันรูปและลูกเล่นล้นออกนอกกรอบ */
+}
+
+/* เอาความสูงไปไว้ที่ wrapper แทน แล้วปรับรูปให้เต็ม wrapper */
+.anime-img { 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    transition: transform 0.4s ease; /* เตรียมไว้ทำลูกเล่นซูมตอนโฮเวอร์ */
+}
+
+.anime-card:hover .anime-img {
+    transform: scale(1.05); /* รูปซูมเข้านิดนึงตอนชี้เมาส์ */
+}
+
+/* ป้าย Quality (HD, 4K) มุมขวาบน */
+.quality-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: var(--accent); /* ใช้สีฟ้าหลักของคุณ */
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    z-index: 2;
+    letter-spacing: 0.5px;
+}
+
+/* ปุ่ม Bookmark มุมขวาล่าง (ซ่อนไว้ก่อน โชว์ตอน Hover) */
+.bookmark-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(10, 10, 10, 0.75); /* ดำโปร่งแสง */
+    color: var(--text-main);
+    border: 1px solid var(--border);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 999; /* อยู่บนสุดของ Main */
-    backdrop-filter: blur(5px);
+    cursor: pointer;
+    opacity: 0; /* ซ่อนไว้ */
+    transform: translateY(10px); /* เลื่อนลงไปนิดนึงเตรียมทำแอนิเมชันเด้งขึ้น */
+    transition: all 0.3s ease;
+    z-index: 2;
+    backdrop-filter: blur(4px); /* เบลอพื้นหลังปุ่ม */
 }
 
-.loading-content {
-    text-align: center;
-    color: var(--text-main);
+/* โชว์ปุ่ม Bookmark ตอน Hover ที่การ์ด */
+.anime-card:hover .bookmark-btn {
+    opacity: 1;
+    transform: translateY(0);
 }
 
-/* ตัวหมุน (Spinner) เหมือนรูป */
-.spinner {
-    width: 80px;
-    height: 80px;
-    border: 8px solid var(--bg-tertiary); /* สีวงนอก */
-    border-top: 8px solid var(--accent); /* สีฟ้าที่หมุน */
-    border-radius: 50%;
-    animation: spin-pulse 1s linear infinite;
-    margin: 0 auto 20px;
+/* ลูกเล่นตอน Hover ที่ตัวปุ่ม Bookmark เอง */
+.bookmark-btn:hover {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+    transform: scale(1.1);
 }
 
-@keyframes spin-pulse {
-    0% { transform: rotate(0deg) scale(1); opacity: 0.8; }
-    50% { opacity: 1; }
-    100% { transform: rotate(360deg) scale(1); opacity: 0.8; }
-}
-
-.loading-content p {
-    font-size: 1.2rem;
-    color: var(--text-muted);
-    margin-bottom: 20px;
-}
-
-/* แถบความคืบหน้า (Progress Bar) */
-.progress-bar-container {
-    width: 300px;
-    height: 12px;
-    background-color: var(--bg-secondary);
-    border-radius: 6px;
-    overflow: hidden;
-    margin: 0 auto 10px;
-    border: 1px solid var(--border);
-}
-
-.progress-bar-fill {
-    width: 0%; /* จะถูกควบคุมด้วย JS */
-    height: 100%;
-    background: linear-gradient(90deg, var(--bg-tertiary) 0%, var(--accent) 100%);
-    border-radius: 6px;
-    transition: width 0.3s ease;
-}
-
-.progress-text {
-    font-size: 0.9rem !important;
-    color: var(--accent) !important;
-}
-
-/* --- Video Loader (เฉพาะจุดบน Iframe) --- */
-.video-wrapper {
-    position: relative; /* เพื่อให้ loader วางทับได้ */
-    background: #000;
-    border-radius: 8px;
-    overflow: hidden;
-}
-
-.video-loading-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.85);
+/* --- Auth Modal --- */
+.auth-modal {
     display: none; /* ซ่อนไว้ก่อน */
-    flex-direction: column;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 2000;
     justify-content: center;
     align-items: center;
-    z-index: 10;
-    color: var(--accent);
+    backdrop-filter: blur(8px);
 }
 
-.video-loading-overlay .spinner {
-    width: 50px;
-    height: 50px;
-    border: 5px solid var(--bg-tertiary);
-    border-top: 5px solid var(--accent);
+.auth-box {
+    background: var(--bg-secondary);
+    padding: 30px 40px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid var(--border);
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.auth-box h2 { color: var(--text-main); margin-bottom: 25px; text-align: center; font-size: 1.8rem; }
+
+.close-modal {
+    position: absolute;
+    top: 15px; right: 20px;
+    cursor: pointer;
+    color: var(--text-muted);
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+.close-modal:hover { color: var(--accent); }
+
+.auth-input {
+    width: 100%;
+    padding: 12px 15px;
     margin-bottom: 15px;
+    background: var(--bg-main);
+    border: 1px solid var(--border);
+    color: var(--text-main);
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box;
 }
+.auth-input:focus { border-color: var(--accent); outline: none; }
 
-.video-loading-overlay p {
-    font-size: 0.9rem;
-    letter-spacing: 1px;
-    font-weight: 500;
+.auth-btn {
+    width: 100%;
+    padding: 12px;
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    transition: 0.3s;
 }
+.auth-btn:hover { background: var(--accent-hover); }
+
+.auth-switch {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    text-align: center;
+    cursor: pointer;
+}
+.auth-switch span { color: var(--accent); font-weight: 500; }
+.auth-switch span:hover { text-decoration: underline; }
