@@ -699,5 +699,664 @@
       }
     ]
 
+  },
+  {
+    "id": "7",
+    "title": "Aria the animation",
+    "quality": "FHD",
+    "search_keywords": ["Aria the animation","アリア"],
+    "image": "https://m.media-amazon.com/images/M/MV5BYmI1Mjk5YjYtZTg5NC00YjgxLTg2YWUtOTk2MDBmNjgxNjNkXkEyXkFqcGc@._V1_.jpg",
+    "banner": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/42f3205ed252de4c7b5599c46efa1a9b.jpg",
+    "synopsis": "Akari, Aika, and Alice are three girls who share a single dream: to become the most talented gondoliers in all of Neo-Venezia.",
+    "genres": ["Slice of Life","Fantasy","Sci-Fi"],
+    "episodes": [
+      {
+        "ep_num": 1, 
+        "title": "Episode 1", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/WI_rtfyKH" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#dm5yy" }
+        ]
+      },
+      {
+        "ep_num": 2, 
+        "title": "Episode 2", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/aFyRvi5c2" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#oxcwu" }
+        ]
+      },
+      {
+        "ep_num": 3, 
+        "title": "Episode 3", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/IyBnIkM-s" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#hnrvc" }
+        ]
+      },
+      {
+        "ep_num": 4, 
+        "title": "Episode 4", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/qjoLAkvAu" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#1p8fa" }
+        ]
+      },
+      {
+        "ep_num": 5, 
+        "title": "Episode 5", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/VzQz5xHE_" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#rw9og" }
+        ]
+      },
+      {
+        "ep_num": 6, 
+        "title": "Episode 6", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/RoK98tiYT" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#n1w56" }
+        ]
+      },
+      {
+        "ep_num": 7, 
+        "title": "Episode 7", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/MqVvbSPqW" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#juy6x" }
+        ]
+      },
+      {
+        "ep_num": 8, 
+        "title": "Episode 8", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/kZnQG6SRX" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#ebh3d" }
+        ]
+      },
+      {
+        "ep_num": 9, 
+        "title": "Episode 9", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/9KJVujSdZ" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#9gkc9" }
+        ]
+      },
+      {
+        "ep_num": 10, 
+        "title": "Episode 10", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/URVfP1esY" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#fkl5z" }
+        ]
+      },
+      {
+        "ep_num": 11, 
+        "title": "Episode 11", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/ZhczaE33y" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#hnrsy" }
+        ]
+      },
+      {
+        "ep_num": 12, 
+        "title": "Episode 12", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/i7-w_mtb8o" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#5fxv3" }
+        ]
+      },
+      {
+        "ep_num": 13, 
+        "title": "Episode 13", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/YbLk3m_Bo" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#5fxv8" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Aria the Natural",
+    "quality": "FHD",
+    "search_keywords": ["Aria the Natural","アリアザナチュラル","アリア the natural"],
+    "image": "https://m.media-amazon.com/images/M/MV5BNTU1Y2M0YWItNGM5Yy00MmRiLTgxMWMtNzVhMzNkZDMzZTZiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "banner": "https://m.media-amazon.com/images/M/MV5BOTFkZTY1YzgtZDMwYS00MDRiLWJjZjYtMGY3MDg2NWMxNmZjXkEyXkFqcGc@._V1_.jpg",
+    "synopsis": "continues Akari Mizunashi's tranquil life as a gondolier apprentice (Undine) on the water-covered planet Aqua",
+    "genres": ["Slice of Life","Fantasy","Sci-Fi"],
+    "episodes": [
+      {
+        "ep_num": 1, 
+        "title": "Episode 1", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/fnSh0cWld" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#juygv" }
+        ]
+      },
+      {
+        "ep_num": 2, 
+        "title": "Episode 2", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/kN3nQImou" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#8es5a" }
+        ]
+      },
+      {
+        "ep_num": 3, 
+        "title": "Episode 3", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/PdFN0Ep5f" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#5fxbf" }
+        ]
+      },
+      {
+        "ep_num": 4, 
+        "title": "Episode 4", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/0mZOlg56B" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#6rmqj" }
+        ]
+      },
+      {
+        "ep_num": 5, 
+        "title": "Episode 5", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/nOpqgjO3R" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#ya1tx" }
+        ]
+      },
+      {
+        "ep_num": 6, 
+        "title": "Episode 6", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/20eKJkmYk" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#sh6xf" }
+        ]
+      },
+      {
+        "ep_num": 7, 
+        "title": "Episode 7", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/7QAJ_NdWp" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#acp6o" }
+        ]
+      },
+      {
+        "ep_num": 8, 
+        "title": "Episode 8", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/cZ_P7EDfA" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#1p8dj" }
+        ]
+      },
+      {
+        "ep_num": 9, 
+        "title": "Episode 9", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/xnJXeGORx" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#juyas" }
+        ]
+      },
+      {
+        "ep_num": 10, 
+        "title": "Episode 10", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/YhnkEFJBVG" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#hnrwi" }
+        ]
+      },
+      {
+        "ep_num": 11, 
+        "title": "Episode 11", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/dkOtyaCbq" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#ya1pr" }
+        ]
+      },
+      {
+        "ep_num": 12, 
+        "title": "Episode 12", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/Pcsb30JZ2" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#gst65" }
+        ]
+      },
+      {
+        "ep_num": 13, 
+        "title": "Episode 13", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/tsL6xH_4D" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#8eshu" }
+        ]
+      },
+      {
+        "ep_num": 14, 
+        "title": "Episode 14", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/X2cMt4qkN" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#oxcq9" }
+        ]
+      },
+      {
+        "ep_num": 15, 
+        "title": "Episode 15", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/KGztmyFVe" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#cqijc" }
+        ]
+      },
+      {
+        "ep_num": 16, 
+        "title": "Episode 16", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/2NHy0Jqkn" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#n1wod" }
+        ]
+      },
+      {
+        "ep_num": 17, 
+        "title": "Episode 17", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/oQ5IlDhIQ" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#9gkpf" }
+        ]
+      },
+      {
+        "ep_num": 18, 
+        "title": "Episode 18", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/OiIB156MG" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#5fxwz" }
+        ]
+      },
+      {
+        "ep_num": 19, 
+        "title": "Episode 19", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/EuyRYbFZr" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#xlqgp" }
+        ]
+      },
+      {
+        "ep_num": 20, 
+        "title": "Episode 20", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/Qa_qroeMi" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#ya15j" }
+        ]
+      },
+      {
+        "ep_num": 21, 
+        "title": "Episode 21", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/CptMclvzB" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#ya15v" }
+        ]
+      }
+      ,
+      {
+        "ep_num": 22, 
+        "title": "Episode 22", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/AgKeeqN4e" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#rw9d1" }
+        ]
+      },
+      {
+        "ep_num": 23, 
+        "title": "Episode 23", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/YW8fh-bSc" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#piew9" }
+        ]
+      },
+      {
+        "ep_num": 24, 
+        "title": "Episode 24", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/sjkVeTkdw" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#5fxug" }
+        ]
+      },
+      {
+        "ep_num": 25, 
+        "title": "Episode 25", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/roiB-P4Pd" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#qzjpv" }
+        ]
+      },
+      {
+        "ep_num": 26, 
+        "title": "Episode 26", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/a6PvgOiyJ" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#gstfq" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Aria the Origination",
+    "quality": "FHD",
+    "synopsis": "Akari, Aika, and Alice working to achieve their goal of becoming Prima Undines.",
+    "image": "https://m.media-amazon.com/images/M/MV5BMWVlM2Y2YWItZWFlYS00YjgxLWFlMDktZTFkNmEyZDU2NGE5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "banner": "https://m.media-amazon.com/images/M/MV5BOTkzNDYzMzc2M15BMl5BanBnXkFtZTgwOTM0NjcwMzE@._V1_.jpg",
+    "search_keywords": ["Aria the Origination","アリアザオリジネーション","アリア the origination"],
+    "genres": ["Slice of Life","Fantasy","Sci-Fi"],
+    "episodes": [
+      {
+        "ep_num": 1, 
+        "title": "Episode 1", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/R3FM5ivjb" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#qzk3l" }
+        ]
+      },
+      {
+        "ep_num": 2, 
+        "title": "Episode 2", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/7c5s2WZFN" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#zvtd6" }
+        ]
+      },
+      {
+        "ep_num": 3, 
+        "title": "Episode 3", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/7c5s2WZFN" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#9g18q" }
+        ]
+      },
+      {
+        "ep_num": 4, 
+        "title": "Episode 4", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/f7bxYfzhs" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#dmhjr" }
+        ]
+      },
+      {
+        "ep_num": 5, 
+        "title": "Episode 5", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/wDoGdRxWv" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#hnj38" }
+        ]
+      },
+      {
+        "ep_num": 6, 
+        "title": "Episode 6", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/BCpVeQdjV" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#1pomw" }
+        ]
+      },
+      {
+        "ep_num": 7, 
+        "title": "Episode 7", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/lykOaEtWy" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#rwyvl" }
+        ]
+      },
+      {
+        "ep_num": 8, 
+        "title": "Episode 8", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/YWvU0vUU0M" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#9g1ox" }
+        ]
+      },
+      {
+        "ep_num": 9, 
+        "title": "Episode 9", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/k_gZtk3uy" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#fkwam" }
+        ]
+      },
+      {
+        "ep_num": 10, 
+        "title": "Episode 10", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/t_pJ5sVOoD" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#8ecfs" }
+        ]
+      },
+      {
+        "ep_num": 11, 
+        "title": "Episode 11", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/xVvx5MGVH" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#6rbzw" }
+        ]
+      },
+      {
+        "ep_num": 12, 
+        "title": "Episode 12", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/d914egg-5" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#yav6b" }
+        ]
+      },
+      {
+        "ep_num": 13, 
+        "title": "Episode 13", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/o3qotZtG5" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#yav6u" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Aria the Natural: Sono Futatabi Deaeru Kiseki ni...",
+    "quality": "FHD",
+    "search_keywords": ["Aria the Natural: Sono Futatabi Deaeru Kiseki ni...","アリアザナチュラルそのふたたびであえるきせきに"],
+    "image": "https://myanimelist.net/images/anime/9/10494.jpg",
+    "banner": "https://m.media-amazon.com/images/M/MV5BOTFkZTY1YzgtZDMwYS00MDRiLWJjZjYtMGY3MDg2NWMxNmZjXkEyXkFqcGc@._V1_.jpg",
+    "synopsis": "Short episode entitled \"A Miracle Of Us Being Able To Meet Again\", which can be also considered as \"Aria the Natural\" episode 0.",
+    "genres": ["Slice of Life","Fantasy","Sci-Fi"],
+    "episodes": [
+      {
+        "ep_num": 1, 
+        "title": "Episode 1", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/3vOtUC8Bj" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#ac5jx" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "title": "Aria the OVA: Arietta",
+    "quality": "FHD",
+    "search_keywords": ["Aria the OVA: Arietta","アリアザOVA: アリエッタ"],
+    "image": "https://m.media-amazon.com/images/M/MV5BZDJlODY4MDktNzk1ZC00YjdhLTg4ODgtMjdhZmM4OWQwOGQyXkEyXkFqcGc@._V1_.jpg",
+    "banner": "https://image2.b-ch.com/fix/2128h.png?impolicy=fitin&ww=640&hh=380",
+    "synopsis": "Akari Mizunashi dreams of life after attaining her goal of becoming a Prima Undine, but upon waking realizes that she might not actually have the confidence to run Aria Company on her own. Wary of the future, she seeks advice from her mentor Alicia Florence—one of the three great \"Water Fairies\" of Neo-Venezia.",
+    "genres": ["Slice of Life","Fantasy","Sci-Fi"],
+    "episodes": [
+      {
+        "ep_num": 1, 
+        "title": "Episode 1", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/C9WH5HtUq" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#xl9s6" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "title": "Aria the Origination Episode 5.5: That Little Secret Place…",
+    "quality": "FHD",
+    "search_keywords": ["Aria the Origination Episode 5.5: That Little Secret Place…","アリアザオリジネーションエピソード5.5: その小さな秘密の場所…","Aria the Origination: Sono Choppiri Himitsu no Basho ni..."],
+    "image": "https://myanimelist.net/images/anime/11/15053.jpg",
+    "banner": "https://github.com/Varomine/website/blob/main/image/w9j08cj.png?raw=true",
+    "synopsis": "With Aria Company closed for the day and her friends attending to other matters, Akari Mizunashi seizes this rare opportunity to go on a casual outing around Neo-Venezia with President Aria Pokoteng.",
+    "genres": ["Slice of Life","Fantasy","Sci-Fi"],
+    "episodes": [
+      {
+        "ep_num": 1, 
+        "title": "Episode 1", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/5d16R-U1K" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#rwymt" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "title": "Aria the Origination Picture Drama",
+    "quality": "FHD",
+    "search_keywords": ["Aria the Origination Picture Drama","アリアザオリジネーションピクチャードラマ","Aria the Origination: Picture Drama"],
+    "image": "https://myanimelist.net/images/anime/13/36237.jpg",
+    "banner": "https://github.com/Varomine/website/blob/main/image/Screenshot%202026-04-16%20161141.png?raw=true",
+    "synopsis": "The path to becoming a Prima Undine—a guide who can lead tours on her gondola—-is long and arduous, but that does not mean there is no time to enjoy the pleasures Neo-Venezia has to offer!",
+    "genres": ["Slice of Life","Fantasy","Sci-Fi"],
+    "episodes": [
+      {
+        "ep_num": 1, 
+        "title": "Episode 1", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/B2xh5Y2tD" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#n1ukl" }
+        ]
+      },
+      {
+        "ep_num": 2, 
+        "title": "Episode 2", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/1gDdvGiJy" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#ju3wy" }
+        ]
+      },
+      {
+        "ep_num": 3, 
+        "title": "Episode 3", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/BmylIJr12" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#9g1zv" }
+        ]
+      },
+      {
+        "ep_num": 4, 
+        "title": "Episode 4", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/LFu6f5l_h" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#fkwjt" }
+        ]
+      },
+      {
+        "ep_num": 5, 
+        "title": "Episode 5", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/cwIJDlxlT" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#5fris" }
+        ]
+      },
+      {
+        "ep_num": 6, 
+        "title": "Episode 6", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/Ll1y-XHWC" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#5fric" }
+        ]
+      },
+      {
+        "ep_num": 7, 
+        "title": "Episode 7", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/Dbjs9L-RW" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#xl9bn" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "title": "Aria the Avvenire",
+    "quality": "FHD",
+    "search_keywords": ["Aria the Avvenire","アリアザアヴェニーレ"],
+    "image": "https://m.media-amazon.com/images/M/MV5BNjI2MGMxNDgtYWVjMC00ZDk0LWIwMWYtODc3ODFjNWE3NmIxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "banner": "https://i.ytimg.com/vi/RYns8C_q_UA/maxresdefault.jpg ",
+    "synopsis": "Now that Akari Mizunashi is a Prima Undine and head of the Aria Company with her own apprentice, Ai Aino, she cannot help but reminisce about her time as a Single.",
+    "genres": ["Slice of Life","Fantasy","Sci-Fi"],
+    "episodes": [
+      {
+        "ep_num": 1, 
+        "title": "Episode 1", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/eCmq3jjiw" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#shiqb" }
+        ]
+      },
+      {
+        "ep_num": 2, 
+        "title": "Episode 2", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/v8R_nAHDn" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#zvtse" }
+        ]
+      },
+      {
+        "ep_num": 3, 
+        "title": "Episode 3", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/CWexvVy58" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#v56hl" }
+        ]
+      }
+     ]
+  },
+  {
+    "id": "15",
+    "title": "Aria the Crepuscolo",
+    "quality": "FHD",
+    "search_keywords": ["Aria the Crepuscolo","アリアザクレプスコロ"],
+    "image": "https://m.media-amazon.com/images/M/MV5BZWE5ODJhODgtNjM1OS00NTcwLTllNzAtMjExMDE1NjcyNjBmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    "banner": "https://ariacompany.net/5th/images/s-aria_04.jpg",
+    "synopsis": "Aspiring Orange Company Undine Anya Dostoyevskaya feels dejected upon learning that her gondolier mentor, Alice Carroll, is not spending much time with her own mentor, Athena Glory.",
+    "genres": ["Slice of Life","Fantasy","Sci-Fi"],
+    "episodes": [
+      {
+        "ep_num": 1, 
+        "title": "Movie", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://drive.google.com/file/d/1GgJ95Xa2WIWvONKMOhtM37MqTFHZitEn/preview" },
+          { "name": "Server 2 ", "video_url": "https://short.icu/eKs93w1FL" },
+          { "name": "Server 3 ", "video_url": "https://thepeak.4meplayer.com/#hnjga" }
+        ]
+      }
+     ]
+  },
+  {
+    "id": "16",
+    "title": "Aria the Benedizione",
+    "quality": "FHD",
+    "search_keywords": ["Aria the Benedizione","アリアザベネディッツィオーネ"],
+    "image": "https://github.com/Varomine/website/blob/main/image/Aria_the_Benedizione_Key_Visual_2.png?raw=true",
+    "banner": "https://m.media-amazon.com/images/M/MV5BNjFmYzk2YWUtMWZlOS00Mjc0LTljYWUtNmE0NjFiYjEyYjgzXkEyXkFqcGc@._V1_.jpg",
+    "synopsis": "Aika S. Granzchesta surprises everyone when she rejects tradition and refuses to inherit the company's legendary gondola.",
+    "genres": ["Slice of Life","Fantasy","Sci-Fi"],
+    "episodes": [
+      {
+        "ep_num": 1, 
+        "title": "Movie", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://drive.google.com/file/d/16PVWgCe1-Hsu0CxG45hPlPi8ivhurrgg/preview" },
+          { "name": "Server 2 ", "video_url": "https://short.icu/-zUw9QURv" },
+          { "name": "Server 3 ", "video_url": "https://thepeak.4meplayer.com/#8ecrp" }
+        ]
+      }
+     ]
   }
 ]

@@ -1,11 +1,13 @@
 // ==========================================
-// 1. นำเข้า Firebase v9 (Modular)
+// 1. Import Firebase v9 (Modular)
 // ==========================================
+import { sendPasswordResetEmail } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-auth.js";
+import { serverTimestamp, query, orderBy, limit } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
 import { getFirestore, doc, setDoc, deleteDoc, getDoc, collection, getDocs } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
 
-// Config ของคุณ
+// Config
 const firebaseConfig = {
   apiKey: "AIzaSyCndWFEXXbbe6GF__SLTh9FjQ2VZNnk7Bg",
   authDomain: "animeluxe-9d719.firebaseapp.com",
@@ -24,7 +26,7 @@ let currentUser = null;
 let isLoginMode = true;
 
 // ==========================================
-// 2. ระบบป้องกันและโหลดเบื้องต้น
+// 2. Scurity
 // ==========================================
 document.addEventListener('contextmenu', event => event.preventDefault());
 document.onkeydown = function(e) {
@@ -53,7 +55,7 @@ window.addEventListener('load', function() {
 });
 
 // ==========================================
-// 3. ตัวแปรจัดการเนื้อหา
+// 3. Varibles Global
 // ==========================================
 let animeList = [];
 let currentAnimeData = null;
@@ -67,7 +69,7 @@ let currentSlide = 0;
 let userBookmarks = [];
 
 // ==========================================
-// 4. ระบบ Routing และ โหลด Data
+// 4. Routing and Data
 // ==========================================
 document.addEventListener('DOMContentLoaded', async () => {
     try {
@@ -76,12 +78,17 @@ document.addEventListener('DOMContentLoaded', async () => {
         
         const urlParams = new URLSearchParams(window.location.search);
         const page = urlParams.get('page');
+        const id = urlParams.get('id');
+        const ep = urlParams.get('ep');
         const searchQuery = urlParams.get('search');
         const playId = urlParams.get('play');
         const genreQuery = urlParams.get('genre');
 
         if (document.getElementById('app-content')) {
-            if (playId) {
+            if (page === 'player' && id) {
+                const targetEp = ep ? parseInt(ep) : 1; 
+                loadPlayer(id, targetEp); 
+            } else if (playId) {
                 loadPlayer(playId, 1);
             } else if (searchQuery) {
                 document.getElementById('searchInput').value = searchQuery;
@@ -105,7 +112,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 // ==========================================
-// 5. ระบบ Auth & Firebase Functions
+// 5. Auth & Firebase Functions system
 // ==========================================
 onAuthStateChanged(auth, async (user) => {
     currentUser = user;
@@ -120,20 +127,27 @@ onAuthStateChanged(auth, async (user) => {
         if(userEmailElem) userEmailElem.innerText = user.email.split('@')[0];
         if(navBookmark) navBookmark.style.display = 'block';
 
-        // 🌟 ดึงข้อมูล Bookmark ของ User มาเก็บไว้
         try {
             const bookmarksRef = collection(db, 'users', user.uid, 'bookmarks');
             const snapshot = await getDocs(bookmarksRef);
             userBookmarks = snapshot.docs.map(doc => doc.data().animeId);
-            updateAllBookmarkIcons(); // อัปเดตไอคอนบนหน้าเว็บทันที
+            updateAllBookmarkIcons();
+            
+            if(document.getElementById('history-section')) {
+                renderContinueWatching(); 
+            }
+
         } catch(e) { console.error("Load Bookmarks Error", e); }
 
     } else {
         if(authButtons) authButtons.style.display = 'flex';
         if(userProfile) userProfile.style.display = 'none';
         if(navBookmark) navBookmark.style.display = 'none';
-        userBookmarks = []; // ล้างข้อมูลถ้าไม่ได้ล็อคอิน
+        userBookmarks = [];
         updateAllBookmarkIcons();
+
+        const historySec = document.getElementById('history-section');
+        if(historySec) historySec.style.display = 'none';
     }
 });
 
@@ -153,11 +167,48 @@ function updateAllBookmarkIcons() {
     });
 }
 
+let authMode = 'login';
 function openAuthModal(mode) {
+    authMode = mode; 
     const modal = document.getElementById('auth-modal');
+    const title = document.getElementById('auth-title');
+    const submitBtn = document.getElementById('auth-submit-btn');
+    const switchText = document.getElementById('auth-switch-text');
+    const passInput = document.getElementById('auth-password');
+    const forgotLink = document.getElementById('forgot-pass-container');
+
     modal.style.display = 'flex';
-    isLoginMode = (mode === 'login');
-    updateAuthUI();
+
+    document.getElementById('auth-email').value = '';
+    document.getElementById('auth-password').value = '';
+
+    if (mode === 'login') {
+        title.innerText = 'Login';
+        passInput.style.display = 'block';
+        passInput.required = true;
+        forgotLink.style.display = 'block'; 
+        submitBtn.innerText = 'Login';
+        submitBtn.classList.remove('reset-mode'); 
+        switchText.innerHTML = 'Don\'t have an account? <span onclick="openAuthModal(\'signup\')">Sign Up</span>';
+        
+    } else if (mode === 'signup') {
+        title.innerText = 'Sign Up';
+        passInput.style.display = 'block';
+        passInput.required = true;
+        forgotLink.style.display = 'none'
+        submitBtn.innerText = 'Sign Up';
+        submitBtn.classList.remove('reset-mode');
+        switchText.innerHTML = 'Already have an account? <span onclick="openAuthModal(\'login\')">Login</span>';
+        
+    } else if (mode === 'reset') {
+        title.innerText = 'Reset Password';
+        passInput.style.display = 'none'; 
+        passInput.required = false; 
+        forgotLink.style.display = 'none';
+        submitBtn.innerText = 'Send Reset Link';
+        submitBtn.classList.add('reset-mode'); 
+        switchText.innerHTML = 'Remember password? <span onclick="openAuthModal(\'login\')">Login</span>';
+    }
 }
 
 function closeAuthModal() {
@@ -183,33 +234,46 @@ async function handleAuthSubmit(e) {
     const email = document.getElementById('auth-email').value;
     const password = document.getElementById('auth-password').value;
     const submitBtn = document.getElementById('auth-submit-btn');
-    const originalText = submitBtn.innerText; // จำข้อความเดิมไว้ (Login หรือ Create Account)
-    submitBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i>';
+    
+    // Loading
+    const originalText = submitBtn.innerText;
+    submitBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Loading...';
     submitBtn.disabled = true;
     submitBtn.style.opacity = '0.7';
-    submitBtn.style.cursor = 'not-allowed';
+
     try {
-        if (isLoginMode) {
+        if (authMode === 'login') {
             await signInWithEmailAndPassword(auth, email, password);
-            showNotification("Login successful!", "success"); // 🌟 ใช้แจ้งเตือนแทน alert
-        } else {
+            showNotification("Login successful!", "success"); 
+            closeAuthModal();
+        } else if (authMode === 'signup') {
             await createUserWithEmailAndPassword(auth, email, password);
-            showNotification("Account created successfully!", "success"); // 🌟 ใช้แจ้งเตือนแทน alert
+            showNotification("Account created successfully!", "success");
+            closeAuthModal();
+        } else if (authMode === 'reset') {
+            if (!email) {
+                throw { code: 'no-email' }; 
+            }
+            await sendPasswordResetEmail(auth, email);
+            showNotification("Reset link sent! Please check your email.", "success");
+            openAuthModal('login');
         }
-        closeAuthModal();
     } catch (error) {
-        // 🌟 ดัก Error ให้เป็นภาษาไทยอ่านง่ายๆ (ถ้ามี) หรือแสดงข้อความ Error ของ Firebase
+        console.error("Firebase Auth Error:", error); 
+        
         let errorMsg = "Something went wrong. Please try again.";
-        if(error.code === 'auth/invalid-credential') errorMsg = "Email or password is incorrect";
-        if(error.code === 'auth/email-already-in-use') errorMsg = "Email is already in use";
-        if(error.code === 'auth/weak-password') errorMsg = "Password must be at least 6 characters";
-        showNotification(errorMsg, "error"); // 🌟 ใช้แจ้งเตือนแทน alert
+        
+        if(error.code === 'auth/invalid-credential' || error.code === 'auth/user-not-found') errorMsg = "Invalid email or password.";
+        if(error.code === 'auth/email-already-in-use') errorMsg = "This email is already in use.";
+        if(error.code === 'auth/weak-password') errorMsg = "Password should be at least 6 characters.";
+        if(error.code === 'auth/missing-email' || error.code === 'no-email') errorMsg = "Please enter your email address.";
+        if(error.code === 'auth/invalid-email') errorMsg = "Invalid email format.";
+        
+        showNotification(errorMsg, "error");
     } finally {
-        // 🌟 2. คืนค่าปุ่มให้กลับมาเป็นเหมือนเดิม ไม่ว่าจะสำเร็จหรือพัง
         submitBtn.innerHTML = originalText;
         submitBtn.disabled = false;
         submitBtn.style.opacity = '1';
-        submitBtn.style.cursor = 'pointer'
     }
 }
 
@@ -221,12 +285,24 @@ async function handleLogout() {
         console.error("Logout Error", error);
     }
 }
+async function handleForgotPassword(e) {
+    e.preventDefault();
+    const email = document.getElementById('auth-email').value;
+    
+    if (!email) {
+        showNotification("Please enter your email address", "error");
+        return;
+    }
 
+    try {
+        await sendPasswordResetEmail(auth, email);
+        showNotification("Password reset email sent! Please check your inbox.", "success");
+    } catch (error) {
+        showNotification("Email not found in our system or an error occurred", "error");
+    }
+}
 // ==========================================
-// 6. ระบบ Bookmarks
-// ==========================================
-// ==========================================
-// 6. ระบบ Bookmarks
+// 6.Bookmarks system
 // ==========================================
 async function handleBookmark(event, animeId) {
     event.stopPropagation();
@@ -239,20 +315,16 @@ async function handleBookmark(event, animeId) {
     const button = event.currentTarget;
     const icon = button ? button.querySelector('i') : null;
 
-    // 1. ถ้าปุ่มกำลังโหลดอยู่ (โดนล็อค) ให้ข้ามไปเลย ป้องกันการกดเบิ้ล
     if (button.disabled) return;
 
-    // 2. เช็คสถานะเดิมก่อน เผื่อเน็ตหลุดจะได้สลับกลับมาถูก
     let isCurrentlyBookmarked = false;
     
     if (icon) {
         isCurrentlyBookmarked = icon.classList.contains('fa-solid') && !icon.classList.contains('fa-spinner');
-        
-        // 3. เปลี่ยนไอคอนเป็นตัวโหลดแบบหมุนๆ (fa-spinner fa-spin)
+
         icon.className = 'fa-solid fa-spinner fa-spin';
-        icon.style.color = '#888'; // สีเทาๆ ตอนกำลังโหลด
-        
-        // 4. ล็อคปุ่มชั่วคราว
+        icon.style.color = '#888'; 
+
         button.disabled = true;
         button.style.pointerEvents = 'none';
     }
@@ -262,36 +334,30 @@ async function handleBookmark(event, animeId) {
         const docSnap = await getDoc(bookmarkRef);
 
         if (docSnap.exists()) {
-            // ลบ Bookmark
             await deleteDoc(bookmarkRef);
-            userBookmarks = userBookmarks.filter(id => id !== animeId); // 🌟 เอาออกจาก Array
+            userBookmarks = userBookmarks.filter(id => id !== animeId);
             if (icon) {
-                // กลับไปเป็นไอคอนโปร่ง (ยังไม่เซฟ)
                 icon.className = 'fa-regular fa-bookmark';
                 icon.style.color = '';
             }
         } else {
-            // เพิ่ม Bookmark
             await setDoc(bookmarkRef, { animeId: animeId, addedAt: new Date() });
-            if (!userBookmarks.includes(animeId)) userBookmarks.push(animeId); // 🌟 ใส่เข้าไปใน Array
+            if (!userBookmarks.includes(animeId)) userBookmarks.push(animeId);
             if (icon) {
-                // เปลี่ยนเป็นไอคอนทึบ (เซฟแล้ว)
                 icon.className = 'fa-solid fa-bookmark';
                 icon.style.color = 'var(--accent)'; 
             }
         }
     } catch (error) {
         console.error("Error toggling bookmark:", error);
-        
-        // 5. ถ้ามี Error (เช่น เน็ตหลุด) ให้คืนค่าไอคอนกลับไปเป็นเหมือนเดิมก่อนกด
+
         if (icon) {
             icon.className = isCurrentlyBookmarked ? 'fa-solid fa-bookmark' : 'fa-regular fa-bookmark';
             icon.style.color = isCurrentlyBookmarked ? 'var(--accent)' : '';
         }
-        alert("เกิดข้อผิดพลาดในการบันทึก กรุณาลองใหม่อีกครั้ง");
+        alert("Something went wrong while updating your bookmarks. Please try again.");
         
     } finally {
-        // 6. ไม่ว่าจะสำเร็จหรือพัง ก็ต้องปลดล็อคปุ่มให้กลับมากดได้เหมือนเดิม
         if (button) {
             button.disabled = false;
             button.style.pointerEvents = 'auto';
@@ -333,7 +399,7 @@ async function loadBookmarksPage() {
 }
 
 // ==========================================
-// 7. ฟังก์ชันช่วยเหลือ & UI
+// 7. help function & UI
 // ==========================================
 function showLoading() {
     const overlay = document.getElementById('loading-overlay');
@@ -366,12 +432,8 @@ function waitForImages(container, callback) {
     });
 }
 
-function goToPlayer(animeId) {
-    if (document.getElementById('app-content')) {
-        loadPlayer(animeId, 1);
-    } else {
-        window.location.href = `index.html?play=${animeId}`;
-    }
+function goToPlayer(animeId, epNum = 1) {
+    window.location.href = `index.html?page=player&id=${animeId}&ep=${epNum}`;
 }
 
 function generateGridHTML(list) {
@@ -381,8 +443,7 @@ function generateGridHTML(list) {
     } else {
         list.forEach(anime => {
             const quality = anime.quality || 'HD'; 
-            
-            // 🌟 เช็คว่าอนิเมะเรื่องนี้เคยโดน Bookmark หรือยัง?
+
             const isBookmarked = typeof userBookmarks !== 'undefined' && userBookmarks.includes(anime.id);
             const iconClass = isBookmarked ? 'fa-solid fa-bookmark' : 'fa-regular fa-bookmark';
             const iconColor = isBookmarked ? 'color: var(--accent);' : '';
@@ -428,7 +489,7 @@ function moveSlide(direction) {
 }
 
 // ==========================================
-// 8. หน้า Home & Genres
+// 8. Home & Genres
 // ==========================================
 function loadHome() {
     showLoading();
@@ -467,6 +528,8 @@ function loadHome() {
             <button class="slider-btn slider-next" onclick="moveSlide(1)"><i class="fa-solid fa-chevron-right"></i></button>
         </div>
 
+        <div id="history-section" style="display: none;"></div>
+
         <h2 class="section-title">Latest Updates</h2>
         ${generateGridHTML(latestUpdates)}
 
@@ -481,7 +544,10 @@ function loadHome() {
         app.innerHTML = tempContainer.innerHTML;
         window.scrollTo(0, 0);
         currentSlide = 0;
-        setTimeout(hideLoading, 300);
+        setTimeout(() => {
+            hideLoading();
+            renderContinueWatching(); 
+        }, 300);
     });
 }
 
@@ -545,8 +611,10 @@ function loadMoreGenre() {
     if (genreVisibleCount >= genreFilteredAnime.length && btn) btn.style.display = 'none';
 }
 
+
+
 // ==========================================
-// 9. ระบบค้นหา & Player
+// 9. Search & Player
 // ==========================================
 function checkSearchEnter(event) {
     if (event.key === "Enter") {
@@ -582,13 +650,19 @@ function executeSearch(query) {
     `;
 }
 
-function loadPlayer(animeId, epNum) {
+function loadPlayer(animeId, epNum = 1) {
     showLoading();
-    const anime = animeList.find(a => a.id === animeId);
-    if(!anime || !anime.episodes || anime.episodes.length === 0) { hideLoading(); return; }
+    const anime = animeList.find(a => String(a.id) === String(animeId));
+    if(!anime || !anime.episodes || anime.episodes.length === 0) { 
+        hideLoading(); 
+        loadHome(); 
+        return; 
+    }
 
     currentAnimeData = anime;
-    currentEpisodeData = anime.episodes.find(e => e.ep_num === epNum) || anime.episodes[0];
+    currentEpisodeData = anime.episodes.find(e => String(e.ep_num) === String(epNum)) || anime.episodes[0];
+    saveWatchHistory(anime.id, currentEpisodeData.ep_num);
+    saveWatchHistory(anime.id, currentEpisodeData.ep_num);
     
     const app = document.getElementById('app-content');
     const tempContainer = document.createElement('div');
@@ -664,12 +738,15 @@ function loadPlayer(animeId, epNum) {
         window.scrollTo(0, 0); 
         setTimeout(hideLoading, 300);
     });
+    renderPlayerUI();
+    hideLoading();
 }
 
 function switchEpisode(epNum) {
     if(!currentAnimeData) return;
-    currentEpisodeData = currentAnimeData.episodes.find(e => e.ep_num === epNum);
+    currentEpisodeData = currentAnimeData.episodes.find(e => String(e.ep_num) === String(epNum));
     if(!currentEpisodeData) return;
+    saveWatchHistory(currentAnimeData.id, currentEpisodeData.ep_num);
 
     const iframe = document.getElementById('anime-video');
     const videoLoader = document.getElementById('video-player-loader');
@@ -732,11 +809,94 @@ function resetVideo() {
 }
 
 // ==========================================
-// 10. ฟังก์ชันช่วยเหลือ & UI (ใส่เพิ่มเข้าไปต่อท้าย)
+// Continue Watching (History)
+// ==========================================
+async function saveWatchHistory(animeId, epNum) {
+    const getLoggedInUser = () => {
+        return new Promise((resolve) => {
+            if (currentUser) return resolve(currentUser);
+            const unsubscribe = onAuthStateChanged(auth, (user) => {
+                unsubscribe();
+                resolve(user);
+            });
+        });
+    };
+
+    const user = await getLoggedInUser();
+    if (!user) return; 
+
+    try {
+        const historyRef = doc(db, 'users', user.uid, 'history', String(animeId));
+        await setDoc(historyRef, {
+            animeId: String(animeId),
+            epNum: parseInt(epNum),
+            timestamp: serverTimestamp()
+        });
+        console.log(`Saved: Anime ${animeId} Ep ${epNum}`);
+    } catch (error) {
+        console.error("Error saving history:", error);
+    }
+}
+
+async function renderContinueWatching() {
+    const container = document.getElementById('history-section');
+    if (!container) return;
+
+    if (!currentUser) {
+        container.style.display = 'none';
+        return;
+    }
+
+    try {
+        const historyRef = collection(db, 'users', currentUser.uid, 'history');
+        const q = query(historyRef, orderBy('timestamp', 'desc'), limit(4)); 
+        const snapshot = await getDocs(q);
+
+        if (snapshot.empty) {
+            container.style.display = 'none';
+            return;
+        }
+
+        let html = `<h2 class="section-title"><i class="fa-solid fa-clock-rotate-left" style="color: var(--accent);"></i> History</h2>
+                    <div class="history-grid">`;
+
+        snapshot.forEach(docSnap => {
+            const data = docSnap.data();
+            const anime = animeList.find(a => a.id === data.animeId);
+            
+            if (anime) {
+                const imgUrl = anime.banner || anime.image; 
+                const epTitle = anime.episodes.find(e => e.ep_num === data.epNum)?.title || `Episode ${data.epNum}`;
+
+                html += `
+                    <div class="history-card" onclick="goToPlayer('${anime.id}', ${data.epNum})">
+                        <div class="history-img-wrapper">
+                            <img src="${imgUrl}" class="history-img" alt="${anime.title}">
+                            <div class="history-ep-badge"><i class="fa-solid fa-play"></i> ${epTitle}</div>
+                        </div>
+                        <div class="history-info">
+                            <h3>${anime.title}</h3>
+                            <i class="fa-solid fa-arrow-right-long"></i>
+                        </div>
+                    </div>
+                `;
+            }
+        });
+        html += `</div>`;
+        
+        container.innerHTML = html;
+        container.style.display = 'block';
+
+    } catch (error) {
+        console.error("Error loading history:", error);
+    }
+}
+
+// ==========================================
+// 10.help function & UI
 // ==========================================
 
 function showNotification(message, type = 'success') {
-    // 1. ตรวจสอบว่าเคยสร้างสไตล์ของ Toast หรือยัง ถ้ายังให้สร้าง
     if (!document.getElementById('toast-styles')) {
         const style = document.createElement('style');
         style.id = 'toast-styles';
@@ -758,7 +918,6 @@ function showNotification(message, type = 'success') {
         document.head.appendChild(style);
     }
 
-    // 2. สร้างกล่องคอนเทนเนอร์ (ถ้ายังไม่มี)
     let container = document.getElementById('toast-container');
     if (!container) {
         container = document.createElement('div');
@@ -767,7 +926,6 @@ function showNotification(message, type = 'success') {
         document.body.appendChild(container);
     }
 
-    // 3. สร้างตัวป๊อปอัปแจ้งเตือน
     const toast = document.createElement('div');
     toast.className = `toast-msg ${type}`;
     const icon = type === 'success' ? '<i class="fa-solid fa-circle-check" style="color: #4caf50; font-size: 1.2rem;"></i>' : '<i class="fa-solid fa-circle-exclamation" style="color: #f44336; font-size: 1.2rem;"></i>';
@@ -775,19 +933,16 @@ function showNotification(message, type = 'success') {
     
     container.appendChild(toast);
 
-    // 4. แอนิเมชันเลื่อนเข้า และตั้งเวลาลบออกอัตโนมัติ
     requestAnimationFrame(() => toast.classList.add('show'));
     setTimeout(() => {
         toast.classList.remove('show');
-        setTimeout(() => toast.remove(), 400); // รอแอนิเมชันออกเสร็จแล้วค่อยลบทิ้ง
-    }, 3000); // โชว์ค้างไว้ 3 วินาที
+        setTimeout(() => toast.remove(), 400);
+    }, 3000);
 }
 
 // ==========================================
-// 11. แก้บั๊ก <script type="module"> (สำคัญมาก!)
+// 11. Bug Fixes <script type="module">
 // ==========================================
-// การใช้ type="module" ทำให้ HTML มองไม่เห็นฟังก์ชันด้านบน
-// ต้องเอาฟังก์ชันทั้งหมดมาแขวนไว้บนหน้าต่าง window แบบนี้:
 
 window.openAuthModal = openAuthModal;
 window.closeAuthModal = closeAuthModal;
@@ -805,3 +960,4 @@ window.switchEpisode = switchEpisode;
 window.switchServer = switchServer;
 window.resetVideo = resetVideo;
 window.showNotification = showNotification;
+window.handleForgotPassword = handleForgotPassword;
