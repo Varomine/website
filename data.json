@@ -6,6 +6,7 @@
     "search_keywords": ["Frieren: Beyond Journey's End", "คำอธิษฐานในวันที่จากลา", "Frieren", "ฟริเรน", "ฟริเรน: คำอธิษฐานในวันที่จากลา", "葬送のフリーレン", "Sousou no Frieren"],
     "image": "https://github.com/Varomine/website/blob/main/image/Frienren.jpg?raw=true",
     "banner": "https://github.com/Varomine/website/blob/main/image/unnamed.webp?raw=true",
+    "preview": "https://www.youtube.com/embed/pqUZaKn7flw?si=nxWLrP3i9vRfZIjF",
     "genres": ["Fantasy", "Adventure", "Supernatural", "Slice of Life"],
     "synopsis": "an elven mage named Frieren, part of a hero party that defeated the Demon King",
     "episodes": [
@@ -240,6 +241,7 @@
   {
     "id": "2",
     "title": "Do you like big girls?",
+    "preview": "https://www.youtube.com/embed/hGvotibuCHQ?si=QECc5S4rxv46dwIi",
     "quality": "FHD",
     "search_keywords": ["Do you like big girls","Ookii Onnanoko wa Suki desu ka?","大きい女の子は好きですか？","Ookii Onnanoko wa Suki desu ka?"],
     "image": "https://myanimelist.net/images/anime/1482/155539.jpg",
@@ -268,6 +270,7 @@
   {
     "id": "3",
     "title": "Clannad ",
+    "preview": "https://www.youtube.com/embed/9ZseZTshl2k?si=PYoepCbIvJxo9_Hu",
     "quality": "FHD",
     "search_keywords": ["Clannad","クラナド","Kuranado"],
     "image": "https://myanimelist.net/images/anime/1804/95033.jpg",
@@ -472,6 +475,7 @@
   {
     "id": "4",
     "title": "Hell Mode: The Hardcore Gamer Dominates in an Another World with Garbage Balancing",
+    "preview": "https://www.youtube.com/embed/JfP812MYYT4?si=-Xm2OD9odsJ_dgNz",
     "quality": "FHD",
     "search_keywords": ["Hell Mode: The Hardcore Gamer Dominates in an Another World with Garbage Balancing","ヘルモード ～やり込み好きのゲーマーは廃設定的異世界で無双する～","Heru Mōdo: Yarikomizuki no Gēmā wa Hai Settei no Isekai de Musō Suru"],
     "image": "https://github.com/Varomine/website/blob/main/image/hell-mode-anime-key-visual-v0-ElhmuRVTHq1nyVUTO1uHe5FcJVqEO22byJMdvtty2D0.webp?raw=true",
@@ -581,6 +585,7 @@
     "id": "5",
     "title": "Summer ghost",
     "quality": "FHD",
+    "preview": "https://www.youtube.com/embed/JgXXExMU9IQ?si=B2YMBRoj6vSRmk6D",
     "search_keywords": ["Summer ghost","サマーゴースト","Samā Gōsuto"],
     "image": "https://resizing.flixster.com/jz7hX0p-xWoJEXLuSoltuSzh4DI=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzJkYTgwODZhLWE3NDMtNGFmMC05MTViLTVmZmVkMmY5OGQ0Zi5qcGc=",
     "banner": "https://sevenseasentertainment.com/wp-content/uploads/2023/07/siteheader_summerghostLN_938%C3%97326.jpg",
@@ -602,6 +607,7 @@
     "id": "6",
     "title": "You Can't Be in a Rom-Com with Your Childhood Friends!",
     "quality": "FHD",
+    "preview": "https://www.youtube.com/embed/c6q0M0UINbU?si=6Cv8pOIzf41E4mBu",
     "search_keywords": ["You Can't Be in a Rom-Com with Your Childhood Friends!","幼なじみが絶対に負けないラブコメ","Osananajimi ga Zettai ni Makenai Love Comedy","Osananajimi to wa Love Comedy ni Naranai"],
     "image": "https://m.media-amazon.com/images/M/MV5BYjc3OWJiNzEtODEwNC00Y2UyLTg5YjktNDk2ODBjNTkzOTUzXkEyXkFqcGc@._V1_.jpg",
     "banner": "https://i.ytimg.com/vi/Ol7dgu0Za2w/maxresdefault.jpg",
@@ -710,6 +716,7 @@
   {
     "id": "7",
     "title": "Aria the animation",
+    "preview": "https://www.youtube.com/embed/NraaWUZxWZw?si=nYFhhfvhMT8YHfgm",
     "quality": "FHD",
     "search_keywords": ["Aria the animation","アリア"],
     "image": "https://m.media-amazon.com/images/M/MV5BYmI1Mjk5YjYtZTg5NC00YjgxLTg2YWUtOTk2MDBmNjgxNjNkXkEyXkFqcGc@._V1_.jpg",
@@ -826,6 +833,7 @@
   {
     "id": "8",
     "title": "Aria the Natural",
+    "preview": "https://www.youtube.com/embed/NbzSP5Z7WKw?si=4by_IPPrK5RzrrPb",
     "quality": "FHD",
     "search_keywords": ["Aria the Natural","アリアザナチュラル","アリア the natural"],
     "image": "https://m.media-amazon.com/images/M/MV5BNTU1Y2M0YWItNGM5Yy00MmRiLTgxMWMtNzVhMzNkZDMzZTZiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
@@ -1291,6 +1299,7 @@
   {
     "id": "14",
     "title": "Aria the Avvenire",
+    "preview": "https://www.youtube.com/embed/TNI7hRPT2z8?si=wD0Pz_hHiFeyNU-W",
     "quality": "FHD",
     "search_keywords": ["Aria the Avvenire","アリアザアヴェニーレ"],
     "image": "https://m.media-amazon.com/images/M/MV5BNjI2MGMxNDgtYWVjMC00ZDk0LWIwMWYtODc3ODFjNWE3NmIxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
@@ -1327,6 +1336,7 @@
   {
     "id": "15",
     "title": "Aria the Crepuscolo",
+    "preview": "https://www.youtube.com/embed/mhybOmmbewY?si=LMKx56gqQzx4TbgT",
     "quality": "FHD",
     "search_keywords": ["Aria the Crepuscolo","アリアザクレプスコロ"],
     "image": "https://m.media-amazon.com/images/M/MV5BZWE5ODJhODgtNjM1OS00NTcwLTllNzAtMjExMDE1NjcyNjBmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
@@ -1348,6 +1358,7 @@
   {
     "id": "16",
     "title": "Aria the Benedizione",
+    "preview": "https://www.youtube.com/embed/dPOGmvUG3Io?si=X1Rja7c8QKbVR8dS",
     "quality": "FHD",
     "search_keywords": ["Aria the Benedizione","アリアザベネディッツィオーネ"],
     "image": "https://github.com/Varomine/website/blob/main/image/Aria_the_Benedizione_Key_Visual_2.png?raw=true",
@@ -1582,6 +1593,7 @@
   {
     "id": "18",
     "title": "Clannad Movie",
+    "preview": "https://www.youtube.com/embed/_bDkwezvFbE?si=T3SULy0ITG-8LAR7",
     "quality": "FHD",
     "search_keywords": ["CLANNAD: Movie","Clannad Movie","クラナドムービー"],
     "image": "https://upload.wikimedia.org/wikipedia/en/c/cc/Clannad_movie.jpg",
@@ -1603,6 +1615,7 @@
   {
     "id": "19",
     "title": "Frieren: Beyond Journey's End [ SS2 ]",
+    "preview": "https://www.youtube.com/embed/EOMVXqH9DSg?si=tBRPnSOfVqQ49QWc",
     "quality": "FHD",
     "search_keywords": ["Frieren: Beyond Journey's End", "คำอธิษฐานในวันที่จากลา", "Frieren", "ฟริเรน", "ฟริเรน: คำอธิษฐานในวันที่จากลา", "葬送のフリーレン", "Sousou no Frieren"],
     "image": "https://cdn.myanimelist.net/r/200x268/images/anime/1921/154528.jpg?s=e0b13d53e34bdb5142fbf8fdb9752261",
@@ -1695,7 +1708,7 @@
   {
     "id": "20",
     "title": "Your Name.",
-    "quality": "4K",
+    "quality": "UHD",
     "preview": "https://www.youtube.com/embed/xU47nhruN-Q",
     "search_keywords": ["Your Name.","Kimi no Na wa.","君の名は。"],
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21519-SUo3ZQuCbYhJ.png",
@@ -1707,9 +1720,9 @@
         "ep_num": 1, 
         "title": "Movie", 
         "servers": [
-          { "name": "Server 1 ", "video_url": "https://drive.google.com/file/d/1GgJ95Xa2WIWvONKMOhtM37MqTFHZitEn/preview" },
-          { "name": "Server 2 ", "video_url": "https://short.icu/eKs93w1FL" },
-          { "name": "Server 3 ", "video_url": "https://thepeak.4meplayer.com/#hnjga" }
+          { "name": "Server 1 ", "video_url": "https://drive.google.com/file/d/1sR1V-omPhm9M8XYq3pyTaPkiA3_5PGju/preview" },
+          { "name": "Server 2 ", "video_url": "https://short.icu/eFGiyxdhN" },
+          { "name": "Server 3 ", "video_url": "https://thepeak.4meplayer.com/#5fk1q" }
         ]
       }
     ]

@@ -120,14 +120,13 @@ main { margin-top: 70px; min-height: 100vh; }
 
 .ep-header { border-bottom: 1px solid var(--border); padding-bottom: 10px; margin-bottom: 15px; }
 .ep-header h3 { color: var(--text-main); font-size: 1.1rem; display: flex; align-items: center; gap: 8px;}
-/* --- อัปเดต Player UI V2 เฉพาะปุ่มตอน (Episodes) --- */
 .ep-btn { 
-    width: 100%; /* สำคัญ: บังคับให้ปุ่มกว้างเต็มกรอบ */
-    box-sizing: border-box; /* ป้องกันขอบทะลุ */
-    background: #0a0a0a; /* ใช้สีดำเข้มตามรูปภาพ */
-    border: 1px solid transparent; /* ซ่อนกรอบไว้ก่อน */
+    width: 100%;
+    box-sizing: border-box; 
+    background: #0a0a0a; 
+    border: 1px solid transparent; 
     color: var(--text-muted); 
-    padding: 14px 20px; /* ปรับให้ปุ่มอ้วนขึ้นนิดนึงเหมือนในรูป */
+    padding: 14px 20px; 
     margin-bottom: 8px; 
     border-radius: 6px; 
     text-align: left; 
@@ -138,13 +137,12 @@ main { margin-top: 70px; min-height: 100vh; }
     align-items: center; 
 }
 
-/* ตั้งค่าไอคอน Play ที่มาจาก <i class="fa-solid fa-play"></i> */
 .ep-btn i { 
     font-size: 0.75rem; 
     margin-right: 12px; 
-    opacity: 0; /* ซ่อนไว้ตอนปกติ */
+    opacity: 0; 
     transition: 0.2s;
-    width: 12px; /* ล็อกความกว้างไว้ ข้อความจะได้ตรงกันหมด */
+    width: 12px; 
 }
 
 .ep-btn:hover { 
@@ -152,14 +150,12 @@ main { margin-top: 70px; min-height: 100vh; }
     color: #fff; 
 }
 
-/* สถานะ Active (ตอนที่กำลังเล่น) */
 .ep-btn.active { 
-    background: #151a1e; /* พื้นหลังสว่างขึ้นมานิดนึง */
-    border: 1px solid var(--accent); /* กรอบสีฟ้า */
+    background: #151a1e; 
+    border: 1px solid var(--accent); 
     color: #fff; 
 }
 
-/* โชว์ไอคอน Play สีฟ้า เมื่อเป็นตอนที่กำลังเล่น */
 .ep-btn.active i { 
     opacity: 1; 
     color: var(--accent); 
@@ -180,32 +176,29 @@ main { margin-top: 70px; min-height: 100vh; }
 .video-loading-overlay .spinner { width: 50px; height: 50px; border: 5px solid var(--bg-tertiary); border-top: 5px solid var(--accent); margin-bottom: 15px; }
 .video-loading-overlay p { font-size: 0.9rem; letter-spacing: 1px; font-weight: 500; }
 
-/* --- อัปเดต Card Anime รูปภาพ & ลูกเล่น --- */
 .anime-img-wrapper {
     position: relative;
     width: 100%;
     height: 300px;
-    overflow: hidden; /* ป้องกันรูปและลูกเล่นล้นออกนอกกรอบ */
+    overflow: hidden; 
 }
 
-/* เอาความสูงไปไว้ที่ wrapper แทน แล้วปรับรูปให้เต็ม wrapper */
 .anime-img { 
     width: 100%; 
     height: 100%; 
     object-fit: cover; 
-    transition: transform 0.4s ease; /* เตรียมไว้ทำลูกเล่นซูมตอนโฮเวอร์ */
+    transition: transform 0.4s ease; 
 }
 
 .anime-card:hover .anime-img {
-    transform: scale(1.05); /* รูปซูมเข้านิดนึงตอนชี้เมาส์ */
+    transform: scale(1.05); 
 }
 
-/* ป้าย Quality (HD, 4K) มุมขวาบน */
 .quality-badge {
     position: absolute;
     top: 10px;
     right: 10px;
-    background-color: var(--accent); /* ใช้สีฟ้าหลักของคุณ */
+    background-color: var(--accent); 
     color: #fff;
     font-size: 0.75rem;
     font-weight: 600;
@@ -216,12 +209,11 @@ main { margin-top: 70px; min-height: 100vh; }
     letter-spacing: 0.5px;
 }
 
-/* ปุ่ม Bookmark มุมขวาล่าง (ซ่อนไว้ก่อน โชว์ตอน Hover) */
 .bookmark-btn {
     position: absolute;
     bottom: 10px;
     right: 10px;
-    background: rgba(10, 10, 10, 0.75); /* ดำโปร่งแสง */
+    background: rgba(10, 10, 10, 0.75);
     color: var(--text-main);
     border: 1px solid var(--border);
     width: 36px;
@@ -231,20 +223,19 @@ main { margin-top: 70px; min-height: 100vh; }
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    opacity: 0; /* ซ่อนไว้ */
-    transform: translateY(10px); /* เลื่อนลงไปนิดนึงเตรียมทำแอนิเมชันเด้งขึ้น */
+    opacity: 0; 
+    transform: translateY(10px); 
     transition: all 0.3s ease;
     z-index: 2;
-    backdrop-filter: blur(4px); /* เบลอพื้นหลังปุ่ม */
+    backdrop-filter: blur(4px); 
 }
 
-/* โชว์ปุ่ม Bookmark ตอน Hover ที่การ์ด */
 .anime-card:hover .bookmark-btn {
     opacity: 1;
     transform: translateY(0);
 }
 
-/* ลูกเล่นตอน Hover ที่ตัวปุ่ม Bookmark เอง */
+/* Hover Bookmark เอง */
 .bookmark-btn:hover {
     background: var(--accent);
     border-color: var(--accent);
@@ -254,7 +245,7 @@ main { margin-top: 70px; min-height: 100vh; }
 
 /* --- Auth Modal --- */
 .auth-modal {
-    display: none; /* ซ่อนไว้ก่อน */
+    display: none;
     position: fixed;
     top: 0; left: 0;
     width: 100%; height: 100%;
@@ -343,23 +334,23 @@ main { margin-top: 70px; min-height: 100vh; }
 .history-info h3 { font-size: 1rem; margin-bottom: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1;}
 .history-info i { color: var(--text-muted); transition: 0.3s; }
 .history-card:hover .history-info i { color: var(--accent); }
+
+/* --- Trailer --- */
 .anime-actions {
     position: absolute;
     bottom: 10px;
-    right: 50px;      /* 👈 จุดสำคัญ: ขยับมาทางซ้าย 55px เพื่อไม่ให้ทับปุ่ม Bookmark */
+    right: 50px;     
     z-index: 20;
-    opacity: 0;       /* ซ่อนไว้ก่อน */
+    opacity: 0; 
     transform: translateY(10px);
     transition: all 0.3s ease;
 }
 
-/* โชว์ปุ่มลูกตาตอนเอาเมาส์ชี้การ์ด */
 .anime-card:hover .anime-actions {
     opacity: 1;
     transform: translateY(0);
 }
 
-/* --- 3. สไตล์ของปุ่มลูกตา --- */
 .action-btn {
     width: 35px;
     height: 35px;
@@ -384,18 +375,14 @@ main { margin-top: 70px; min-height: 100vh; }
 
 @media (max-width: 768px) {
     .anime-actions {
-        opacity: 1;               /* โชว์ปุ่มเลย ไม่ต้องรอ Hover */
-        transform: translateY(0); /* เอาปุ่มขึ้นมาเลย */
+        opacity: 1;
+        transform: translateY(0);
     }
-    
-    /* อาจจะปรับขนาดปุ่มให้เล็กลงนิดนึงบนมือถือ จะได้ไม่บังรูปเกินไป */
     .action-btn, .bookmark-btn {
         width: 32px;
         height: 32px;
         font-size: 0.9rem;
     }
-
-    /* ปรับระยะให้ขยับเข้ามานิดนึงเผื่อปุ่มเล็กลง */
     .anime-actions {
         right: 48px; 
     }

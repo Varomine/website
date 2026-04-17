@@ -949,8 +949,7 @@ function openPreview(animeId, event) {
     if (event) event.stopPropagation();
 
     const anime = animeList.find(a => String(a.id) === String(animeId));
-    
-    // เช็คว่ามีข้อมูล preview ใน data.json หรือไม่ (และต้องไม่ว่างเปล่า)
+  
     if (!anime || !anime.preview || anime.preview.trim() === "") {
         showNotification('No Trailer found for this anime', 'error'); 
         return; 
@@ -958,23 +957,21 @@ function openPreview(animeId, event) {
 
     const modal = document.getElementById('preview-modal');
     const container = document.getElementById('preview-container');
-    
-    // เช็คว่าใน JSON ใส่มาเป็น <iframe...> หรือใส่มาแค่ลิงก์ URL
+
     let iframeHTML = anime.preview;
     if (!iframeHTML.includes('<iframe')) {
-        // ถ้าใส่มาแค่ลิงก์ ให้สร้าง iframe ครอบให้เลย
         iframeHTML = `<iframe src="${anime.preview}" width="100%" height="100%" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
     }
 
     container.innerHTML = iframeHTML;
-    modal.style.display = 'flex'; // แสดงหน้าต่าง
+    modal.style.display = 'flex'; 
 }
 
 function closePreview() {
     const modal = document.getElementById('preview-modal');
     const container = document.getElementById('preview-container');
     modal.style.display = 'none';
-    container.innerHTML = ''; // เคลียร์ iframe ทิ้งเพื่อหยุดเสียงวิดีโอที่กำลังเล่นอยู่
+    container.innerHTML = '';
 }
 
 // ==========================================
