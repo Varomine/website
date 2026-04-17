@@ -1746,5 +1746,115 @@
         ]
       }
     ]
+  },
+  {
+    "id": "21",
+    "title": "The Angel Next Door Spoils Me Rotten",
+    "MalId": 50739,
+    "preview": "https://www.youtube.com/embed/TITF5WMjrDo?si=iM3wPUg3gjlZufcW",
+    "quality": "FHD",
+    "search_keywords": ["The Angel Next Door Spoils Me Rotten","Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken","お隣の天使様にいつの間にか駄目人間にされていた件"],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx143338-zhyDVYgEzsm5.png",
+    "banner": "https://i.ytimg.com/vi/MYW45fNx21s/mqdefault.jpg",
+    "synopsis": "Mahiru Shiina is worthy of her nickname \"Angel\": she is a divine beauty loved by all, and she excels in both academics and athletics. Shiina lives in an entirely different world from Amane Fujimiya, her next-door neighbor.",
+    "genres": ["Romance"],
+    "episodes": [
+      {
+        "ep_num": 1, 
+        "title": "Episode 1", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/wmvlwPlIc" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#cqglw" }
+        ]
+      },
+      {
+        "ep_num": 2, 
+        "title": "Episode 2", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/xntUIJqvK" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#rwo1s" }
+        ]
+      },
+      {
+        "ep_num": 3, 
+        "title": "Episode 3", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/xWQQ1Nbnj" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#eb3jm" }
+        ]
+      },
+      {
+        "ep_num": 4, 
+        "title": "Episode 4", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/zCFg3eVri" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#9gc8g" }
+        ]
+      },
+      {
+        "ep_num": 5, 
+        "title": "Episode 5", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/PrdgsdW9W" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#hnvyg" }
+        ]
+      },
+      {
+        "ep_num": 6, 
+        "title": "Episode 6", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/UFDpZH4U_" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#8elij" }
+        ]
+      },
+      {
+        "ep_num": 7, 
+        "title": "Episode 7", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/evuU98bWD" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#5f19a" }
+        ]
+      },
+      {
+        "ep_num": 8, 
+        "title": "Episode 8", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/UPOXauBKr-" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#6runc" }
+        ]
+      },
+      {
+        "ep_num": 9, 
+        "title": "Episode 9", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/mlZbH5dVu" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#xl8kq" }
+        ]
+      },
+      {
+        "ep_num": 10, 
+        "title": "Episode 10", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/oyXJk919F" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#yamov" }
+        ]
+      },
+      {
+        "ep_num": 11, 
+        "title": "Episode 11", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/Var1a-Fih" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#ijtzw" }
+        ]
+      },
+      {
+        "ep_num": 12, 
+        "title": "Episode 12", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/rKaxuII_0" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#yamom" }
+        ]
+      }
+    ]
   }
 ]
