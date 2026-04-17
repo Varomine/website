@@ -456,6 +456,11 @@ function generateGridHTML(list) {
                         <button class="bookmark-btn" data-anime-id="${anime.id}" onclick="handleBookmark(event, '${anime.id}')" title="Add to Bookmark">
                             <i class="${iconClass}" style="${iconColor}"></i>
                         </button>
+                        <div class="anime-actions">
+                            <button class="action-btn preview-btn" onclick="openPreview('${anime.id}', event)" title="Preview">
+                                <i class="fa-solid fa-eye"></i>
+                            </button>
+                        </div>
                     </div>
                     <div class="anime-info">
                         <h3>${anime.title}</h3>
@@ -940,6 +945,38 @@ function showNotification(message, type = 'success') {
     }, 3000);
 }
 
+function openPreview(animeId, event) {
+    if (event) event.stopPropagation();
+
+    const anime = animeList.find(a => String(a.id) === String(animeId));
+    
+    // เช็คว่ามีข้อมูล preview ใน data.json หรือไม่ (และต้องไม่ว่างเปล่า)
+    if (!anime || !anime.preview || anime.preview.trim() === "") {
+        showNotification('No Trailer found for this anime', 'error'); 
+        return; 
+    }
+
+    const modal = document.getElementById('preview-modal');
+    const container = document.getElementById('preview-container');
+    
+    // เช็คว่าใน JSON ใส่มาเป็น <iframe...> หรือใส่มาแค่ลิงก์ URL
+    let iframeHTML = anime.preview;
+    if (!iframeHTML.includes('<iframe')) {
+        // ถ้าใส่มาแค่ลิงก์ ให้สร้าง iframe ครอบให้เลย
+        iframeHTML = `<iframe src="${anime.preview}" width="100%" height="100%" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
+    }
+
+    container.innerHTML = iframeHTML;
+    modal.style.display = 'flex'; // แสดงหน้าต่าง
+}
+
+function closePreview() {
+    const modal = document.getElementById('preview-modal');
+    const container = document.getElementById('preview-container');
+    modal.style.display = 'none';
+    container.innerHTML = ''; // เคลียร์ iframe ทิ้งเพื่อหยุดเสียงวิดีโอที่กำลังเล่นอยู่
+}
+
 // ==========================================
 // 11. Bug Fixes <script type="module">
 // ==========================================
@@ -961,3 +998,5 @@ window.switchServer = switchServer;
 window.resetVideo = resetVideo;
 window.showNotification = showNotification;
 window.handleForgotPassword = handleForgotPassword;
+window.openPreview = openPreview;
+window.closePreview = closePreview;

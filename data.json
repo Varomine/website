@@ -336,8 +336,7 @@
         "title": "Episode 8", 
         "servers": [
           { "name": "Server 1 ", "video_url": "https://short.icu/XeIiB9FCn" },
-          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#3drf9" },
-          { "name": "Test ", "video_url": "https://drive.google.com/file/d/1hHzWNjFeqk0T7ueu6lfTP5v4Cwgy2hc4/preview" }
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#3drf9" }
         ]
       },
       {
@@ -454,10 +453,18 @@
       },
       {
         "ep_num": 23, 
-        "title": "Episode 23", 
+        "title": "Episode 23 (Extra)", 
         "servers": [
           { "name": "Server 1 ", "video_url": "https://short.icu/F3JNEME6-" },
           { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#5fg8b" }
+        ]
+      },
+      {
+        "ep_num": 24, 
+        "title": "Episode 24 (OVA)", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/rvpiSYi4e" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#5frr5" }
         ]
       }
     ]
@@ -578,7 +585,7 @@
     "image": "https://resizing.flixster.com/jz7hX0p-xWoJEXLuSoltuSzh4DI=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzJkYTgwODZhLWE3NDMtNGFmMC05MTViLTVmZmVkMmY5OGQ0Zi5qcGc=",
     "banner": "https://sevenseasentertainment.com/wp-content/uploads/2023/07/siteheader_summerghostLN_938%C3%97326.jpg",
     "synopsis": "An urban legend speaks of a summer ghost, a spirit girl who appears when fireworks are set off.",
-    "genres": ["Drama", "Supernatural"],
+    "genres": ["Drama", "Supernatural","Movie"],
     "episodes": [
       {
         "ep_num": 1, 
@@ -1325,7 +1332,7 @@
     "image": "https://m.media-amazon.com/images/M/MV5BZWE5ODJhODgtNjM1OS00NTcwLTllNzAtMjExMDE1NjcyNjBmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     "banner": "https://ariacompany.net/5th/images/s-aria_04.jpg",
     "synopsis": "Aspiring Orange Company Undine Anya Dostoyevskaya feels dejected upon learning that her gondolier mentor, Alice Carroll, is not spending much time with her own mentor, Athena Glory.",
-    "genres": ["Slice of Life","Fantasy","Sci-Fi"],
+    "genres": ["Slice of Life","Fantasy","Sci-Fi","Movie"],
     "episodes": [
       {
         "ep_num": 1, 
@@ -1346,7 +1353,7 @@
     "image": "https://github.com/Varomine/website/blob/main/image/Aria_the_Benedizione_Key_Visual_2.png?raw=true",
     "banner": "https://m.media-amazon.com/images/M/MV5BNjFmYzk2YWUtMWZlOS00Mjc0LTljYWUtNmE0NjFiYjEyYjgzXkEyXkFqcGc@._V1_.jpg",
     "synopsis": "Aika S. Granzchesta surprises everyone when she rejects tradition and refuses to inherit the company's legendary gondola.",
-    "genres": ["Slice of Life","Fantasy","Sci-Fi"],
+    "genres": ["Slice of Life","Fantasy","Sci-Fi","Movie"],
     "episodes": [
       {
         "ep_num": 1, 
@@ -1358,5 +1365,353 @@
         ]
       }
      ]
+  },
+  {
+    "id": "17",
+    "title": "CLANNAD: After Story",
+    "preview": "https://www.youtube.com/embed/IecYMqp1N4k?si=zg12471amb_K23CV",
+    "quality": "FHD",
+    "search_keywords": ["CLANNAD: After Story","CLANNAD after story","Clannad After Story","クラナドアフターストーリー"],
+    "image": "https://myanimelist.net/images/anime/1299/110774.jpg",
+    "banner": "https://m.media-amazon.com/images/S/pv-target-images/74464c388b22dc556abb5cea5d132f8321ca41ec8be80b58dda02d26a660a80b._SX1080_FMjpg_.jpg",
+    "synopsis": "Tomoya Okazaki and Nagisa Furukawa have graduated from high school, and together, they experience the emotional rollercoaster of growing up.",
+    "genres": ["Drama","Romance","Slice of Life"],
+    "episodes": [
+      {
+        "ep_num": 1, 
+        "title": "Episode 1", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/IIKMeIxAh" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#qzkca" }
+        ]
+      },
+      {
+        "ep_num": 2, 
+        "title": "Episode 2", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/iwSUzDE2x" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#gsp9b" }
+        ]
+      },
+      {
+        "ep_num": 3, 
+        "title": "Episode 3", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/L6VPHF4gx" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#zvtql" }
+        ]
+      },
+      {
+        "ep_num": 4, 
+        "title": "Episode 4", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/IuPUJKj7S" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#8ecws" }
+        ]
+      },
+      {
+        "ep_num": 5, 
+        "title": "Episode 5", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/zQmV191h7" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#9g1m1" }
+        ]
+      },
+      {
+        "ep_num": 6, 
+        "title": "Episode 6", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/SdEAFX8KN" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#ac5yq" }
+        ]
+      },
+      {
+        "ep_num": 7, 
+        "title": "Episode 7", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/qDZP9Xn9c" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#dmh3y" }
+        ]
+      },
+      {
+        "ep_num": 8, 
+        "title": "Episode 8", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/_LY-neUnj" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#oxmuu" }
+        ]
+      },
+      {
+        "ep_num": 9, 
+        "title": "Episode 9", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/WCfFMfcrr" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#hnjsc" }
+        ]
+      },
+      {
+        "ep_num": 10, 
+        "title": "Episode 10", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/UmNvGLq5G" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#kt8fz" }
+        ]
+      },
+      {
+        "ep_num": 11, 
+        "title": "Episode 11", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/UYPP7pnkF" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#fkwhz" }
+        ]
+      },
+      {
+        "ep_num": 12, 
+        "title": "Episode 12", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/iqCOelyDY" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#5frs3" }
+        ]
+      },
+      {
+        "ep_num": 13, 
+        "title": "Episode 13", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/BO-yZgl3l" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#xl96m" }
+        ]
+      },
+      {
+        "ep_num": 14, 
+        "title": "Episode 14", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/srQHbbaeN" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#yavlg" }
+        ]
+      },
+      {
+        "ep_num": 15, 
+        "title": "Episode 15", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/5awYZcAUD" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#yavle" }
+        ]
+      },
+      {
+        "ep_num": 16, 
+        "title": "Episode 16", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/Iv8XCAeF7" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#qzkmd" }
+        ]
+      },
+      {
+        "ep_num": 17, 
+        "title": "Episode 17", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/fUm7nkEmr" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#zvt9w" }
+        ]
+      },
+      {
+        "ep_num": 18, 
+        "title": "Episode 18", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/sg2gpozLC" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#9g1bv" }
+        ]
+      },
+      {
+        "ep_num": 19, 
+        "title": "Episode 19", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/72q4inEka" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#ac539" }
+        ]
+      },
+      {
+        "ep_num": 20, 
+        "title": "Episode 20", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/Q1oFoLpPp" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#hnjcm" }
+        ]
+      },
+      {
+        "ep_num": 21, 
+        "title": "Episode 21", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/mIGbb_cQe" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#rwyia" }
+        ]
+      },
+      {
+        "ep_num": 22, 
+        "title": "Episode 22", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/gCUuHxMB8" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#pixvw" }
+        ]
+      },
+      {
+        "ep_num": 23, 
+        "title": "Episode 23", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/88sSZ031n" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#n1uqi" }
+        ]
+      },
+      {
+        "ep_num": 24, 
+        "title": "Episode 24 (Extra)", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/_35Odq0yo" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#hn1gs" }
+        ]
+      },
+      {
+        "ep_num": 25, 
+        "title": "Episode 25 (OVA)", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/gsq1yNU0T" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#5fkzc" }
+        ]
+      }
+     ]
+  },
+  {
+    "id": "18",
+    "title": "Clannad Movie",
+    "quality": "FHD",
+    "search_keywords": ["CLANNAD: Movie","Clannad Movie","クラナドムービー"],
+    "image": "https://upload.wikimedia.org/wikipedia/en/c/cc/Clannad_movie.jpg",
+    "banner": "https://upload.wikimedia.org/wikipedia/en/c/cc/Clannad_movie.jpg",
+    "synopsis": "The story follows Tomoyo Sakagami, a transfer student who",
+    "genres": ["Drama","Romance","Slice of Life","Movie"],
+    "episodes": [
+      {
+        "ep_num": 1, 
+        "title": "Movie", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://drive.google.com/file/d/10a1k_bYO5CA-QSlACMWurMq3Ps2hp06m/preview" },
+          { "name": "Server 2 ", "video_url": "https://short.icu/QzHv_-kjG" },
+          {"name": "Server 3 ", "video_url": "https://thepeak.4meplayer.com/#pijnd" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "title": "Frieren: Beyond Journey's End [ SS2 ]",
+    "quality": "FHD",
+    "search_keywords": ["Frieren: Beyond Journey's End", "คำอธิษฐานในวันที่จากลา", "Frieren", "ฟริเรน", "ฟริเรน: คำอธิษฐานในวันที่จากลา", "葬送のフリーレン", "Sousou no Frieren"],
+    "image": "https://cdn.myanimelist.net/r/200x268/images/anime/1921/154528.jpg?s=e0b13d53e34bdb5142fbf8fdb9752261",
+    "banner": "https://static.wixstatic.com/media/25ad9d_415ee094fa5549beae49a774c385c8f1~mv2.jpg/v1/fill/w_568,h_284,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/25ad9d_415ee094fa5549beae49a774c385c8f1~mv2.jpg",
+    "synopsis": "ontinues the journey north through the dangerous Northern Plateau, with Frieren, Fern, and Stark encountering stronger demons",
+    "genres": ["Adventure", "Fantasy", "Slice of Life", "Supernatural"],
+    "episodes": [
+      {
+        "ep_num": 1, 
+        "title": "Episode 1", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/Hw0-Mzs6D" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#8ebkp" }
+        ]
+      },
+      {
+        "ep_num": 2, 
+        "title": "Episode 2", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/E7LLiD2xN" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#xl3pa" }
+        ]
+      },
+      {
+        "ep_num": 3, 
+        "title": "Episode 3", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/jJJlKpmJm" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#qzvx3" }
+        ]
+      },
+      {
+        "ep_num": 4, 
+        "title": "Episode 4", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/2J5Dn5Ukar" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#v5f3u" }
+        ]
+      },
+      {
+        "ep_num": 5, 
+        "title": "Episode 5", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/cd8cFKk6X" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#kt699" }
+        ]
+      },
+      {
+        "ep_num": 6, 
+        "title": "Episode 6", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/D37IlNk2Y" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#cqzoi" }
+        ]
+      },
+      {
+        "ep_num": 7, 
+        "title": "Episode 7", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/bqXCT0DjG" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#pijar" }
+        ]
+      },
+      {
+        "ep_num": 8, 
+        "title": "Episode 8", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/8VFt6UldF" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#juoq6" }
+        ]
+      },
+      {
+        "ep_num": 9, 
+        "title": "Episode 9", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/yERnjUbIs" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#ebyp8" }
+        ]
+      },
+      {
+        "ep_num": 10, 
+        "title": "Episode 10", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/awMbYesLT" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#fktmq" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "title": "Your Name.",
+    "quality": "4K",
+    "preview": "https://www.youtube.com/embed/xU47nhruN-Q",
+    "search_keywords": ["Your Name.","Kimi no Na wa.","君の名は。"],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21519-SUo3ZQuCbYhJ.png",
+    "banner": "https://assets.sbs.com.au/dims4/default/77f2bc7/2147483647/strip/true/crop/1280x720+0+0/resize/1280x720!/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Fdrupal%2Ffilm%2Fpublic%2Fmma6211le-stills-master_3.jpg&imwidth=1280",
+    "synopsis": "Taki, a Tokyo boy, and Mitsuha, a rural girl, who mysteriously swap bodies. They build a connection by leaving notes, but discover they are separated by time and a looming disaster.",
+    "genres": ["Drama","Romance","Supernatural","Movie"],
+    "episodes": [
+      {
+        "ep_num": 1, 
+        "title": "Movie", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://drive.google.com/file/d/1GgJ95Xa2WIWvONKMOhtM37MqTFHZitEn/preview" },
+          { "name": "Server 2 ", "video_url": "https://short.icu/eKs93w1FL" },
+          { "name": "Server 3 ", "video_url": "https://thepeak.4meplayer.com/#hnjga" }
+        ]
+      }
+    ]
   }
 ]
