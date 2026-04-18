@@ -100,6 +100,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
         } else if (document.getElementById('genres-content')) {
             generateGenresPage();
+            
             if (genreQuery) {
                 filterByGenreOnPage(genreQuery);
             } else {
@@ -565,6 +566,7 @@ function loadMoreHome() {
 }
 
 function generateGenresPage() {
+    
     const genresSet = new Set();
     animeList.forEach(anime => {
         if(anime.genres) anime.genres.forEach(g => genresSet.add(g));
@@ -572,9 +574,10 @@ function generateGenresPage() {
 
     const container = document.getElementById('genres-tags-container');
     if(!container) return;
-
+    
     let html = `<div class="genre-tag" id="tag-All" onclick="filterByGenreOnPage('All')">All Anime</div>`;
     genresSet.forEach(genre => {
+        
         html += `<div class="genre-tag" id="tag-${genre}" onclick="filterByGenreOnPage('${genre}')">${genre}</div>`;
     });
     container.innerHTML = html;
@@ -599,6 +602,7 @@ function filterByGenreOnPage(genre) {
     const initialRender = genreFilteredAnime.slice(0, genreVisibleCount);
 
     const resultsContainer = document.getElementById('genres-results');
+    
     resultsContainer.innerHTML = `
         <h2 class="section-title" style="font-size:1.2rem; color:var(--text-muted);">Showing: ${genre} (${genreFilteredAnime.length} titles)</h2>
         <div id="genre-grid-container">
@@ -960,7 +964,7 @@ function openPreview(animeId, event) {
 
     let iframeHTML = anime.preview;
     if (!iframeHTML.includes('<iframe')) {
-        iframeHTML = `<iframe src="${anime.preview}" width="100%" height="100%" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
+        iframeHTML = `<iframe src="${anime.preview}" width="100%" height="100%" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen autoplay></iframe>`;
     }
 
     container.innerHTML = iframeHTML;
@@ -972,6 +976,32 @@ function closePreview() {
     const container = document.getElementById('preview-container');
     modal.style.display = 'none';
     container.innerHTML = '';
+}
+
+// =========================================
+// Donate Modal & Copy Address
+// =========================================
+function openDonateModal() {
+    document.getElementById('donate-modal').style.display = 'flex';
+}
+
+function closeDonateModal() {
+    document.getElementById('donate-modal').style.display = 'none';
+}
+
+function copyCryptoAddress(networkName, address) {
+    navigator.clipboard.writeText(address).then(() => {
+        if (typeof showNotification === "function") {
+            showNotification(`Copied ${networkName} address!`, 'success');
+        } else {
+            alert(`Copied ${networkName} address!`);
+        }
+    }).catch(err => {
+        console.error('Failed to copy: ', err);
+        if (typeof showNotification === "function") {
+            showNotification('Failed to copy address. Please try again.', 'error');
+        }
+    });
 }
 
 // ==========================================
@@ -997,3 +1027,6 @@ window.showNotification = showNotification;
 window.handleForgotPassword = handleForgotPassword;
 window.openPreview = openPreview;
 window.closePreview = closePreview;
+window.openDonateModal = openDonateModal;
+window.closeDonateModal = closeDonateModal;
+window.copyCryptoAddress = copyCryptoAddress;

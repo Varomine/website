@@ -19,6 +19,7 @@
                         <li><a href="index.html">Home</a></li>
                         <li><a href="genres.html">Genres</a></li>
                         <li id="nav-bookmark" style="display: none;"><a href="index.html?page=bookmarks">Bookmarks</a></li>
+                        <li><a href="#" onclick="openDonateModal()">Donate</a></li>
                     </ul>
                 </nav>
                 <div class="search-box">
@@ -80,6 +81,54 @@
             <h2 style="margin-bottom: 15px; font-size: 1.5rem; text-align: left;">Trailer Preview</h2>
             <div id="preview-container" style="width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden;">
                 </div>
+        </div>
+    </div>
+
+    <div id="donate-modal" class="auth-modal" style="display: none;">
+        <div class="auth-box">
+            <span class="close-modal" onclick="closeDonateModal()"><i class="fa-solid fa-xmark"></i></span>
+            <h2 style="text-align: center; margin-bottom: 10px;">Support☕</h2>
+            <p style="text-align: center; color: var(--text-muted); margin-bottom: 25px; font-size: 0.9rem;">
+                I've doing this project alone and it's been a lot of work to keep it running smoothly. It'd be nice if you donate to keep me maintain and improve this project. Thanks for your support! 
+            </p>
+            <p style="text-align: center; color: var(--text-muted); margin-bottom: 25px; font-size: 0.9rem;">
+                ( Btw if the donation reached my goal I can upgrade video servers to make it faster, more stable and free of ads )
+            </p>
+            
+            <div class="crypto-list">
+                <div class="crypto-item" onclick="copyCryptoAddress('Solana', 'A6Lrk3Bg9fMmNpGN1TLEJWiHErHcPyhCStTKJfkD46af')">
+                    <div class="crypto-info">
+                        <i class="fa-solid fa-bolt" style="color: #14F195;"></i>
+                        <div class="crypto-text">
+                            <h4>Solana</h4>
+                            <span>SOL Network</span>
+                        </div>
+                    </div>
+                    <button class="copy-btn"><i class="fa-regular fa-copy"></i></button>
+                </div>
+
+                <div class="crypto-item" onclick="copyCryptoAddress('Ethereum', '0x8c38316DB12f1c5800Ea278076C42579eaAf5293')">
+                    <div class="crypto-info">
+                        <i class="fa-brands fa-ethereum" style="color: #627EEA;"></i>
+                        <div class="crypto-text">
+                            <h4>Ethereum</h4>
+                            <span>ERC-20</span>
+                        </div>
+                    </div>
+                    <button class="copy-btn"><i class="fa-regular fa-copy"></i></button>
+                </div>
+
+                <div class="crypto-item" onclick="copyCryptoAddress('Polygon', '0x8c38316DB12f1c5800Ea278076C42579eaAf5293')">
+                    <div class="crypto-info">
+                        <i class="fa-solid fa-draw-polygon" style="color: #8247E5;"></i>
+                        <div class="crypto-text">
+                            <h4>Polygon</h4>
+                            <span>MATIC Network</span>
+                        </div>
+                    </div>
+                    <button class="copy-btn"><i class="fa-regular fa-copy"></i></button>
+                </div>
+            </div>
         </div>
     </div>
 
