@@ -8,7 +8,7 @@
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154587-qQTzQnEJJ3oB.jpg",
     "banner": "https://github.com/Varomine/website/blob/main/image/unnamed.webp?raw=true",
     "preview": "https://www.youtube.com/embed/pqUZaKn7flw?si=nxWLrP3i9vRfZIjF",
-    "genres": ["Fantasy", "Adventure", "Supernatural", "Slice of Life"],
+    "genres": ["Adventure", "Drama", "Fantasy"],
     "synopsis": "an elven mage named Frieren, part of a hero party that defeated the Demon King",
     "episodes": [
       {
@@ -249,7 +249,7 @@
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx204319-qhw2yBXBUgJT.png",
     "banner": "https://sevenseasentertainment.com/wp-content/uploads/2021/06/siteheader_do-you-like-big-girls_864x300.jpg",
     "synopsis": "Sota, who becomes the hall director for a university women's volleyball team due to his sister's scheming.",
-    "genres": ["Comedy", "Ecchi", "Romance"],
+    "genres": ["Sports","Hentai"],
     "episodes": [
       {
         "ep_num": 1, 
@@ -279,7 +279,7 @@
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2167-pSDBcyc0vjej.jpg",
     "banner": "https://image.tmdb.org/t/p/w780/vB7HwJNhlRA9tPViK32bK0hVCmb.jpg",
     "synopsis": "omoya Okazaki, a cynical delinquent who finds new purpose in life after meeting Nagisa Furukawa, a frail girl repeating her final year of high school.",
-    "genres": ["Drama", "Romance", "Slice of Life", "School Life"],
+    "genres": ["Drama", "Romance"],
     "episodes": [
       {
         "ep_num": 1, 
@@ -459,18 +459,10 @@
       },
       {
         "ep_num": 23, 
-        "title": "Episode 23 (Extra)", 
+        "title": "Episode 23", 
         "servers": [
           { "name": "Server 1 ", "video_url": "https://short.icu/F3JNEME6-" },
           { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#5fg8b" }
-        ]
-      },
-      {
-        "ep_num": 24, 
-        "title": "Episode 24 (OVA)", 
-        "servers": [
-          { "name": "Server 1 ", "video_url": "https://short.icu/rvpiSYi4e" },
-          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#5frr5" }
         ]
       }
     ]
@@ -482,10 +474,10 @@
     "preview": "https://www.youtube.com/embed/JfP812MYYT4?si=-Xm2OD9odsJ_dgNz",
     "quality": "FHD",
     "search_keywords": ["Hell Mode: The Hardcore Gamer Dominates in an Another World with Garbage Balancing","ヘルモード ～やり込み好きのゲーマーは廃設定的異世界で無双する～","Heru Mōdo: Yarikomizuki no Gēmā wa Hai Settei no Isekai de Musō Suru"],
-    "image": "https://github.com/Varomine/website/blob/main/image/hell-mode-anime-key-visual-v0-ElhmuRVTHq1nyVUTO1uHe5FcJVqEO22byJMdvtty2D0.webp?raw=true",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185262-95wbx3Y9hCwm.jpg",
     "banner": "https://m.media-amazon.com/images/S/pv-target-images/adf135b7f05139012e1639d10f4a2f43743802c8991b93d2e3a9d559870e7c59.jpg",
     "synopsis": "a hardcore gamer is reincarnated into a fantasy world with a broken game system, where he uses his gaming knowledge to become overpowered and navigate the challenges of the new world.",
-    "genres": ["Action", "Adventure", "Fantasy", "Isekai"],
+    "genres": ["Action", "Adventure", "Fantasy"],
     "episodes": [
       {
         "ep_num": 1, 
@@ -618,7 +610,7 @@
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189565-OHhadYSsd0Bg.jpg",
     "banner": "https://i.ytimg.com/vi/Ol7dgu0Za2w/maxresdefault.jpg",
     "synopsis": "High schooler Eiyuu struggles with new romantic feelings for childhood friends Shio and Akari, unaware they might feel the same way.",
-    "genres": ["Romance", "Comedy", "Slice of Life", "School Life"],
+    "genres": ["Comedy", "Romance"],
     "episodes": [
       {
         "ep_num": 1,
@@ -729,7 +721,7 @@
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx477-CdKPHW7rGbUP.png",
     "banner": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/42f3205ed252de4c7b5599c46efa1a9b.jpg",
     "synopsis": "Akari, Aika, and Alice are three girls who share a single dream: to become the most talented gondoliers in all of Neo-Venezia.",
-    "genres": ["Slice of Life","Fantasy","Sci-Fi"],
+    "genres": ["Sci-Fi","Slice of Life"],
     "episodes": [
       {
         "ep_num": 1, 
@@ -847,7 +839,7 @@
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx962-hMxjrjZYObAw.png",
     "banner": "https://m.media-amazon.com/images/M/MV5BOTFkZTY1YzgtZDMwYS00MDRiLWJjZjYtMGY3MDg2NWMxNmZjXkEyXkFqcGc@._V1_.jpg",
     "synopsis": "continues Akari Mizunashi's tranquil life as a gondolier apprentice (Undine) on the water-covered planet Aqua",
-    "genres": ["Slice of Life","Fantasy","Sci-Fi"],
+    "genres": ["Sci-Fi","Slice of Life"],
     "episodes": [
       {
         "ep_num": 1, 
@@ -1069,7 +1061,7 @@
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx3297-FHuyO7uiefNg.png",
     "banner": "https://m.media-amazon.com/images/M/MV5BOTkzNDYzMzc2M15BMl5BanBnXkFtZTgwOTM0NjcwMzE@._V1_.jpg",
     "search_keywords": ["Aria the Origination","アリアザオリジネーション","アリア the origination"],
-    "genres": ["Slice of Life","Fantasy","Sci-Fi"],
+    "genres": ["Sci-Fi","Slice of Life"],
     "episodes": [
       {
         "ep_num": 1, 
@@ -1186,7 +1178,7 @@
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5244-tDxgLsUhQIBi.jpg",
     "banner": "https://m.media-amazon.com/images/M/MV5BOTFkZTY1YzgtZDMwYS00MDRiLWJjZjYtMGY3MDg2NWMxNmZjXkEyXkFqcGc@._V1_.jpg",
     "synopsis": "Short episode entitled \"A Miracle Of Us Being Able To Meet Again\", which can be also considered as \"Aria the Natural\" episode 0.",
-    "genres": ["Slice of Life","Fantasy","Sci-Fi"],
+    "genres": ["Sci-Fi","Slice of Life"],
     "episodes": [
       {
         "ep_num": 1, 
@@ -1207,7 +1199,7 @@
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2563-0rwQlDs37Yb8.png",
     "banner": "https://image2.b-ch.com/fix/2128h.png?impolicy=fitin&ww=640&hh=380",
     "synopsis": "Akari Mizunashi dreams of life after attaining her goal of becoming a Prima Undine, but upon waking realizes that she might not actually have the confidence to run Aria Company on her own. Wary of the future, she seeks advice from her mentor Alicia Florence—one of the three great \"Water Fairies\" of Neo-Venezia.",
-    "genres": ["Slice of Life","Fantasy","Sci-Fi"],
+    "genres": ["Sci-Fi","Slice of Life"],
     "episodes": [
       {
         "ep_num": 1, 
@@ -1228,7 +1220,7 @@
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4772-ybpWwYAbFfVo.png",
     "banner": "https://github.com/Varomine/website/blob/main/image/w9j08cj.png?raw=true",
     "synopsis": "With Aria Company closed for the day and her friends attending to other matters, Akari Mizunashi seizes this rare opportunity to go on a casual outing around Neo-Venezia with President Aria Pokoteng.",
-    "genres": ["Slice of Life","Fantasy","Sci-Fi"],
+    "genres": ["Sci-Fi","Slice of Life"],
     "episodes": [
       {
         "ep_num": 1, 
@@ -1249,7 +1241,7 @@
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx5196-r6nL4W4aPMfG.jpg",
     "banner": "https://github.com/Varomine/website/blob/main/image/Screenshot%202026-04-16%20161141.png?raw=true",
     "synopsis": "The path to becoming a Prima Undine—a guide who can lead tours on her gondola—-is long and arduous, but that does not mean there is no time to enjoy the pleasures Neo-Venezia has to offer!",
-    "genres": ["Slice of Life","Fantasy","Sci-Fi"],
+    "genres": ["Sci-Fi","Slice of Life"],
     "episodes": [
       {
         "ep_num": 1, 
@@ -1319,7 +1311,7 @@
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21043-nkFhFISXKXHR.png",
     "banner": "https://i.ytimg.com/vi/RYns8C_q_UA/maxresdefault.jpg ",
     "synopsis": "Now that Akari Mizunashi is a Prima Undine and head of the Aria Company with her own apprentice, Ai Aino, she cannot help but reminisce about her time as a Single.",
-    "genres": ["Slice of Life","Fantasy","Sci-Fi"],
+    "genres": ["Sci-Fi","Slice of Life"],
     "episodes": [
       {
         "ep_num": 1, 
@@ -1357,7 +1349,7 @@
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx117556-SbGBjNw0MDp2.jpg",
     "banner": "https://ariacompany.net/5th/images/s-aria_04.jpg",
     "synopsis": "Aspiring Orange Company Undine Anya Dostoyevskaya feels dejected upon learning that her gondolier mentor, Alice Carroll, is not spending much time with her own mentor, Athena Glory.",
-    "genres": ["Slice of Life","Fantasy","Sci-Fi","Movie"],
+    "genres": ["Sci-Fi","Slice of Life", "Movie"],
     "episodes": [
       {
         "ep_num": 1, 
@@ -1380,7 +1372,7 @@
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130558-8M8TeqrmQAbq.jpg",
     "banner": "https://m.media-amazon.com/images/M/MV5BNjFmYzk2YWUtMWZlOS00Mjc0LTljYWUtNmE0NjFiYjEyYjgzXkEyXkFqcGc@._V1_.jpg",
     "synopsis": "Aika S. Granzchesta surprises everyone when she rejects tradition and refuses to inherit the company's legendary gondola.",
-    "genres": ["Slice of Life","Fantasy","Sci-Fi","Movie"],
+    "genres": ["Sci-Fi","Slice of Life", "Movie"],
     "episodes": [
       {
         "ep_num": 1, 
@@ -1403,7 +1395,7 @@
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4181-zUKE7BZC62OF.png",
     "banner": "https://m.media-amazon.com/images/S/pv-target-images/74464c388b22dc556abb5cea5d132f8321ca41ec8be80b58dda02d26a660a80b._SX1080_FMjpg_.jpg",
     "synopsis": "Tomoya Okazaki and Nagisa Furukawa have graduated from high school, and together, they experience the emotional rollercoaster of growing up.",
-    "genres": ["Drama","Romance","Slice of Life"],
+    "genres": ["Drama","Romance"],
     "episodes": [
       {
         "ep_num": 1, 
@@ -1591,18 +1583,10 @@
       },
       {
         "ep_num": 24, 
-        "title": "Episode 24 (Extra)", 
+        "title": "Episode 24", 
         "servers": [
           { "name": "Server 1 ", "video_url": "https://short.icu/_35Odq0yo" },
           { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#hn1gs" }
-        ]
-      },
-      {
-        "ep_num": 25, 
-        "title": "Episode 25 (OVA)", 
-        "servers": [
-          { "name": "Server 1 ", "video_url": "https://short.icu/gsq1yNU0T" },
-          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#5fkzc" }
         ]
       }
      ]
@@ -1617,7 +1601,7 @@
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1723-PzMdQPvfcxxA.png",
     "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1723-PzMdQPvfcxxA.png",
     "synopsis": "The story follows Tomoyo Sakagami, a transfer student who",
-    "genres": ["Drama","Romance","Slice of Life","Movie"],
+    "genres": ["Drama","Romance","Supernatural","Movie"],
     "episodes": [
       {
         "ep_num": 1, 
@@ -1640,7 +1624,7 @@
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx182255-butzrqd4I0aC.jpg",
     "banner": "https://static.wixstatic.com/media/25ad9d_415ee094fa5549beae49a774c385c8f1~mv2.jpg/v1/fill/w_568,h_284,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/25ad9d_415ee094fa5549beae49a774c385c8f1~mv2.jpg",
     "synopsis": "ontinues the journey north through the dangerous Northern Plateau, with Frieren, Fern, and Stark encountering stronger demons",
-    "genres": ["Adventure", "Fantasy", "Slice of Life", "Supernatural"],
+    "genres": ["Adventure", "Drama", "Fantasy"],
     "episodes": [
       {
         "ep_num": 1, 
@@ -1734,7 +1718,7 @@
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21519-SUo3ZQuCbYhJ.png",
     "banner": "https://assets.sbs.com.au/dims4/default/77f2bc7/2147483647/strip/true/crop/1280x720+0+0/resize/1280x720!/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Fdrupal%2Ffilm%2Fpublic%2Fmma6211le-stills-master_3.jpg&imwidth=1280",
     "synopsis": "Taki, a Tokyo boy, and Mitsuha, a rural girl, who mysteriously swap bodies. They build a connection by leaving notes, but discover they are separated by time and a looming disaster.",
-    "genres": ["Drama","Romance","Supernatural","Movie"],
+    "genres": ["Drama","Movie"],
     "episodes": [
       {
         "ep_num": 1, 
@@ -1853,6 +1837,238 @@
         "servers": [
           { "name": "Server 1 ", "video_url": "https://short.icu/rKaxuII_0" },
           { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#yamom" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "title": "The Angel Next Door Spoils Me Rotten [ SS2 ]",
+    "MalId": 56876,
+    "preview": "https://www.youtube.com/embed/-ETeehSB1v4?si=FRZnHvWhFBnHnWS4",
+    "quality": "FHD",
+    "search_keywords": ["The Angel Next Door Spoils Me Rotten","Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken","お隣の天使様にいつの間にか駄目人間にされていた件"],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170019-djbN0b934MhE.jpg",
+    "banner": "https://m.media-amazon.com/images/M/MV5BYTUxZWZiM2MtZGFiMy00NWM2LWFkZDUtNzE2MDk4ZDU3NmRjXkEyXkFqcGc@._V1_.jpg",
+    "synopsis": "Second season of Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken.",
+    "genres": ["Romance"],
+    "episodes": [
+      {
+        "ep_num": 1, 
+        "title": "Episode 1", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/K4N52dxnq" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#eb6of" }
+        ]
+      },
+      {
+        "ep_num": 2, 
+        "title": "Episode 2", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/35FWt_938" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#fkqh8" }
+        ]
+      },
+      {
+        "ep_num": 3, 
+        "title": "Episode 3", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/hnO177OHV" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#5fcs5" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "title": "Botan Kamiina Fully Blossoms When Drunk",
+    "MalId": 61186,
+    "preview": "https://www.youtube.com/embed/OvDSB0XhYpQ?si=OtFShNdOddVJuKE9",
+    "quality": "FHD",
+    "search_keywords": ["Botan Kamiina Fully Blossoms When Drunk","Kamiina Botan, Yoeru Sugata wa Yuri no Hana","神稲ボタン、酔える姿は百合の花"],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187869-LUn3dyTzuKUq.jpg",
+    "banner": "https://i.ytimg.com/vi/KElYezxLCPk/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB1ai5n9DgjMI8cEdM5mzGgYiZuHA",
+    "synopsis": "This is a story about a 20-year-old first-year college student, Botan Kamiina, and her life in a dorm, where she meets her seniors and forms friendships through drinking sessions.",
+    "genres": ["Girls Love", "Gourmet", "Slice of Life"],
+    "episodes": [
+      {
+        "ep_num": 1, 
+        "title": "Episode 1", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/xl5Rz8uJ0" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#ijh9e" }
+        ]
+      },
+      {
+        "ep_num": 2, 
+        "title": "Episode 2", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/kkwSMb3XP" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#gs3oc" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "title": "Adam's Sweet Agony",
+    "MalId": 57470,
+    "quality": "FHD",
+    "search_keywords": ["Adam's Sweet Agony","Modaete yo, Adam-kun"],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170913-IJGcydiowacI.jpg",
+    "banner": "https://blog.coolmic.me/wp-content/uploads/2024/10/5_036-2.jpg",
+    "synopsis": "This is the story of a boy who became the lone Adam among four billion Eves. In a world where a pandemic has rendered all men impotent, high school student Itsuki is the sole exception.",
+    "genres": ["Hentai"],
+    "episodes": [
+      {
+        "ep_num": 1, 
+        "title": "Episode 1", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/q-qP9NBCh" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#rwfzn" }
+        ]
+      },
+      {
+        "ep_num": 2, 
+        "title": "Episode 2", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/X1cV4gi4S" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#pismm" }
+        ]
+      },
+      {
+        "ep_num": 3, 
+        "title": "Episode 3", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/a6S29V7dOI" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#9gluh" }
+        ]
+      },
+      {
+        "ep_num": 4, 
+        "title": "Episode 4", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/MO112jdKG" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#8eth6" }
+        ]
+      },
+      {
+        "ep_num": 5, 
+        "title": "Episode 5", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/fv3Jal2Ja" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#5fcl9" }
+        ]
+      },
+      {
+        "ep_num": 6, 
+        "title": "Episode 6", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/zjCqOte-y" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#xlizs" }
+        ]
+      },
+      {
+        "ep_num": 7, 
+        "title": "Episode 7", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/zEnoRpaWd" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#yawpn" }
+        ]
+      },
+      {
+        "ep_num": 8, 
+        "title": "Episode 8", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/kmuAAhkwn" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#3du5a" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "title": "Aria the Avvenire Sound Novel",
+    "MalId": 54062,
+    "quality": "FHD",
+    "search_keywords": ["Aria the Avvenire Sound Novel"],
+    "image": "https://myanimelist.net/images/anime/1128/132258.jpg",
+    "banner": "https://myanimelist.net/images/anime/1128/132258.jpg",
+    "synopsis": "Picture drama episodes bundled on the 10th anniversary Blu-ray box.",
+    "genres": ["Sci-Fi","Slice of Life"],
+    "episodes": [
+      {
+        "ep_num": 1, 
+        "title": "Episode 1", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/AF8gdRBkj" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#cqevk" }
+        ]
+      },
+      {
+        "ep_num": 2, 
+        "title": "Episode 2", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/pDQiPFAB6" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#pisuu" }
+        ]
+      },
+      {
+        "ep_num": 3, 
+        "title": "Episode 3", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/NMzBgrf-Q" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#eb6dr" }
+        ]
+      },
+      {
+        "ep_num": 4, 
+        "title": "Episode 4", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/qvLZgi4FL" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#5fcpo" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "26",
+    "title": "Clannad: Another World, Tomoyo Chapter",
+    "MalId": 4059,
+    "quality": "FHD",
+    "search_keywords": ["CLANNAD: Another World, Tomoyo Chapter","Clannad: Mou Hitotsu no Sekai, Tomoyo-hen","クラナドアナザーワールド智代編"],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4059-mrA0Wky7bTgz.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4059-mrA0Wky7bTgz.jpg",
+    "synopsis": "Clannad: Mou Hitotsu no Sekai, Tomoyo-hen is set in an alternate reality where Tomoya Okazaki dates his junior, Tomoyo Sakagami.",
+    "genres": ["Drama","Romance"],
+    "episodes": [
+      {
+        "ep_num": 1, 
+        "title": "Episode 1", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/rvpiSYi4e" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#5frr5" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "title": "Clannad: After Story - Another World, Kyou Chapter",
+    "MalId": 6351,
+    "quality": "FHD",
+    "search_keywords": ["CLANNAD: After Story - Another World, Kyou Chapter","Clannad: After Story - Mou Hitotsu no Sekai, Kyou-hen","クラナドアフターストーリーもう一つの世界，京編"],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6351.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/6351.jpg",
+    "synopsis": "On a rainy day, Ryou Fujibayashi musters up the courage to confess her feelings to Tomoya Okazaki. Despite not knowing each other for long, the two start dating and develop a harmonious relationship.",
+    "genres": ["Drama","Romance"],
+    "episodes": [
+      {
+        "ep_num": 1, 
+        "title": "Episode 1", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/gsq1yNU0T" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#5fkzc" }
         ]
       }
     ]
