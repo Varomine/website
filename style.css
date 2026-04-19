@@ -373,21 +373,6 @@ main { margin-top: 70px; min-height: 100vh; }
     transform: scale(1.1);
 }
 
-@media (max-width: 768px) {
-    .anime-actions {
-        opacity: 1;
-        transform: translateY(0);
-    }
-    .action-btn, .bookmark-btn {
-        width: 32px;
-        height: 32px;
-        font-size: 0.9rem;
-    }
-    .anime-actions {
-        right: 48px; 
-    }
-}
-
 /* =========================================donate-modal
    Donate Modal Styles
    ========================================= */
@@ -471,4 +456,3 @@ main { margin-top: 70px; min-height: 100vh; }
     color: #fff;
     border-color: var(--accent);
 }
-
