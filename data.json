@@ -3088,5 +3088,297 @@
         ]
       }
     ]
+  },
+  {
+    "id": "38",
+    "title": "Summer Pockets Movie",
+    "MalId": 61926,
+    "quality": "FHD",
+    "search_keywords": ["Summer Pockets","Movie"],
+    "image": "https://myanimelist.net/images/anime/1396/150781l.jpg",
+    "banner": "https://a.storyblok.com/f/178900/960x540/aa2c3b90f1/summer-pockets-compilation-film-trailer.jpg",
+    "synopsis": "Theatrical compilation of Summer Pockets.",
+    "genres": ["Romance","Movie"],
+    "episodes" : [
+      {
+        "ep_num": 1,
+        "title": "Movie 1",
+        "servers": [
+          { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-x1gy7b2fo4k6.html" },
+          { "name": "Server 2", "video_url": "https://drive.google.com/file/d/1tpHI6-pjv4EIEZSv8nOrfAGhvuB0gJ8k/preview" },
+          { "name": "Server 3", "video_url": "https://short.icu/-veLOuuJV" },
+          { "name": "Server 4", "video_url": "https://thepeak.4meplayer.com/#6jfut" }
+        ]
+      },
+      {
+        "ep_num": 2,
+        "title": "Movie 2",
+        "servers": [
+          { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-nxr0lyatnc2p.html" },
+          { "name": "Server 2", "video_url": "https://drive.google.com/file/d/1m319WydiGkV8djedULjaWSJzGP72LRmJ/preview" },
+          { "name": "Server 3", "video_url": "https://short.icu/xDrDUpqw-" },
+          { "name": "Server 4", "video_url": "https://thepeak.4meplayer.com/#vhcnv" }
+        ]
+      },
+      {
+        "ep_num": 3,
+        "title": "Movie 3",
+        "servers": [
+          { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-vouydnfjjznc.html" },
+          { "name": "Server 2", "video_url": "" },
+          { "name": "Server 3", "video_url": "https://short.icu/9ePWQ9aPR" },
+          { "name": "Server 4", "video_url": "https://thepeak.4meplayer.com/#6jftz" }
+        ]
+      },
+      {
+        "ep_num": 4,
+        "title": "Movie 4",
+        "servers": [
+          { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-juae8vg5u0y9.html" },
+          { "name": "Server 2", "video_url": "https://drive.google.com/file/d/1Nm_w7J3SIgRjXSzbFAMxofRHXYl__SIt/preview" },
+          { "name": "Server 3", "video_url": "https://short.icu/qMOB1tzmz" },
+          { "name": "Server 4", "video_url": "https://thepeak.4meplayer.com/#15snp" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "39",
+    "title": "Re:ZERO -Starting Life in Another World-",
+    "preview": "https://www.youtube.com/embed/vFfXjuVA1Jk?si=QmQWyXchM-U4R31J",
+    "MalId": 31240,
+    "quality": "FHD",
+    "search_keywords": ["Re:ZERO -Starting Life in Another World-","Re Zero","SS1","Season 1","Re:Zero kara Hajimeru Isekai Seikatsu"],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21355-wRVUrGxpvIQQ.jpg",
+    "banner": "https://x5f9g8z5.delivery.rocketcdn.me/wp-content/uploads/2018/07/1739814_English_ShowDetailHeaderDesktop_5a4481c8-0753-e811-8175-020165574d09.jpg",
+    "synopsis": "When Subaru Natsuki leaves the convenience store, the last thing he expects is to be wrenched from his everyday life and dropped into a fantasy world. Things are not looking good for the bewildered teenager; however, not long after his arrival, he is attacked by some thugs. Armed with only a bag of groceries and a now useless cell phone, he is quickly beaten to a pulp. Fortunately, a mysterious beauty named Satella, in hot pursuit after the one who stole her insignia, happens upon Subaru and saves him. In order to thank the honest and kindhearted girl, Subaru offers to help in her search, and later that night, he even finds the whereabouts of that which she seeks. But unbeknownst to them, a much darker force stalks the pair from the shadows, and just minutes after locating the insignia, Subaru and Satella are brutally murdered.",
+    "genres": ["Drama","Fantasy","Suspense"],
+    "episodes": [
+      {
+        "ep_num": 1,
+        "title": "Episode 1",
+        "servers": [
+          { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-iwjxhn8h9xar.html" },
+          { "name": "Server 2", "video_url": "https://short.icu/uqFEls00tz" },
+          { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#ikzge" }
+        ]
+      },
+      {
+        "ep_num": 2,
+        "title": "Episode 2",
+        "servers": [
+          { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-5qykpcod6rpy.html" },
+          { "name": "Server 2", "video_url": "https://short.icu/q4Bc9isM00" },
+          { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#ydo6g" }
+        ]
+      },
+      {
+        "ep_num": 3,
+        "title": "Episode 3",
+        "servers": [
+          { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-x4hhvs2r9pck.html" },
+          { "name": "Server 2", "video_url": "https://short.icu/SEfqgCqFt" },
+          { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#sqbl9" }
+        ]
+      },
+      {
+        "ep_num": 4,
+        "title": "Episode 4",
+        "servers": [
+          { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-9v9h4j1jk7ua.html" },
+          { "name": "Server 2", "video_url": "https://short.icu/LjuL84IuXf" },
+          { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#8xif1" }
+        ]
+      },
+      {
+        "ep_num": 5,
+        "title": "Episode 5",
+        "servers": [
+          { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-oigb0cis7uud.html" },
+          { "name": "Server 2", "video_url": "https://short.icu/hDItdUc9F" },
+          { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#amxr5" }
+        ]
+      },
+      {
+        "ep_num": 6,
+        "title": "Episode 6",
+        "servers": [
+          { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-k4kuhb9qcadt.html" },
+          { "name": "Server 2", "video_url": "https://short.icu/75JTy1CRe" },
+          { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#orfnl" }
+        ]
+      },
+      {
+        "ep_num": 7,
+        "title": "Episode 7",
+        "servers": [
+          { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-o68ccayxbow0.html" },
+          { "name": "Server 2", "video_url": "https://short.icu/NEWbOJu79" },
+          { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#15cmz" }
+        ]
+      },
+      {
+        "ep_num": 8,
+        "title": "Episode 8",
+        "servers": [
+          { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-yollqb46hmvg.html" },
+          { "name": "Server 2", "video_url": "https://short.icu/XJdgj0fMt" },
+          { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#nvad8" }
+        ]
+      },
+      {
+        "ep_num": 9,
+        "title": "Episode 9",
+        "servers": [
+          { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-yrhjl0jli3l2.html" },
+          { "name": "Server 2", "video_url": "https://short.icu/-iL8MnUa8" },
+          { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#eljkg" }
+        ]
+      },
+      {
+        "ep_num": 10,
+        "title": "Episode 10",
+        "servers": [
+          { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-0qrqdsal6yk5.html" },
+          { "name": "Server 2", "video_url": "https://short.icu/wIe6Lp_nn" },
+          { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#hzy3h" }
+        ]
+      },
+      {
+        "ep_num": 11,
+        "title": "Episode 11",
+        "servers": [
+          { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-j8nxrmxadtcy.html" },
+          { "name": "Server 2", "video_url": "https://short.icu/TjxiZMUVo" },
+          { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#8xin6" }
+        ]
+      },
+      {
+        "ep_num": 12,
+        "title": "Episode 12",
+        "servers": [
+          { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-ginymhq6pw9a.html" },
+          { "name": "Server 2", "video_url": "https://short.icu/6DUS5V9Z3" },
+          { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#5n93y" }
+        ]
+      },
+      {
+        "ep_num": 13,
+        "title": "Episode 13",
+        "servers": [
+          { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-z4fpnzshbm9c.html" },
+          { "name": "Server 2", "video_url": "https://short.icu/6JXDnAJoF" },
+          { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#6jngg" }
+        ]
+      },
+      {
+        "ep_num": 14,
+        "title": "Episode 14",
+        "servers": [
+          { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-0dlwrjzfvevy.html" },
+          { "name": "Server 2", "video_url": "https://short.icu/3fbMmefz2" },
+          { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#ikzax" }
+        ]
+      },
+      {
+        "ep_num": 15,
+        "title": "Episode 15",
+        "servers": [
+          { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-twi7x2ub1nak.html" },
+          { "name": "Server 2", "video_url": "https://short.icu/WN1rvlXaG" },
+          { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#sqbwy" }
+        ]
+      },
+      {
+        "ep_num": 16,
+        "title": "Episode 16",
+        "servers": [
+          { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-d8ercoeqg51r.html" },
+          { "name": "Server 2", "video_url": "https://short.icu/2HUmW93RWW" },
+          { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#vhml3" }
+        ]
+      },
+      {
+        "ep_num": 17,
+        "title": "Episode 17",
+        "servers": [
+          { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-l3hyehue2lmw.html" },
+          { "name": "Server 2", "video_url": "https://short.icu/htyZQ0cU2" },
+          { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#8xinv" }
+        ]
+      },
+      {
+        "ep_num": 18,
+        "title": "Episode 18",
+        "servers": [
+          { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-awcoqnpxykr9.html" },
+          { "name": "Server 2", "video_url": "https://short.icu/CY8CIhLaz" },
+          { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#6jngb" }
+        ]
+      },
+      {
+        "ep_num": 19,
+        "title": "Episode 19",
+        "servers": [
+          { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-8xjzw9m01gcw.html" },
+          { "name": "Server 2", "video_url": "https://short.icu/DvQsTzapv" },
+          { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#9a86q" }
+        ]
+      },
+      {
+        "ep_num": 20,
+        "title": "Episode 20",
+        "servers": [
+          { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-xj4vt58rqrab.html" },
+          { "name": "Server 2", "video_url": "https://short.icu/RBjUs4_Cb" },
+          { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#hzyo9" }
+        ]
+      },
+      {
+        "ep_num": 21,
+        "title": "Episode 21",
+        "servers": [
+          { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-2hy305v9y398.html" },
+          { "name": "Server 2", "video_url": "https://short.icu/-zwpHzIol" },
+          { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#8xizi" }
+        ]
+      },
+      {
+        "ep_num": 22,
+        "title": "Episode 22",
+        "servers": [
+          { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-3d8d5s9tcm4j.html" },
+          { "name": "Server 2", "video_url": "https://short.icu/OnNAJiMJQ" },
+          { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#xwksc" }
+        ]
+      },
+      {
+        "ep_num": 23,
+        "title": "Episode 23",
+        "servers": [
+          { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-2bv05y4eoyws.html" },
+          { "name": "Server 2", "video_url": "https://short.icu/5du6iCt6X" },
+          { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#ikzdr" }
+        ]
+      },
+      {
+        "ep_num": 24,
+        "title": "Episode 24",
+        "servers": [
+          { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-vyshft4vnj4h.html" },
+          { "name": "Server 2", "video_url": "https://short.icu/iGi1uk0nd" },
+          { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#ydofd" }
+        ]
+      },
+      {
+        "ep_num": 25,
+        "title": "Episode 25",
+        "servers": [
+          { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-5ucfqoopdwaz.html" },
+          { "name": "Server 2", "video_url": "https://short.icu/MgI8z818FC" },
+          { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#gcejb" }
+        ]
+      }
+    ]
   }
 ]
