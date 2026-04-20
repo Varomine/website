@@ -294,6 +294,14 @@
           { "name": "Server 1 ", "video_url": "https://short.icu/PUvt5uz3c" },
           { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#8erq1" }
         ]
+      },
+      {
+        "ep_num": 3, 
+        "title": "Episode 3", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/PERSQ3s6o" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#9g9du" }
+        ]
       }
     ]
   },
@@ -2578,6 +2586,71 @@
           { "name": "Server 1 ", "video_url": "https://vidmoly.biz/embed-k85fl2bsbpcu.html" },
           { "name": "Server 2 ", "video_url": "https://short.icu/nQde7tc6R" },
           { "name": "Server 3 ", "video_url": "https://thepeak.4meplayer.com/#yaqu8" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "32",
+    "title": "Marika's Love Meter Malfunction",
+    "preview": "https://www.youtube.com/embed/OaBR4_zHXGs?si=bNRl8edfUNajR0-P",
+    "MalId": 62983,
+    "quality": "FHD",
+    "search_keywords": ["Marika's Love Meter Malfunction","Marika-chan no Koukando wa Bukkowareteiru"],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202523-NHeyiypiPnGP.jpg",
+    "banner": "https://m.media-amazon.com/images/S/pv-target-images/9c29f103d3ef5cdef7bf72c1fa25b4a87206e157413f45d57e66bd26c5c03e03._SX1080_FMjpg_.jpg",
+    "synopsis": "Confessing to my childhood friend Marika was impossible for someone as unpopular as me. So, I did what any desperate boy would do—I wished upon a shooting star! When I woke up, that dream had come true?! I could see a love meter for people, just like in a love simulation game.",
+    "genres": ["Comedy","Romance","Ecchi"],
+    "episodes": [
+      {
+        "ep_num": 1, 
+        "title": "Episode 1", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://vidmoly.biz/embed-nx352kzc51ch.html" },
+          { "name": "Server 2 ", "video_url": "https://short.icu/4ol9u9L5I" },
+          { "name": "Server 3 ", "video_url": "https://thepeak.4meplayer.com/#v5vye" }
+        ]
+      },
+      {
+        "ep_num": 2, 
+        "title": "Episode 2", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://vidmoly.biz/embed-4syr5ehyf1ww.html" },
+          { "name": "Server 2 ", "video_url": "https://short.icu/dO03ow-Gm-" },
+          { "name": "Server 3 ", "video_url": "https://thepeak.4meplayer.com/#8e8kh" }
+        ]
+      },
+      {
+        "ep_num": 3, 
+        "title": "Episode 3", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://vidmoly.biz/embed-m6lfar3xuca0.html" },
+          { "name": "Server 2 ", "video_url": "https://short.icu/4ol9u9L5I" },
+          { "name": "Server 3 ", "video_url": "https://thepeak.4meplayer.com/#6r6v3" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "33",
+    "title": "Weathering with You",
+    "preview": "https://www.youtube.com/embed/LoUtJiOaoY8?si=s2whKKU1f2QyLM1k",
+    "MalId": 38826,
+    "quality": "FHD",
+    "search_keywords": ["Weathering with You","Tenki no Ko","天気の子"],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx106286-5COcpd0J9VbL.png",
+    "banner": "https://rayriffy.com/cdn-cgi/image/width=1280,height=672,fit=crop,quality=85/https://images.ctfassets.net/f7xg7kmhsht8/4Pb3QSweBMDZbz6cIYNf0j/c98807514f33d363388a0796a36a5bd7/banner.jpg",
+    "synopsis": "Tokyo is currently experiencing rain showers that seem to disrupt the usual pace of everyone living there to no end. Amidst this seemingly eternal downpour arrives the runaway high school student Hodaka Morishima, who struggles to financially support himself—ending up with a job at a small-time publisher. At the same time, the orphaned Hina Amano also strives to find work to sustain herself and her younger brother.",
+    "genres": ["Drama","Romance","Supernatural","Movie"],
+    "episodes": [
+      {
+        "ep_num": 1, 
+        "title": "Movie", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://vidmoly.biz/embed-9l7h8n2s0y5o.html" },
+          { "name": "Server 2 ", "video_url": "https://short.icu/4ol9u9L5I" },
+          { "name": "Server 3 ", "video_url": "https://thepeak.4meplayer.com/#6r6v3" }, 
+          { "name": "Server 4 ", "video_url": "https://www.youtube.com/embed/Q6iK6DjV_iE?si=O6Vjx11VNYIHXBCJ" }
         ]
       }
     ]
