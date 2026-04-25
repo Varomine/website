@@ -2077,6 +2077,15 @@
           { "name": "Server 2 ", "video_url": "https://short.icu/hnO177OHV" },
           { "name": "Server 3 ", "video_url": "https://thepeak.4meplayer.com/#5fcs5" }
         ]
+      },
+      {
+        "ep_num": 4, 
+        "title": "Episode 4", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://vidmoly.biz/embed-ox9627b4tuxp.html" },
+          { "name": "Server 2 ", "video_url": "https://short.icu/eU7QWKnKa" },
+          { "name": "Server 3 ", "video_url": "https://thepeak.4meplayer.com/#nvw8d" }
+        ]
       }
     ]
   },
@@ -2108,6 +2117,15 @@
           { "name": "Server 1 ", "video_url": "https://vidmoly.biz/embed-gnodzkbsiq6n.html" },
           { "name": "Server 2 ", "video_url": "https://short.icu/kkwSMb3XP" },
           { "name": "Server 3 ", "video_url": "https://thepeak.4meplayer.com/#gs3oc" }
+        ]
+      },
+      {
+        "ep_num": 3, 
+        "title": "Episode 3", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://vidmoly.biz/embed-80d9xpqyaw3q.html" },
+          { "name": "Server 2 ", "video_url": "https://short.icu/Nhef5OLVC" },
+          { "name": "Server 3 ", "video_url": "https://thepeak.4meplayer.com/#9aktf" }
         ]
       }
     ]
@@ -6134,6 +6152,29 @@
           { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-tec51m4e8e8g.html" },
           { "name": "Server 2", "video_url": "https://short.icu/OB_VIU2zk" },
           { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#ruhdc" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "57",
+    "title": "Steel Ball Run: JoJo's Bizarre Adventure",
+    "preview": "https://www.youtube.com/embed/TWw06YDOQy0?si=8K7nlsp72SFVzwl2 ",
+    "MalId": 61469,
+    "quality": "FHD",
+    "search_keywords": ["Steel Ball Run: JoJo's Bizarre Adventure","Steel Ball Run: JoJo no Kimyou na Bouken"],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx190327-riJNCFL7w9y4.jpg",
+    "banner": "https://m.media-amazon.com/images/M/MV5BMGE4OTVkMjEtYjcxYy00M2M5LThkMWMtYTAwNDlmM2FjZjExXkEyXkFqcGdeQWRpZWdtb25n._V1_QL75_UX500_CR0,0,500,281_.jpg",
+    "synopsis": "In the American Old West, the world's greatest race is about to begin. Thousands line up in San Diego to travel over six thousand kilometers for a chance to win the grand prize of fifty million dollars. With the era of the horse reaching its end, contestants are allowed to use any kind of vehicle they wish. Competitors will have to endure grueling conditions, traveling up to a hundred kilometers a day through uncharted wastelands. The Steel Ball Run is truly a one-of-a-kind event.",
+    "genres": ["Action","Adventure","Mystery","Supernatural"],
+    "episodes": [
+      {
+        "ep_num": 1,
+        "title": "Episode 1",
+        "servers": [
+          { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-84seqf4ocztb.html" },
+          { "name": "Server 2", "video_url": "https://short.icu/tOmrGSLaV" },
+          { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#ru9nr" }
         ]
       }
     ]
