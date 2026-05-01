@@ -7733,7 +7733,7 @@
   },
   {
     "id": "68",
-    "title": "Kiss x Sis (OVA)",
+    "title": "Kiss x Sis",
     "preview": "https://www.youtube-nocookie.com/embed/LZE8m0BaPLI?enablejsapi=1&wmode=opaque&autoplay=1",
     "MalId": 5042,
     "quality": "FHD",
@@ -8473,6 +8473,275 @@
                 { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-7rj28fdvhmhc.html" },
                 { "name": "Server 2", "video_url": "https://short.icu/MZtD_WEiZ" },
                 { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#ewr8h" }
+            ]
+        }
+    ]
+  },
+  {
+    "id": "73",
+    "title": "Witch Hat Atelier",
+    "preview": "https://www.youtube-nocookie.com/embed/d1reryPOMX0?enablejsapi=1&wmode=opaque&autoplay=1",
+    "MalId": 51553,
+    "quality": "FHD",
+    "year": 2026,
+    "status": "Airing",
+    "search_keywords": ["Tongari Boushi no Atelier", "Witch Hat Atelier", "とんがり帽子のアトリエ", "Atelier of Witch Hat"],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx147105-rwOX8qyUy8gV.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/147105-fTjmRrILFixZ.jpg",
+    "synopsis": "Coco, a humble dressmaker's daughter, has always been fascinated by magic and the witches who cast it, despite the strict precautions they take to hide their methods from the public. However, when Coco takes advantage of a golden chance to spy on the skilled witch Qifrey, she realizes that her favorite picture book was a disguised magic book all along! In her excitement, she immediately starts testing out the various spells.\n\nWhen a spell causes a disaster in her home, Qifrey rescues her just in time and decides to train her, realizing that she is the first lead he has found that could help him track down the Brimmed Caps—a dangerous group of heretics who experiment with forbidden body-altering magic and spread magical artifacts among the commoners. But before Coco and Qifrey can confront the Brimmed Caps, she is going to have to improve her magical skills and learn to get along with Qifrey's other apprentices.",
+    "genres": ["Fantasy"],
+    "episodes": [
+        {
+            "ep_num": 1,
+            "title": "Episode 1",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-14xhb63gfcda.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/eKsbuXOpy" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#5zg3l" }
+            ]
+        },
+        {
+            "ep_num": 2,
+            "title": "Episode 2",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-uzlonlki8pat.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/7IlMeqAm-b" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#6k1gy" }
+            ]
+        },
+        {
+            "ep_num": 3,
+            "title": "Episode 3",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-fohaqphkl9sk.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/9KGlAUpnO" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#yexiq" }
+            ]
+        },
+        {
+            "ep_num": 4,
+            "title": "Episode 4",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-8sizjjx684m8.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/QvpYo8alN" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#6k1ar" }
+            ]
+        },
+        {
+            "ep_num": 5,
+            "title": "Episode 5",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-73xu1lpfx6xy.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/ioATpDUlQ" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#fvseq" }
+            ]
+        }
+    ]
+  },
+  {
+    "id": "74",
+    "title": "I Made Friends with the Second Prettiest Girl in My Class",
+    "preview": "https://www.youtube-nocookie.com/embed/3mTUxCIyJhA?enablejsapi=1&wmode=opaque&autoplay=1",
+    "MalId": 56734,
+    "quality": "FHD",
+    "year": 2026,
+    "status": "Airing",
+    "search_keywords": ["Class de 2-banme ni Kawaii Onnanoko to Tomodachi ni Natta", "I Made Friends with the Second Prettiest Girl in My Class", "クラスで２番目に可愛い女の子と友だちになった", "I Became Friends with the Second Cutest Girl in the Class.", "Kuranika"],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx169580-nXxpmqu6UVux.jpg",
+    "banner": "https://a.storyblok.com/f/178900/1970x1108/4526a99dec/i-made-friends-with-the-second-prettiest-girl-in-my-class.png",
+    "synopsis": "I, Maehara Maki, struggled to connect with anyone during my high school years, finding it hard to make friends. Then, a turning point arrived. A girl named Asanagi entered my life. Despite being clandestinely referred to as the \"second cutest girl in class\" by the boys, she chose to spend her Fridays with me instead of her best friend Amami, who held the \"cutest girl in class\" title. In the comfort of my home, we delved into the realm of games, watched movies, immersed ourselves in manga, indulged in junk food—pizza, hamburgers—and guzzled cola, carefree and content. To the outside world, we might have seemed a bit messy, but to both Asanagi and me, it was a cherished, hidden time together.\n\n(Source: MAL News)",
+    "genres": ["Romance"],
+    "episodes": [
+        {
+            "ep_num": 1,
+            "title": "Episode 1",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-lfraswbo9g3b.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/2eL48zlA5" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#vq9tp" }
+            ]
+        },
+        {
+            "ep_num": 2,
+            "title": "Episode 2",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-8zvgq1ggppvm.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/1yTQoWJyc" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#8rjae" }
+            ]
+        },
+        {
+            "ep_num": 3,
+            "title": "Episode 3",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-ivod22krhnsg.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/gl8WzfMWF" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#9dena" }
+            ]
+        },
+        {
+            "ep_num": 4,
+            "title": "Episode 4",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-q0a4psgvlqsk.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/y1H7afhjd" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#6k1ek" }
+            ]
+        }
+    ]
+  },
+  {
+    "id": "75",
+    "title": "Re:ZERO -Starting Life in Another World- Season 4",
+    "preview": "https://www.youtube-nocookie.com/embed/jVl4bY81iIs?enablejsapi=1&wmode=opaque&autoplay=1",
+    "MalId": 61316,
+    "quality": "FHD",
+    "year": 2026,
+    "status": "Airing",
+    "search_keywords": ["Re:Zero kara Hajimeru Isekai Seikatsu 4th Season", "Re:ZERO -Starting Life in Another World- Season 4", "Re:ゼロから始める異世界生活 4th season", "Re: Life in a different world from zero", "ReZero","re zero"],
+    "image": "https://myanimelist.net/images/anime/1540/155824l.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/189046-MDk2CaVuRWpb.jpg",
+    "synopsis": "In the deadly battle at the Watergate City of Priestella, Subaru and his allies barely emerged victorious—but their triumph came at a great cost. Through the \"Authority of Gluttony,\" Rem was put into suspended animation, while Crusch's memories and even Julius’s name were devoured. As he searches for a way to save them, Subaru learns of the \"Sage\" Shaula—an all-seeing being said to possess every form of knowledge. His next destination is the Pleiades Watchtower, home to the Sage, the farthest tower standing in the vast, uncharted desert known as the Auguria Dunes—a place so perilous that even the mightiest \"Sword Saint,\" Reinhard, failed to conquer it. The fury of nature, unknown magical beasts, and unimaginable dangers lie ahead. Together with his friends, Subaru embarks on a life-risking journey to reclaim what was lost.\n\n(Source: Kadokawa, edited)",
+    "genres": ["Drama", "Fantasy", "Suspense"],
+    "episodes": [
+        {
+            "ep_num": 1,
+            "title": "Episode 1",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-lmdmelemjkcf.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/6dQW3QGAs" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#9dedr" }
+            ]
+        },
+        {
+            "ep_num": 2,
+            "title": "Episode 2",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-hf79d0yczc0x.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/m_BkPseAG" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#rtptf" }
+            ]
+        },
+        {
+            "ep_num": 3,
+            "title": "Episode 3",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-445ztt2xetfi.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/72LbBqb15" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#8rjr8" }
+            ]
+        },
+        {
+            "ep_num": 4,
+            "title": "Episode 4",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-wpzprj5d65cy.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/PTG6VnAfb" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#yexxf" }
+            ]
+        }
+    ]
+  },
+  {
+    "id": "76",
+    "title": "I Want to End This Love Game",
+    "preview": "https://www.youtube-nocookie.com/embed/oGJrnyjDbsA?enablejsapi=1&wmode=opaque&autoplay=1",
+    "MalId": 61839,
+    "quality": "FHD",
+    "year": 2026,
+    "status": "Airing",
+    "search_keywords": ["Aishiteru Game wo Owarasetai", "I Want to End This Love Game", "愛してるゲームを終わらせたい", "I Want to End the \"I Love You\" Game", "I Want to End the Game That I Love", "I Want to End the Game of Love."],
+    "image": "https://myanimelist.net/images/anime/1879/155958l.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/194393-FmUDMgF0apUJ.jpg",
+    "synopsis": "In sixth grade, childhood friends Yukiya Asagi and Miku Sakura created a game with the objective to embarrass the other person by taking turns saying \"I love you.\" Four years later, even as they are entering high school, the two are still trying to one-up the other and claim victory. However, as tender feelings begin to bloom in their hearts, the simple phrase has taken on new meaning beyond the rules of their game.\n\nWith the passing of each day, the urge to become more than childhood friends grows—but both Yukiya and Miku resist making the first move, hesitant about what is in store once the game finally ends.",
+    "genres": ["Comedy", "Romance"],
+    "episodes": [
+        {
+            "ep_num": 1,
+            "title": "Episode 1",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-kjp72zp6gzlg.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/slq1bd3jQ" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#hgaec" }
+            ]
+        },
+        {
+            "ep_num": 2,
+            "title": "Episode 2",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-bx2h2bfxpmm0.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/9a18GrqSI" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#jp5qx" }
+            ]
+        },
+        {
+            "ep_num": 3,
+            "title": "Episode 3",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-upzxd9vv4jtt.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/F4Xu5I8cC" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#8rjvf" }
+            ]
+        }
+    ]
+  },
+  {
+    "id": "77",
+    "title": "Haibara's Teenage New Game+",
+    "preview": "https://www.youtube-nocookie.com/embed/lIiKFTbA-gE?enablejsapi=1&wmode=opaque&autoplay=1",
+    "MalId": 61943,
+    "quality": "FHD",
+    "year": 2026,
+    "status": "Airing",
+    "search_keywords": ["Haibara-kun no Tsuyokute Seishun New Game", "Haibara's Teenage New Game+", "灰原くんの強くて青春ニューゲーム"],
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195333-KUIF1eqOdVdd.png",
+    "banner": "https://a.storyblok.com/f/178900/1280x720/0f9d589e4e/haibara-s-teenage-new-game-teaser-trailer.jpg",
+    "synopsis": "We all have embarrassing memories or deep regrets from high school, right? Socially anxious college senior Natsuki Haibara sure does. When he thinks back on that time of his life, all he has are fleeting fantasies of a happy adolescence that could have been. Imagine his bewilderment and surprise, then, when he inexplicably finds himself seven years in the past—one month before his first year of high school! Can Haibara avoid his previous mistakes, make his way to the top of the school social pyramid, and end up with the girl of his dreams? Or will he be forced to relive three years of solitude as the most hated guy in school? He'll need all the help he can get in order to succeed, from a workout regimen to online how-to guides, a childhood friend, and plenty of sheer willpower. Watch as Haibara takes a second shot at his teenage years!\n\n(Source: J-Novel Club)",
+    "genres": ["Comedy", "Romance"],
+    "episodes": [
+        {
+            "ep_num": 1,
+            "title": "Episode 1",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-6ipeln716mz6.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/Z4byFib0I" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#zcmuu" }
+            ]
+        },
+        {
+            "ep_num": 2,
+            "title": "Episode 2",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-qf0cg9mqu59c.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/T72SH4d7V" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#k5h3a" }
+            ]
+        },
+        {
+            "ep_num": 3,
+            "title": "Episode 3",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-536ivmwq7vly.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/ZqZip4qhm" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#fvswa" }
+            ]
+        },
+        {
+            "ep_num": 4,
+            "title": "Episode 4",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-zr9aermdgm0z.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/NeNHgkpeiX" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#3xrsr" }
+            ]
+        },
+        {
+            "ep_num": 5,
+            "title": "Episode 5",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-dqd0pwss0f0b.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/oO0oH_66_" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#8rjcb" }
             ]
         }
     ]
