@@ -314,6 +314,14 @@
           { "name": "Server 1 ", "video_url": "https://short.icu/aoGrcN_lP" },
           { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#hzla6" }
         ]
+      },
+      {
+        "ep_num": 5, 
+        "title": "Episode 5", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://short.icu/kowGkr_qU3" },
+          { "name": "Server 2 ", "video_url": "https://thepeak.4meplayer.com/#k5rwk" }
+        ]
       }
     ]
   },
@@ -2094,10 +2102,11 @@
     "title": "The Angel Next Door Spoils Me Rotten 2nd Season",
     "MalId": 56876,
     "year": 2026,
+    "anilistId": 170019,
     "preview": "https://www.youtube.com/embed/-ETeehSB1v4?si=FRZnHvWhFBnHnWS4",
     "quality": "FHD",
     "status": "Airing",
-    "search_keywords": ["The Angel Next Door Spoils Me Rotten 2nd Season","Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken","お隣の天使様にいつの間にか駄目人間にされていた件","Season 2"],
+    "search_keywords": ["The Angel Next Door Spoils Me Rotten 2nd Season","Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken","お隣の天使様にいつの間にか駄目人間にされていた件","Season 2","Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken 2nd Season"],
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx170019-djbN0b934MhE.jpg",
     "banner": "https://m.media-amazon.com/images/M/MV5BYTUxZWZiM2MtZGFiMy00NWM2LWFkZDUtNzE2MDk4ZDU3NmRjXkEyXkFqcGc@._V1_.jpg",
     "synopsis": "Second season of Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken.",
@@ -2518,6 +2527,7 @@
     "preview": "https://www.youtube.com/embed/57OL0uTIBVg?si=jvm8TvlF-81MY07d",
     "MalId": 59983,
     "year": 2026,
+    "anilistId": 182300,
     "quality": "FHD",
     "status": "Airing",
     "search_keywords": ["Wistoria: Wand and Sword Season 2nd Season","Tsue to Tsurugi no Wistoria Season 2","杖と剣のウィストリア シーズン2","SS2","Season 2"],
@@ -2551,6 +2561,15 @@
           { "name": "Server 1 ", "video_url": "https://vidmoly.biz/embed-msq49t1gkpek.html" },
           { "name": "Server 2 ", "video_url": "https://short.icu/WA1soC5Ke" },
           { "name": "Server 3 ", "video_url": "https://thepeak.4meplayer.com/#jtg5h" }
+        ]
+      },
+      {
+        "ep_num": 4, 
+        "title": "Episode 4", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://vidmoly.biz/embed-msq49t1gkpek.html" },
+          { "name": "Server 2 ", "video_url": "https://short.icu/MFoU3l7d2" },
+          { "name": "Server 3 ", "video_url": "https://vidmoly.biz/embed-v6pxom786i0t.html" }
         ]
       }
     ]
@@ -2708,6 +2727,7 @@
   {
     "id": "32",
     "title": "Marika's Love Meter Malfunction",
+    "anilistId": 202523,
     "preview": "https://www.youtube.com/embed/OaBR4_zHXGs?si=bNRl8edfUNajR0-P",
     "MalId": 62983,
     "year": 2026,
@@ -2744,6 +2764,15 @@
           { "name": "Server 1 ", "video_url": "https://vidmoly.biz/embed-m6lfar3xuca0.html" },
           { "name": "Server 2 ", "video_url": "https://short.icu/4ol9u9L5I" },
           { "name": "Server 3 ", "video_url": "https://thepeak.4meplayer.com/#6r6v3" }
+        ]
+      },
+      {
+        "ep_num": 4, 
+        "title": "Episode 4", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://vidmoly.biz/embed-10ilct8jr6x0.html" },
+          { "name": "Server 2 ", "video_url": "https://short.icu/dKLrO1jUZ" },
+          { "name": "Server 3 ", "video_url": "https://thepeak.4meplayer.com/#dlgvn" }
         ]
       }
     ]
@@ -2782,7 +2811,7 @@
     "year": 2026,
     "quality": "FHD",
     "status": "Airing",
-    "search_keywords": ["Ingoku Danchi: Deviant's Apartment Complex","Ingoku Danchi","淫獄団地"],
+    "search_keywords": ["Ingoku Danchi: Deviant's Apartment Complex","Ingoku Danchi","淫獄団地","Ingoku Danchi"],
     "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx206166-xTJ9h6RmMCKR.jpg",
     "banner": "https://m.media-amazon.com/images/S/pv-target-images/94a7db6ca3796d1a3762025f224f512c0139c3dae68d23c2dc70d73d09d5df02._SX1080_FMjpg_.jpg",
     "synopsis": "Yoshida is a tiny, frail high school graduate who became an unwilling manager of an apartment complex when his father, the former manager, injured himself. Unbeknownst to him, this apartment complex houses quite a few women with very... unusual sexual preferences.",
@@ -2822,6 +2851,15 @@
           { "name": "Server 1 ", "video_url": "https://vidmoly.biz/embed-9gwsm8db0da7.html" },
           { "name": "Server 2 ", "video_url": "https://short.icu/IZh-0LAWk" },
           { "name": "Server 3 ", "video_url": "https://thepeak.4meplayer.com/#c9r3q" }
+        ]
+      },
+      {
+        "ep_num": 5, 
+        "title": "Episode 5", 
+        "servers": [
+          { "name": "Server 1 ", "video_url": "https://vidmoly.biz/embed-wk0z5ddo30k6.html" },
+          { "name": "Server 2 ", "video_url": "https://short.icu/z_lRCsO3C" },
+          { "name": "Server 3 ", "video_url": "https://thepeak.4meplayer.com/#9dhnu" }
         ]
       }
     ]
@@ -8553,6 +8591,15 @@
                 { "name": "Server 2", "video_url": "https://short.icu/ioATpDUlQ" },
                 { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#fvseq" }
             ]
+        },
+        {
+            "ep_num": 6,
+            "title": "Episode 6",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-mxxhlgpje69a.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/macfkm-Kf" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#s91pg" }
+            ]
         }
     ]
   },
@@ -9547,6 +9594,910 @@
                 { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-cw848l6aahbh.html" },
                 { "name": "Server 2", "video_url": "https://short.icu/EiseOCaV_" },
                 { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#qakop" }
+            ]
+        }
+    ]
+  },
+  {
+    "id": "92",
+    "title": "Kaguya-sama: Love is War OVA",
+    "preview": "https://www.youtube-nocookie.com/embed/kCweMv8bb4w?enablejsapi=1&wmode=opaque&autoplay=1",
+    "MalId": 43609,
+    "quality": "FHD",
+    "year": 2021,
+    "status": "Finished",
+    "search_keywords": ["Kaguya-sama wa Kokurasetai? Tensai-tachi no Renai Zunousen OVA", "Kaguya-sama: Love is War OVA", "かぐや様は告らせたい？ ～天才たちの恋愛頭脳戦～ OVA"],
+    "image": "https://myanimelist.net/images/anime/1027/115055l.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/125368-zCY0WnSQl7RG.jpg",
+    "synopsis": "What do Shuchiin Academy's model students do outside of their student council duties? After a visit to the swimming pool, Kaguya Shinomiya and Chika Fujiwara take to the showers to wash themselves off. When Chika accidentally drops a bar of soap, the two find themselves in a rather slippery mishap. \n\nMeanwhile, Miyuki Shirogane and Yuu Ishigami examine a discarded pornographic magazine—its content bearing an uncanny resemblance to the other student council members. Later on, an intense fried rice cook-off commences as Chika and Miko Iino seek to crown a master chef amongst the council. \n\nThese eccentric activities reveal a side of the student council that has never been seen before!",
+    "genres": ["Comedy", "Romance", "Ecchi"],
+    "episodes": [
+        {
+            "ep_num": 1,
+            "title": "Episode 1",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-z0b3umtxozrh.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/mU305XEB-" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#3x9rw" }
+            ]
+        }
+    ]
+  },
+  {
+    "id": "93",
+    "title": "He Wei Dao x Kaguya-sama: Love is War",
+    "preview": "",
+    "MalId": 44270,
+    "quality": "FHD",
+    "year": 2020,
+    "status": "Finished",
+    "search_keywords": ["He Wei Dao x Hui Yeda Xiaojie Xiangyao Wo Gaobai", "He Wei Dao x Kaguya-sama: Love is War", "合味道×辉夜大小姐想要我告白", "Nissin x Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen", "He Wei Dao x Kaguya-sama: Love Is War?", "Kaguya-sama wa Cup Noodle ads"],
+    "image": "https://myanimelist.net/images/anime/1513/110504l.jpg",
+    "banner": "https://pic.bstarstatic.com/ugc/89db71d5555e9eade94b879d0477decc.jpg",
+    "synopsis": "Cup noodle ads featuring Kaguya-sama's characters.",
+    "genres": ["Comedy", "Romance"],
+    "episodes": [
+        {
+            "ep_num": 1,
+            "title": "Episode 1",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-tiynaqy79joa.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/m7o9g0Wjg" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#s91yr" }
+            ]
+        },
+        {
+            "ep_num": 2,
+            "title": "Episode 2",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-uv9futx83zkj.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/A-1v02_ld" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#zcfm6" }
+            ]
+        }
+    ]
+  },
+  {
+    "id": "94",
+    "title": "Kaguya-sama: Love Is War - Stairway to Adulthood",
+    "preview": "https://www.youtube-nocookie.com/embed/LyHTqu5Yg7I?enablejsapi=1&wmode=opaque&autoplay=1",
+    "MalId": 61903,
+    "quality": "FHD",
+    "year": 2025,
+    "status": "Finished",
+    "search_keywords": ["Kaguya-sama wa Kokurasetai: Otona e no Kaidan", "Kaguya-sama: Love Is War - Stairway to Adulthood", "かぐや様は告らせたい 大人への階段"],
+    "image": "https://myanimelist.net/images/anime/1112/150697l.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/194884-PwYRWyOUEwZI.jpg",
+    "synopsis": "Years after graduating from high school, Kaguya Shinomiya finds her old photo album and reminisces about when she was a part of Shuuchiin Academy's student council. At the time, Kaguya had just started dating the president Miyuki Shirogane, and the two were hopelessly in love. With each wholesome and silly memory from their past, Kaguya is filled with bliss.",
+    "genres": ["Comedy", "Romance"],
+    "episodes": [
+        {
+            "ep_num": 1,
+            "title": "Episode 1",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-4xaeuohoo2zx.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/njNGSbQ2R" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#6k8vw" }
+            ]
+        },
+        {
+            "ep_num": 2,
+            "title": "Episode 2",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-be1d4o4afy66.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/6wu9gZozg" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#i1os5" }
+            ]
+        }
+    ]
+  },
+  {
+    "id": "95",
+    "title": "Kaguya-sama: Love is War -The First Kiss That Never Ends-",
+    "preview": "https://www.youtube-nocookie.com/embed/8Zy8-00-Pls?enablejsapi=1&wmode=opaque&autoplay=1",
+    "MalId": 52198,
+    "quality": "FHD",
+    "year": 2022,
+    "status": "Finished",
+    "search_keywords": ["Kaguya-sama wa Kokurasetai: First Kiss wa Owaranai", "Kaguya-sama: Love is War -The First Kiss That Never Ends-", "かぐや様は告らせたい -ファーストキッスは終わらない-"],
+    "image": "https://myanimelist.net/images/anime/1670/130060l.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/151384-JybfIpHr2gx6.jpg",
+    "synopsis": "After their first kiss, Kaguya Shinomiya and Miyuki Shirogane are left unsure where their relationship stands. The troubling uncertainty of whether they could be considered an official couple unleashes newfound problems as both Kaguya and Shirogane struggle to sort out their feelings.\n\nWhile the lovestruck student council officers fret, the Christmas season rolls around, and romance is in the air. In the face of widespread tenderness, Kaguya and Shirogane must endure their affectionate battle of wits once more. Should they reconcile their feelings for one another, they may find themselves within reach of what they have both been longing for so long: true love.",
+    "genres": ["Comedy", "Drama", "Romance","Movie"],
+    "episodes": [
+        {
+            "ep_num": 1,
+            "title": "Episode 1",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-r59asmvllu8r.html" },
+                { "name": "Server 2", "video_url": "https://drive.google.com/file/d/192l5HxBdBUMo-y29WMuebXQ6f_tUDHws/preview" },
+                { "name": "Server 3", "video_url": "https://short.icu/z-LoYS5Vm" },
+                { "name": "Server 4", "video_url": "https://thepeak.4meplayer.com/#qa5k5" }
+            ]
+        }
+    ]
+  },
+  {
+    "id": "96",
+    "title": "Kaguya-sama: Love is War - Ultra Romantic \"Yu Ishigami Wants to Chat\"",
+    "preview": "",
+    "MalId": 50325,
+    "quality": "FHD",
+    "year": 2021,
+    "status": "Finished",
+    "search_keywords": ["Kaguya-sama wa Kokurasetai: Ultra Romantic Teaser PV - Ishigami Yuu wa Kataritai", "Kaguya-sama: Love is War - Ultra Romantic \"Yu Ishigami Wants to Chat\"", "第３期『かぐや様は告らせたい-ウルトラロマンティック-』 / ティザーPV 「石上優は語りたい」", "Kaguya-sama: Love Is War -Ultra Romantic- Season 3 | Teaser Video - \"Yu Ishigami Wants to Chat\""],
+    "image": "https://myanimelist.net/images/anime/1265/119435l.jpg",
+    "banner": "https://i.ytimg.com/vi/cxTxrKrYkcY/maxresdefault.jpg",
+    "synopsis": "Every Thursday, Shuchiin Academy student council secretary Yuu Ishigami can be found in a state of anxiety. He counts down the hours until he can escape to the student council chamber to read the latest chapter of the popular seinen manga series, \"Momo Doesn't Think.\" Joining Ishigami in his weekly reading, student council president Miyuki Shirogane swiftly grows excited at the news of a third season of the manga's anime adaptation.\n\nHowever, it is only a matter of time before vice president Kaguya Shinomiya discovers what has been engrossing the two boys. With the stigma of being labeled an otaku looming over his head, Shirogane must do everything he can to keep his embarrassing secret from coming to light.",
+    "genres": ["Comedy"],
+    "episodes": [
+        {
+            "ep_num": 1,
+            "title": "Episode 1",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-pxgazlmj7gdy.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/_RVaP4kJw" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#s91is" }
+            ]
+        }
+    ]
+  },
+  {
+    "id": "97",
+    "title": "Re:ZERO ~Starting Break Time From Zero~ Season 2",
+    "preview": "",
+    "MalId": 42364,
+    "quality": "FHD",
+    "year": 2020,
+    "status": "Finished",
+    "search_keywords": ["Re:Zero kara Hajimeru Break Time 2nd Season", "Re:ZERO ~Starting Break Time From Zero~ Season 2", "Re:ゼロから始める休憩時間（ブレイクタイム）2nd season", "Re:ZERO ~Starting Break Time From Zero~ 2nd SJikaneason", "Re:Zero kara Hajimeru Kyuukei  2","Re Zero kara Hajimeru Kyuukei Jikan 2","Re ZERO ~Starting Break Time From Zero~ 2nd Season","Re Zero kara Hajimeru Break Time 2nd Season"],
+    "image": "https://myanimelist.net/images/anime/1586/108326l.jpg",
+    "banner": "https://a.storyblok.com/f/178900/639x359/2081e06bbc/3711128d97d2d6026a02f4393a69369d1593698467_full.jpg/m/639x359",
+    "synopsis": "Afraid that his life may end at any moment, Otto Suwen begins writing a diary documenting all of his experiences. Now part of Subaru Natsuki's eccentric band of colorful characters, the apprehensive merchant is certain that new dangers lie ahead in their mission at Sanctuary. But amid the rising tensions, there are still moments of respite and reflection, ripe with opportunities to make vivid memories.",
+    "genres": ["Comedy"],
+    "episodes": [
+        {
+            "ep_num": 1,
+            "title": "Episode 1",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-3y6q4cj1s652.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/E-L1R4zms" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#gmnok" }
+            ]
+        },
+        {
+            "ep_num": 2,
+            "title": "Episode 2",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-4g5mi1zdjuga.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/D1_l85ne-" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#vqke5" }
+            ]
+        },
+        {
+            "ep_num": 3,
+            "title": "Episode 3",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-lq7ajs80md73.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/4Hp3TaX1E" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#9dhud" }
+            ]
+        },
+        {
+            "ep_num": 4,
+            "title": "Episode 4",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-4dh2ff1nc7s3.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/fc0PWj1-U" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#6k8q1" }
+            ]
+        },
+        {
+            "ep_num": 5,
+            "title": "Episode 5",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-an7g1p6sd2ie.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/f2bT5-4kn" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#dlgit" }
+            ]
+        },
+        {
+            "ep_num": 6,
+            "title": "Episode 6",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-qhrh4kznkaal.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/kVIQI_6WZ" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#hgplr" }
+            ]
+        },
+        {
+            "ep_num": 7,
+            "title": "Episode 7",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-4bpir5czazwq.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/yH2haNyPF" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#k5ra8" }
+            ]
+        },
+        {
+            "ep_num": 8,
+            "title": "Episode 8",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-fgcnd48lhe6o.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/k9r_MY3zr" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#1hjd6" }
+            ]
+        },
+        {
+            "ep_num": 9,
+            "title": "Episode 9",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-xekwqadhz6vd.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/bI19Yf9TC" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#cyvrz" }
+            ]
+        },
+        {
+            "ep_num": 10,
+            "title": "Episode 10",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-ixkuz8ns3fq5.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/BXMboUjOl" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#rtezo" }
+            ]
+        },
+        {
+            "ep_num": 11,
+            "title": "Episode 11",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-td8vdmgka8zl.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/EB5Fx2I7F" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#pnum1" }
+            ]
+        },
+        {
+            "ep_num": 12,
+            "title": "Episode 12",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-a79wapxnboy0.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/t1ZyeJgxX" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#nsi3q" }
+            ]
+        },
+        {
+            "ep_num": 13,
+            "title": "Episode 13",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-c4ibwv1s37xd.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/pveQmZwnk" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#jpxgn" }
+            ]
+        },
+        {
+            "ep_num": 14,
+            "title": "Episode 14",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-fychczxetd8z.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/T0MT0V753" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#ewafi" }
+            ]
+        },
+        {
+            "ep_num": 15,
+            "title": "Episode 15",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-s1qeglkis1h8.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/03XNIOk5F" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#9dhuu" }
+            ]
+        },
+        {
+            "ep_num": 16,
+            "title": "Episode 16",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-q5ong6fashpn.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/PwiCokZyL" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#fv6y3" }
+            ]
+        },
+        {
+            "ep_num": 17,
+            "title": "Episode 17",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-kgwsdh2ceubd.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/orzFh9kbA" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#8ry59" }
+            ]
+        },
+        {
+            "ep_num": 18,
+            "title": "Episode 18",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-j24v50cmrhl5.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/x0rIa4JEV" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#5ztbt" }
+            ]
+        },
+        {
+            "ep_num": 19,
+            "title": "Episode 19",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-is0liywon7yq.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/h4bd9y1Dp" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#6k8q6" }
+            ]
+        },
+        {
+            "ep_num": 20,
+            "title": "Episode 20",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-aosowiyhpai4.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/TK-9gJsMd" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#xudzj" }
+            ]
+        },
+        {
+            "ep_num": 21,
+            "title": "Episode 21",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-1rfqydg3rs0q.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/XrJgdftxL" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#gmniv" }
+            ]
+        },
+        {
+            "ep_num": 22,
+            "title": "Episode 22",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-lfwj6k8qty46.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/q5IfMNuyv" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#s91jh" }
+            ]
+        },
+        {
+            "ep_num": 23,
+            "title": "Episode 23",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-hjnr3gp7f44d.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/t5ZEP-NzA" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#zcf6s" }
+            ]
+        },
+        {
+            "ep_num": 24,
+            "title": "Episode 24",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-gl1rarpsc5rq.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/gLsKs5THN" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#vqkrq" }
+            ]
+        },
+        {
+            "ep_num": 25,
+            "title": "Episode 25",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-izvrnoqtkg67.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/Yj6endzGgA" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#8ryqj" }
+            ]
+        }
+    ]
+  },
+  {
+    "id": "98",
+    "title": "Re:ZERO ~Starting Break Time From Zero~ Season 3",
+    "preview": "",
+    "MalId": 60012,
+    "quality": "FHD",
+    "year": 2024,
+    "status": "Finished",
+    "search_keywords": ["Re:Zero kara Hajimeru Break Time 3rd Season", "Re:ZERO ~Starting Break Time From Zero~ Season 3", "Re:ゼロから始める休憩時間（ブレイクタイム）3rd season", "Re:ZERO ~Starting Break Time From Zero~ 3rd Season", "Re:Zero kara Hajimeru Kyuukei Jikan 3","Re Zero kara Hajimeru Kyuukei Jikan 3","Re ZERO ~Starting Break Time From Zero~ 3nd Season","Re Zero kara Hajimeru Break Time 3nd Season"],
+    "image": "https://myanimelist.net/images/anime/1349/145863l.jpg",
+    "banner": "https://myanimelist.net/images/anime/1349/145863l.jpg",
+    "synopsis": "The third season of Re:Zero kara Hajimeru Kyuukei Jikan Break Time.",
+    "genres": ["Comedy"],
+    "episodes": [
+        {
+            "ep_num": 1,
+            "title": "Episode 1",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-rnb1v4gle83v.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/8E_-tGh68" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#5ztuq" }
+            ]
+        },
+        {
+            "ep_num": 2,
+            "title": "Episode 2",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-pjm3gxpmis9x.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/cF-oUYds_" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#yeqhi" }
+            ]
+        },
+        {
+            "ep_num": 3,
+            "title": "Episode 3",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-17cawsc77fiw.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/HtL9uS7Uq" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#3x9qz" }
+            ]
+        },
+        {
+            "ep_num": 4,
+            "title": "Episode 4",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-gt6jrk416d0b.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/1dEiqFKOA" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#yeqhz" }
+            ]
+        },
+        {
+            "ep_num": 5,
+            "title": "Episode 5",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-db8b41dgs829.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/gzKsO0IRT" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#qa5pn" }
+            ]
+        },
+        {
+            "ep_num": 6,
+            "title": "Episode 6",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-ehztmvjt0tpv.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/cOH2RehRpb" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#gmnfs" }
+            ]
+        },
+        {
+            "ep_num": 7,
+            "title": "Episode 7",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-z8ilz3fsskcu.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/6g8V-rsEm" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#s91kq" }
+            ]
+        },
+        {
+            "ep_num": 8,
+            "title": "Episode 8",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-25ex4wvhfa2h.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/bdUVns8oH" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#zcfic" }
+            ]
+        },
+        {
+            "ep_num": 9,
+            "title": "Episode 9",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-gqpca62ddaea.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/6AfpWolnY" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#8ry9k" }
+            ]
+        },
+        {
+            "ep_num": 10,
+            "title": "Episode 10",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-cmqss2eslsfu.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/bbUixYtP8" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#9dh5r" }
+            ]
+        },
+        {
+            "ep_num": 11,
+            "title": "Episode 11",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-93rrz8svw4s1.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/nEicwPlzE" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#abznp" }
+            ]
+        },
+        {
+            "ep_num": 12,
+            "title": "Episode 12",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-x1s2skl8u2i8.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/wlRxoTj7T" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#oj3yb" }
+            ]
+        },
+        {
+            "ep_num": 13,
+            "title": "Episode 13",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-raz4d0hmc5qj.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/ZzD71-lCHd" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#hgpt1" }
+            ]
+        },
+        {
+            "ep_num": 14,
+            "title": "Episode 14",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-6xb8t8lh8o6e.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/VjTM_1OHQ" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#1hjrn" }
+            ]
+        },
+        {
+            "ep_num": 15,
+            "title": "Episode 15",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-3148vlditmr8.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/Gv0l2me8l" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#cyv1d" }
+            ]
+        },
+        {
+            "ep_num": 16,
+            "title": "Episode 16",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-wpsrwntdn4bq.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/xTuvjXwHf8" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#rtedf" }
+            ]
+        }
+    ]
+  },
+  {
+    "id": "99",
+    "title": "Re:ZERO ~Starting Break Time From Zero~ Season 4",
+    "preview": "",
+    "MalId": 63830,
+    "quality": "FHD",
+    "year": 2026,
+    "status": "Airing",
+    "search_keywords": ["Re:Zero kara Hajimeru Break Time 4th Season", "Re:ZERO ~Starting Break Time From Zero~ Season 4", "Re:ゼロから始める休憩時間（ブレイクタイム）4th season", "Re:ZERO ~Starting Break Time From Zero~ 3rd Season", "Re:Zero kara Hajimeru Kyuukei Jikan 4"],
+    "image": "https://myanimelist.net/images/anime/1014/156363l.jpg",
+    "banner": "https://myanimelist.net/images/anime/1014/156363l.jpg",
+    "synopsis": "Fourth season of Re:Zero kara Hajimeru Kyuukei Jikan Break Time.",
+    "genres": ["Comedy"],
+    "episodes": [
+        {
+            "ep_num": 1,
+            "title": "Episode 1",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-nvlp80k40xf1.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/8M9VXilg1" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#8ry8i" }
+            ]
+        },
+        {
+            "ep_num": 2,
+            "title": "Episode 2",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-qacbq0k6u020.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/9oSw4QkJV" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#5zt5y" }
+            ]
+        },
+        {
+            "ep_num": 3,
+            "title": "Episode 3",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-9a1ib52ett64.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/Tv2qX2kaV" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#6k86a" }
+            ]
+        },
+        {
+            "ep_num": 4,
+            "title": "Episode 4",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-6xmo1pn5unkc.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/INk3VxZVC" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#zcfzl" }
+            ]
+        }
+    ]
+  },
+  {
+    "id": "100",
+    "title": "Re:ZERO -Starting Life in Another World- Memory Snow PV",
+    "preview": "",
+    "MalId": 42776,
+    "quality": "FHD",
+    "year": 2017,
+    "status": "Finished",
+    "search_keywords": ["Re:Zero kara Hajimeru Isekai Seikatsu - Memory Snow Announcement", "Re:ZERO -Starting Life in Another World- Memory Snow PV", "『Re:ゼロから始める異世界生活』アニメ新作エピソード制作決定PV", "Re:Zero kara Hajimeru Isekai Seikatsu OVA PV","Re Zero kara Hajimeru Isekai Seikatsu OVA PV","Re Zero kara Hajimeru Isekai Seikatsu - Memory Snow Announcement","Re ZERO -Starting Life in Another World- Memory Snow PV"],
+    "image": "https://myanimelist.net/images/anime/1905/126686l.jpg",
+    "banner": "https://myanimelist.net/images/anime/1905/126686l.jpg",
+    "synopsis": "A short animation announcing the production of the Memory Snow OVA. Features brand new animation and voice acting not found in the OVA itself, nor the full series.\n\nPeace has returned to the Roswaal domain, and the residents of the Mansion go about their daily lives. Despite this however, there seems to be something agitating Subaru...",
+    "genres": ["Comedy", "Fantasy", "Suspense"],
+    "episodes": [
+        {
+            "ep_num": 1,
+            "title": "Episode 1",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-t6q1qykaf6wz.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/mhQjD6Wpo" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#xuekb" }
+            ]
+        }
+    ]
+  },
+  {
+    "id": "101",
+    "title": "Re:ZERO ~Starting Break Time From Zero~",
+    "preview": "",
+    "MalId": 33142,
+    "quality": "FHD",
+    "year": 2016,
+    "status": "Finished",
+    "search_keywords": ["Re:Zero kara Hajimeru Break Time", "Re:ZERO ~Starting Break Time From Zero~", "Re:ゼロから始める休憩時間〈ブレイクタイム〉", "Re:Zero kara Hajimeru Kyuukei Jikan","Re Zero kara Hajimeru Break Time", "Re ZERO ~Starting Break Time From Zero~", "Re ゼロから始める休憩時間〈ブレイクタイム〉", "Re Zero kara Hajimeru Kyuukei Jikan"],
+    "image": "https://myanimelist.net/images/anime/8/81258l.jpg",
+    "banner": "https://m.media-amazon.com/images/S/pv-target-images/36c59ca856e62d70617626d7073f0461607d686d745a6d448af208e4973ad7d8._SX1080_FMjpg_.jpg",
+    "synopsis": "Subaru Natsuki's sudden arrival in another world brought nothing short of tension and despair—but that does not mean there is no time for a break! The Kingdom of Lugunica is home to an array of interesting tales and lively characters, all waiting to be discovered. As Subaru explores this fantasy world, he learns that it may not be so different from his own.",
+    "genres": ["Comedy"],
+    "episodes": [
+        {
+            "ep_num": 1,
+            "title": "Episode 1",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-y8jipxj1obx9.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/f_zMxGNH7" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#cyslk" }
+            ]
+        },
+        {
+            "ep_num": 2,
+            "title": "Episode 2",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-x7owjr0l9uk4.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/Wp1p4atQv" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#pntqu" }
+            ]
+        },
+        {
+            "ep_num": 3,
+            "title": "Episode 3",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-086lifjbxed5.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/aleLSbN-7" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#nsfaf" }
+            ]
+        },
+        {
+            "ep_num": 4,
+            "title": "Episode 4",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-d62nbd7k2cnc.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/BZiQJnzxh" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#jprvj" }
+            ]
+        },
+        {
+            "ep_num": 5,
+            "title": "Episode 5",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-2m2p1f6huvor.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/WDgx_pWA-" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#ewdkr" }
+            ]
+        },
+        {
+            "ep_num": 6,
+            "title": "Episode 6",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-bxcvkt1bswj4.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/scZt37G4N" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#9dqo8" }
+            ]
+        },
+        {
+            "ep_num": 7,
+            "title": "Episode 7",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-d9pu9mnfzz8o.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/-RSk1zqlQ" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#hg538" }
+            ]
+        },
+        {
+            "ep_num": 8,
+            "title": "Episode 8",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-16jirjt045xu.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/vGMuMW1Eh2" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#8r3fz" }
+            ]
+        },
+        {
+            "ep_num": 9,
+            "title": "Episode 9",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-7mjo8cwx2qd4.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/XUVGtwrLK" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#5zpyo" }
+            ]
+        },
+        {
+            "ep_num": 10,
+            "title": "Episode 10",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-sv4mnpssccxc.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/fWPSvlBYE" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#5zpy6" }
+            ]
+        },
+        {
+            "ep_num": 11,
+            "title": "Episode 11",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-lftasc3hdn6z.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/Ua7jcVtyH" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#6kozx" }
+            ]
+        }
+    ]
+  },
+  {
+    "id": "102",
+    "title": "Re:ZERO PETIT",
+    "preview": "",
+    "MalId": 33569,
+    "quality": "FHD",
+    "year": 2016,
+    "status": "Finished",
+    "search_keywords": ["Re:Petit kara Hajimeru Isekai Seikatsu", "Re:ZERO PETIT", "Re:プチから始める異世界生活", "Re:Zero kara Hajimeru Break Time 2","Re Petit kara Hajimeru Isekai Seikatsu", "Re ZERO PETIT", "Re プチから始める異世界生活", "Re Zero kara Hajimeru Break Time 2"],
+    "image": "https://myanimelist.net/images/anime/8/81281l.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21891-tryAiMpIwGCH.jpg",
+    "synopsis": "Upon waking up, Subaru Natsuki finds himself in a parallel reality of the fantasy world he has come to accept as his own. Despite being familiar faces, Subaru's friends are vastly different, especially as they enjoy the life of modern society that he knows all too well. This mysterious world captures the intrepid boy's interest nonetheless, and a clash between his antics and the dubious inhabitants soon leads to all sorts of amusing scenarios.",
+    "genres": ["Comedy"],
+    "episodes": [
+        {
+            "ep_num": 1,
+            "title": "Episode 1",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-zn58yojvz46q.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/oWcSFo9wb" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#dlajo" }
+            ]
+        },
+        {
+            "ep_num": 2,
+            "title": "Episode 2",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-1u2fzafzq66x.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/l3KoFPAG2" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#1hkmx" }
+            ]
+        },
+        {
+            "ep_num": 3,
+            "title": "Episode 3",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-xjgvts3403sp.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/y1He_fodm" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#ewd1j" }
+            ]
+        },
+        {
+            "ep_num": 4,
+            "title": "Episode 4",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-oi3olve3zj4e.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/Ei40dg6uB" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#fvidd" }
+            ]
+        },
+        {
+            "ep_num": 5,
+            "title": "Episode 5",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-5d1x2lddje47.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/rwLp8l1PP" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#hg58o" }
+            ]
+        },
+        {
+            "ep_num": 6,
+            "title": "Episode 6",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-o7tsvlkhx2mo.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/3pdOBA5v6" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#8r3ng" }
+            ]
+        },
+        {
+            "ep_num": 7,
+            "title": "Episode 7",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-vm02xgor9s4n.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/LqG5PUqqv" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#5zp3i" }
+            ]
+        },
+        {
+            "ep_num": 8,
+            "title": "Episode 8",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-y4gcahz73pnq.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/FOxfBADr3" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#6kogr" }
+            ]
+        },
+        {
+            "ep_num": 9,
+            "title": "Episode 9",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-w3drxqdrulea.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/7oD4W_VXU" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#xuevw" }
+            ]
+        },
+        {
+            "ep_num": 10,
+            "title": "Episode 10",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-h33bpqr25kz1.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/R6lHN3rHh" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#ye9ie" }
+            ]
+        },
+        {
+            "ep_num": 11,
+            "title": "Episode 11",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-8hc7b9yxp6y6.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/Vuornsv6X" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#3xyfj" }
+            ]
+        },
+        {
+            "ep_num": 12,
+            "title": "Episode 12",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-5fgiqgqviuo3.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/J5gedVCeA" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#qahor" }
+            ]
+        },
+        {
+            "ep_num": 13,
+            "title": "Episode 13",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-eiqdu3r0kw0c.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/abXNmBFvm" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#zcnxp" }
+            ]
+        },
+        {
+            "ep_num": 14,
+            "title": "Episode 14",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-9utdrc55xex9.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/PB3KniacM3" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#vq1lf" }
+            ]
+        }
+    ]
+  },
+  {
+    "id": "103",
+    "title": "Call Up Girls Special",
+    "preview": "https://www.youtube.com/embed/NFmb7z81058?si=z_xe1iW2jGa22dm3",
+    "MalId": 63533,
+    "quality": "FHD",
+    "year": 2026,
+    "status": "Finished",
+    "search_keywords": ["Huhuan Shaonu Special: Xiang Zuo de Shi Daodi Shi Shenme", "Call Up Girls Special", "呼唤少女特别篇 想做的事到底是什么", "Huhuan Shaonu Tebie Pian: Xiang Zuo de Shi Daodi Shi Shenme"],
+    "image": "https://myanimelist.net/images/anime/1106/155595l.jpg",
+    "banner": "https://i.ytimg.com/vi/c1LEMHQKpl4/maxresdefault.jpg",
+    "synopsis": "Special episode of Huhuan Shaonu.",
+    "genres": ["Girls Love", "Slice of Life"],
+    "episodes": [
+        {
+            "ep_num": 1,
+            "title": "Episode 1",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-eb60e3jd4a42.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/hSXzv-In-" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#abg16" }
             ]
         }
     ]
