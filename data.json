@@ -8713,6 +8713,15 @@
                 { "name": "Server 2", "video_url": "https://short.icu/PTG6VnAfb" },
                 { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#yexxf" }
             ]
+        },
+        {
+            "ep_num": 5,
+            "title": "Episode 5",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-218nm71va1g1.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/5EvwnyJQI" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#rplbn" }
+            ]
         }
     ]
   },
@@ -8825,6 +8834,15 @@
                 { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-dqd0pwss0f0b.html" },
                 { "name": "Server 2", "video_url": "https://short.icu/oO0oH_66_" },
                 { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#8rjcb" }
+            ]
+        },
+        {
+            "ep_num": 6,
+            "title": "Episode 6",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-b7kef7hh5jed.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/HDdPwr5wxs" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#khuwf" }
             ]
         }
     ]
@@ -10210,6 +10228,15 @@
                 { "name": "Server 2", "video_url": "https://short.icu/INk3VxZVC" },
                 { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#zcfzl" }
             ]
+        },
+        {
+            "ep_num": 5,
+            "title": "Episode 5",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-r87j143ezust.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/EOf4nWUeC" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#okedl" }
+            ]
         }
     ]
   },
@@ -10516,6 +10543,81 @@
                 { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-eb60e3jd4a42.html" },
                 { "name": "Server 2", "video_url": "https://short.icu/hSXzv-In-" },
                 { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#abg16" }
+            ]
+        }
+    ]
+  },
+  {
+    "id": "104",
+    "title": "Witch on the Holy Night",
+    "preview": "https://www.youtube-nocookie.com/embed/T19PU9ZB_2g?enablejsapi=1&wmode=opaque&autoplay=1",
+    "MalId": 50668,
+    "quality": "FHD",
+    "year": 2026,
+    "status": "Upcoming",
+    "search_keywords": ["Mahoutsukai no Yoru", "Witch on the Holy Night", "魔法使いの夜", "A Magician's Night", "MahoYo"],
+    "image": "https://myanimelist.net/images/anime/1121/156211l.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/143103-KwDRPfPl4OwL.jpg",
+    "synopsis": "Set near the end of the Showa period in the late 1980s, an old mansion in Misaki Town is rumored to be the home of a witch.\n\nAoko abruptly enters the world of magi after her grandfather suddenly decides to have Aoko become the Aozaki family's successor. Since then, Aoko moves into the Kuonji Mansion and begins to learn magecraft from the young magus Alice Kuonji, the rumored witch of the mansion. After witnessing the two using magecraft, Soujuurou Shizuki is also forced to live with them until a rune to remove his memories is discovered. \n\n(Source: Type-Moon Fandom Wiki)",
+    "genres": ["Mystery", "Supernatural"],
+    "episodes": [
+        {
+            "ep_num": 1,
+            "title": "Trailer",
+            "servers": [
+                { "name": "Trailer", "video_url": "https://www.youtube-nocookie.com/embed/T19PU9ZB_2g?enablejsapi=1&wmode=opaque&autoplay=1" }
+            ]
+        }
+    ]
+  },
+  {
+    "id": "105",
+    "title": "Yowayowa Sensei",
+    "preview": "https://www.youtube-nocookie.com/embed/UfkutRs8RHM?enablejsapi=1&wmode=opaque&autoplay=1",
+    "MalId": 60444,
+    "quality": "FHD",
+    "year": 2026,
+    "status": "Airing",
+    "search_keywords": ["Yowayowa Sensei", "よわよわ先生", "Yowayowa Teacher"],
+    "image": "https://myanimelist.net/images/anime/1364/155774l.jpg",
+    "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/185211-2wkjFD6tz7l3.jpg",
+    "synopsis": "When the new term starts, second-year student Abikura discovers that his homeroom teacher is none other than Hiyori Hiwamura, infamously known as \"Scary-Scary Sensei,\" a woman rumored to curse anyone who crosses her.\n\nBut one day, Abikura accidentally witnesses a completely unexpected side of his fearsome teacher after school. The striking contrast between her fearsome image and her hidden personality is utterly irresistible!\n\nBrace yourself for Gap Moe overload in this tender romantic comedy that's sure to ignite your protective instincts!\n\n(Source: MAL News)",
+    "genres": ["Comedy", "Romance", "Ecchi"],
+    "episodes": [
+        {
+            "ep_num": 1,
+            "title": "Episode 1",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-cmrl9p5ofhv1.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/vKIBSyAuZ" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#hafeu" }
+            ]
+        },
+        {
+            "ep_num": 2,
+            "title": "Episode 2",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-1yft1zjyz7sz.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/wCybu-lE0" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#eum51" }
+            ]
+        },
+        {
+            "ep_num": 3,
+            "title": "Episode 3",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-i1zbtmfaizcw.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/1-Nl4fsH1" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#hafxi" }
+            ]
+        },
+        {
+            "ep_num": 4,
+            "title": "Episode 4",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-1osi949klew2.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/arnelSwI_" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#5gief" }
             ]
         }
     ]
