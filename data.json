@@ -10577,7 +10577,7 @@
     "image": "https://myanimelist.net/images/anime/1121/156211l.jpg",
     "banner": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/143103-KwDRPfPl4OwL.jpg",
     "synopsis": "Set near the end of the Showa period in the late 1980s, an old mansion in Misaki Town is rumored to be the home of a witch.\n\nAoko abruptly enters the world of magi after her grandfather suddenly decides to have Aoko become the Aozaki family's successor. Since then, Aoko moves into the Kuonji Mansion and begins to learn magecraft from the young magus Alice Kuonji, the rumored witch of the mansion. After witnessing the two using magecraft, Soujuurou Shizuki is also forced to live with them until a rune to remove his memories is discovered. \n\n(Source: Type-Moon Fandom Wiki)",
-    "genres": ["Mystery", "Supernatural"],
+    "genres": ["Mystery", "Supernatural","Movie"],
     "episodes": [
         {
             "ep_num": 1,
@@ -10636,6 +10636,15 @@
                 { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-1osi949klew2.html" },
                 { "name": "Server 2", "video_url": "https://short.icu/arnelSwI_" },
                 { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#5gief" }
+            ]
+        },
+        {
+            "ep_num": 5,
+            "title": "Episode 5",
+            "servers": [
+                { "name": "Server 1", "video_url": "https://vidmoly.biz/embed-mjic8j3j8mft.html" },
+                { "name": "Server 2", "video_url": "https://short.icu/jXLU51shY" },
+                { "name": "Server 3", "video_url": "https://thepeak.4meplayer.com/#fsshk" }
             ]
         }
     ]
