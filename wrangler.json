@@ -1,0 +1,17 @@
+{
+  "name": "alpha-hen-worker",
+  "main": "src/index.js",
+  "compatibility_date": "2026-05-27",
+  "observability": {
+    "enabled": true
+  },
+  "rules": [
+    {
+      "type": "Text",
+      "globs": [
+        "**/*.html"
+      ],
+      "fallthrough": true
+    }
+  ]
+}
